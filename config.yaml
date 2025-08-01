@@ -3,6 +3,10 @@ languageCode: "en-us"
 title: "CMSE 101: Introduction to Machine Learning and Society"
 theme: "terminal"
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 params:
   # Hide metadata elements
   showReadingTime: false
