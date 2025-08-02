@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://msu-cerl.github.io/cmse101/"
 languageCode: "en-us"
 title: "CMSE 101: Introduction to Machine Learning and Society"
 theme: "terminal"
