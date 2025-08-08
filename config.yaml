@@ -4,32 +4,47 @@ title: "CMSE 101: Introduction to Machine Learning and Society"
 theme: "terminal"
 
 params:
-  # Hide metadata elements
-  showReadingTime: false
-  showWordCount: false
-  showLastMod: false
-  showDate: false
-  showAuthor: false
-  showTags: false
-  showCategories: false
+  # dir name of your main content (default is `content/posts`).
+  contentTypeName: "posts"
+  # Show navigation menu
+  showMenuItems: 5
+  # center theme with default width
+  centerTheme: true
+  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
+  # then the file will be used as a cover automatically.
+  autoCover: true
+  # Show metadata
+  showLastUpdated: false
 
-menu:
-  main:
-    - name: "Home"
-      url: "/"
-      weight: 10
-    - name: "Learning Goals"
-      url: "/learning-goals/"
-      weight: 20
-    - name: "Schedule"
-      url: "/schedule/"
-      weight: 30
-    # - name: "Assignments"
-    #   url: "/assignments/"
-    #   weight: 40
-    - name: "Resources"
-      url: "/resources/"
-      weight: 50
-    # - name: "Contact"
-    #   url: "/contact/"
-    #   weight: 60
+languages:
+  en:
+    languageName: "English"
+    title: "CMSE 101: Introduction to Machine Learning and Society"
+    subtitle: "Exploring Machine Learning and its Impact on Society"
+    menuMore: "Show more"
+    readMore: "Read more"
+    readOtherPosts: "Read other posts"
+
+    params:
+      logo:
+        logoText: "CMSE 101"
+        logoHomeLink: "/"
+
+    menu:
+      main:
+        - identifier: "home"
+          name: "Home"
+          url: "/"
+          weight: 10
+        - identifier: "learning-goals"
+          name: "Learning Goals"
+          url: "/learning-goals/"
+          weight: 20
+        - identifier: "schedule"
+          name: "Schedule"
+          url: "/schedule/"
+          weight: 30
+        - identifier: "resources"
+          name: "Resources"
+          url: "/resources/"
+          weight: 50
