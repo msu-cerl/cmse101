@@ -1,10 +1,10 @@
 baseURL: "http://localhost:1313/"
 languageCode: "en-us"
-title: "CMSE 101: Introduction to Machine Learning and Society"
+title: "AI and Society Course"
 theme: "terminal"
 
 params:
-  # dir name of your main content (default is `content/posts`).
+  # dir name of your main content
   contentTypeName: "posts"
   # Show navigation menu
   showMenuItems: 5
@@ -19,15 +19,15 @@ params:
 languages:
   en:
     languageName: "English"
-    title: "CMSE 101: Introduction to Machine Learning and Society"
-    subtitle: "Exploring Machine Learning and its Impact on Society"
+    title: "AI and Society Course"
+    subtitle: "Exploring the Intersection of AI and Society"
     menuMore: "Show more"
     readMore: "Read more"
-    readOtherPosts: "Read other posts"
+    readOtherPosts: "Read other pages"
 
     params:
       logo:
-        logoText: "CMSE 101"
+        logoText: "AI & Society"
         logoHomeLink: "/"
 
     menu:
@@ -44,6 +44,14 @@ languages:
           name: "Schedule"
           url: "/schedule/"
           weight: 30
+        - identifier: "readings"
+          name: "Readings"
+          url: "/readings/"
+          weight: 40
+        - identifier: "assignments"
+          name: "Assignments"
+          url: "/assignments/"
+          weight: 45
         - identifier: "resources"
           name: "Resources"
           url: "/resources/"

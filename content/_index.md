@@ -1,22 +1,43 @@
 ---
-title: "CMSE 101: Introduction to Machine Learning and Society"
-date: 2025-07-30
+title: "AI and Society Course"
+date: 2026-05-05
 draft: false
-description: "Explore the conceptual foundations and societal implications of machine learning and artificial intelligence at Michigan State University."
-tags: ["machine learning", "AI", "society", "education", "MSU"]
-author: "CMSE 101 Instructional Team"
+description: "Explore the conceptual foundations and societal implications of artificial intelligence."
+tags: ["AI", "society", "education"]
+author: "Course Instructor"
 ---
 
-# CMSE 101: Introduction to Machine Learning and Society
+# AI and Society
 
-**Michigan State University**  
+**A Hybrid/HyFlex Course on AI and Its Societal Impact**
 
 ---
 
 ## 📘 Course Description
 
-CMSE 101 is a general education course designed for students from all majors to explore the conceptual foundations and societal implications of machine learning (ML) and artificial intelligence (AI). Through interactive modules, independent media, and real-world case studies, students will critically examine how these technologies shape—and are shaped by—our lives.
+This course explores the multifaceted relationships between artificial intelligence and contemporary society. Students examine AI's applications, limitations, and implications across ethics, policy, economics, employment, and social justice.
+
+Through readings, discussions, and projects, we critically analyze how these technologies shape—and are shaped by—our lives, values, and societies.
 
 ---
 
-*This course is part of CMSE’s commitment to critical digital literacy and inclusive technology education.*
+## 📚 Course Format
+
+**Hybrid/HyFlex:** Readings and materials available on this site and via D2L Brightspace. Attend in person or participate remotely—your choice.
+
+**Multi-format access:** Content available as web pages, downloadable PDFs, and Word documents.
+
+---
+
+## 🎯 Quick Links
+
+- **[Learning Goals](/learning-goals/)** — What you'll be able to do by the end
+- **[Schedule](/schedule/)** — Weekly topics and modules
+- **[Readings](/readings/)** — Weekly reading materials and discussion prompts
+- **[Assignments](/assignments/)** — Homework, projects, and assessments
+- **[Resources](/resources/)** — Curated links and materials
+- **[D2L Brightspace](#)** — Discussions and grade tracking
+
+---
+
+*For questions or accommodations, contact your instructor.*

@@ -1,30 +1,44 @@
 ---
-title: "CMSE 101: Schedule"
-date: 2025-08-01
+title: "Schedule"
+date: 2026-05-05
 draft: false
-description: "Explore the conceptual foundations and societal implications of machine learning and artificial intelligence at Michigan State University."
-tags: ["machine learning", "AI", "society", "education", "MSU", "schedule"]
-author: "CMSE 101 Instructional Team"
+description: "Weekly schedule for the AI and Society course"
+tags: ["AI", "society", "education", "MSU", "schedule"]
+author: "Course Instructor"
 ---
 
-## 🗓️ Weekly Schedule Overview
+## 🗓️ Weekly Schedule
 
-| **Week** | **Module**                | **Focus**                                 |
-|:--------:|:-------------------------|:------------------------------------------|
-| 1        | Intro to AI/ML           | What is AI/ML? Why does it matter?        |
-| 2        | Data & Surveillance      | Data pipelines, privacy, consent          |
-| 3        | Algorithms & Power       | How models work conceptually              |
-| 4        | Bias & Discrimination    | Algorithmic bias, fairness                |
-| 5        | Labor & Automation       | Who builds AI? Who is replaced?           |
-| 6        | AI in Media & Art        | Generative AI, creativity, IP             |
-| 7        | AI in Business           | Decision-making, productivity             |
-| 8        | Midterm Reflection       | Synthesis & storytelling                  |
-| 9        | AI in Education          | GenAI in learning spaces                  |
-| 10       | AI in Social Work        | Predictive analytics, ethics              |
-| 11       | AI & Environment         | Energy, water, sustainability             |
-| 12       | AI & Law Enforcement     | Surveillance, justice                     |
-| 13       | Prompt Engineering       | How prompts shape outputs                 |
-| 14       | Future of AI             | Regulation, values, futures               |
-| 15       | Final Projects           | Student-led case studies                  |
+| Week | Topic | Readings | Assignments |
+|:----:|-------|----------|-------------|
+| 1 | Fundamentals of AI | [Week 1 Readings](/readings/week-01/) | [Reflection Essay](/assignments/week-01/) |
+| 2 | AI Systems & Data | [Week 2 Readings](/readings/week-02/) | [Data Analysis](/assignments/week-02/) |
+| 3 | Ethics & Bias | [Week 3 Readings](/readings/week-03/) | [Bias Case Study](/assignments/week-03/) |
+| 4 | Policy & Governance | [Week 4 Readings](/readings/week-04/) | [Policy Analysis](/assignments/week-04/) |
+| 5 | Employment & Economics | [Week 5 Readings](/readings/week-05/) | [Employment Analysis](/assignments/week-05/) |
+| 6 | AI in Society | [Week 6 Readings](/readings/week-06/) | [Domain Analysis](/assignments/week-06/) |
+| 7 | Midterm Review | [Review Materials](/readings/week-07/) | [Midterm Exam](/assignments/midterm/) |
+| 8 | Case Studies | [Case Studies](/readings/week-08/) | [Case Study Report](/assignments/week-08/) |
+| 9 | Emerging Issues | [Privacy & Surveillance](/readings/week-09/) | [Privacy Analysis](/assignments/week-09/) |
+| 10 | Autonomous Systems | [Autonomous Systems](/readings/week-10/) | [Risk Assessment](/assignments/week-10/) |
+| 11 | Futures & Regulation | [AI Futures](/readings/week-11/) | [Policy Proposal](/assignments/week-11/) |
+| 12 | Final Projects | [Project Resources](/readings/week-12/) | [Final Project](/assignments/final-project/) |
 
 ---
+
+## 📚 Course Structure at a Glance
+
+**Each week includes:**
+- **Required readings** with discussion prompts and prep questions
+- **Assignments** ranging from reflections to research projects
+- **In-class sessions** for discussion and deeper exploration
+- **Optional office hours** for questions and feedback
+
+**Grading breakdown:**
+- Weekly assignments (6 × 5%): 30%
+- Midterm exam: 20%
+- Case study presentation: 10%
+- Final project: 30%
+- Participation & discussions: 10%
+
+**Note:** Dates and topics may be adjusted as needed. Check D2L for current assignments and deadlines.
