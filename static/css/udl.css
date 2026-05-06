@@ -1,0 +1,439 @@
+/* ============================================================================
+   Universal Design for Learning (UDL) Accessibility Toolbar
+   Adds multiple means of representation, action/expression, and engagement
+   ============================================================================ */
+
+/* ============================================================================
+   UDL Toolbar Component
+   ============================================================================ */
+
+.udl-toolbar {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 200;
+  background: var(--background);
+  border: 2px solid var(--a11y-focus-outline);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.udl-toolbar__toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+  background: var(--a11y-accent);
+  border: none;
+  border-radius: 8px;
+  color: var(--background);
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.15s linear;
+}
+
+.udl-toolbar__toggle:hover {
+  background: var(--a11y-accent-hover);
+}
+
+.udl-toolbar__toggle:focus-visible {
+  outline: 3px solid var(--a11y-focus-color);
+  outline-offset: 2px;
+}
+
+.udl-toolbar__panel {
+  background: var(--background);
+  border-top: 2px solid var(--a11y-focus-outline);
+  padding: 16px;
+  min-width: 220px;
+  max-width: 280px;
+}
+
+.udl-toolbar__panel[hidden] {
+  display: none;
+}
+
+.udl-toolbar__heading {
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.udl-toolbar__group {
+  margin-bottom: 12px;
+  padding: 0;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.udl-toolbar__group legend {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--a11y-accent);
+  margin-bottom: 4px;
+  padding: 0;
+}
+
+.udl-toolbar__row {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.udl-toolbar button {
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 2px solid var(--a11y-accent);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--a11y-accent);
+  cursor: pointer;
+  transition: all 0.15s linear;
+  white-space: nowrap;
+  flex: 1;
+  min-height: 32px;
+}
+
+.udl-toolbar button:hover {
+  background: rgba(88, 166, 255, 0.1);
+}
+
+.udl-toolbar button:focus-visible {
+  outline: 2px solid var(--a11y-focus-color);
+  outline-offset: 1px;
+}
+
+.udl-toolbar button[aria-pressed="true"],
+.udl-toolbar button[aria-pressed="true"]:hover {
+  background: var(--a11y-accent);
+  color: var(--background);
+}
+
+.udl-toolbar button[aria-disabled="true"],
+.udl-toolbar button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.udl-toolbar__hint {
+  margin: 8px 0 0 0;
+  padding: 8px;
+  font-size: 11px;
+  color: var(--a11y-accent);
+  background: rgba(88, 166, 255, 0.05);
+  border-radius: 4px;
+  line-height: 1.4;
+}
+
+.udl-toolbar__hint kbd {
+  background: var(--a11y-accent);
+  color: var(--background);
+  padding: 2px 4px;
+  border-radius: 2px;
+  font-size: 10px;
+  font-weight: 600;
+  margin: 0 2px;
+  font-family: monospace;
+}
+
+/* Live region for announcements */
+#udl-announce {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Hide toolbar if JavaScript is disabled */
+noscript ~ .udl-toolbar {
+  display: none !important;
+}
+
+/* ============================================================================
+   Multiple Means of Representation — Font Size
+   ============================================================================ */
+
+/* Small */
+html.udl-font-sm {
+  --font-size: 0.875rem;
+}
+
+/* Large */
+html.udl-font-lg {
+  --font-size: 1.2rem;
+}
+
+/* Extra Large */
+html.udl-font-xl {
+  --font-size: 1.45rem;
+}
+
+/* ============================================================================
+   Multiple Means of Representation — Line Spacing
+   ============================================================================ */
+
+html.udl-line-relaxed {
+  --line-height: 2em;
+}
+
+/* ============================================================================
+   Multiple Means of Representation — Dyslexia-Friendly Font
+   ============================================================================ */
+
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("https://fonts.cdnfonts.com/css/opendyslexic") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("https://fonts.cdnfonts.com/css/opendyslexic") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+html.udl-dyslexia body {
+  font-family: "OpenDyslexic", "OpenDyslexic3", sans-serif !important;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+}
+
+/* Code blocks stay in monospace font */
+html.udl-dyslexia code,
+html.udl-dyslexia kbd,
+html.udl-dyslexia pre {
+  font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace !important;
+}
+
+/* ============================================================================
+   Multiple Means of Representation — Light Mode
+   ============================================================================ */
+
+html.udl-light-mode {
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+  --a11y-accent: #0057a8;
+  --a11y-accent-hover: #003d7a;
+  --a11y-accent-visited: #6f42c1;
+  --a11y-success: #1b6121;
+  --a11y-error: #d00;
+  --a11y-warning: #b87803;
+  --a11y-focus-color: #000000;
+  --a11y-focus-bg: #ffffff;
+  --a11y-focus-outline: #0057a8;
+}
+
+html.udl-light-mode body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+html.udl-light-mode a {
+  color: var(--a11y-accent);
+}
+
+html.udl-light-mode a:visited {
+  color: var(--a11y-accent-visited);
+}
+
+/* Toolbar also respects light mode */
+html.udl-light-mode .udl-toolbar {
+  background: var(--background);
+  border-color: var(--a11y-focus-outline);
+}
+
+html.udl-light-mode .udl-toolbar__toggle {
+  background: var(--a11y-accent);
+  color: var(--background);
+}
+
+html.udl-light-mode .udl-toolbar button {
+  color: var(--a11y-accent);
+  border-color: var(--a11y-accent);
+}
+
+html.udl-light-mode .udl-toolbar button[aria-pressed="true"] {
+  background: var(--a11y-accent);
+  color: var(--background);
+}
+
+/* ============================================================================
+   Multiple Means of Representation — High Contrast Mode
+   ============================================================================ */
+
+html.udl-high-contrast {
+  --background: #000000;
+  --foreground: #ffffff;
+  --a11y-accent: #ffff00;
+  --a11y-accent-hover: #ffff00;
+  --a11y-accent-visited: #ff88ff;
+  --a11y-success: #00ff00;
+  --a11y-error: #ff0000;
+  --a11y-warning: #ffff00;
+  --a11y-focus-color: #ffff00;
+  --a11y-focus-outline: #ffff00;
+  --a11y-focus-bg: #000000;
+}
+
+html.udl-high-contrast body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+html.udl-high-contrast a {
+  color: var(--a11y-accent);
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+html.udl-high-contrast a:visited {
+  color: var(--a11y-accent-visited);
+}
+
+html.udl-high-contrast *:focus-visible {
+  outline: 4px solid var(--a11y-focus-outline) !important;
+  outline-offset: 2px;
+}
+
+html.udl-high-contrast code,
+html.udl-high-contrast pre {
+  background-color: rgba(255, 255, 0, 0.2);
+  color: var(--foreground);
+  border: 1px solid var(--a11y-accent);
+}
+
+html.udl-high-contrast blockquote {
+  border-left: 4px solid var(--a11y-accent);
+}
+
+html.udl-high-contrast button,
+html.udl-high-contrast input,
+html.udl-high-contrast select,
+html.udl-high-contrast textarea {
+  border-width: 2px;
+}
+
+/* ============================================================================
+   Multiple Means of Action & Expression — Focus/Reading Mode
+   ============================================================================ */
+
+html.udl-focus-mode .header,
+html.udl-focus-mode .navigation-menu,
+html.udl-focus-mode .footer {
+  display: none;
+}
+
+html.udl-focus-mode .container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+html.udl-focus-mode .content {
+  padding: 2rem 1rem;
+}
+
+html.udl-focus-mode .posts {
+  display: none;
+}
+
+/* ============================================================================
+   Multiple Means of Engagement — Reading Time
+   ============================================================================ */
+
+.post-reading-time {
+  display: inline-block;
+  font-size: 0.9em;
+  color: var(--a11y-accent);
+  margin-right: 12px;
+}
+
+.post-word-count {
+  display: inline-block;
+  font-size: 0.9em;
+  color: var(--a11y-accent);
+}
+
+/* ============================================================================
+   Print Styles
+   ============================================================================ */
+
+@media print {
+  .udl-toolbar {
+    display: none !important;
+  }
+
+  .post-reading-time::before {
+    content: "Reading time: ";
+  }
+
+  .post-word-count::after {
+    content: " words";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+}
+
+/* ============================================================================
+   Media Query: Reduced Motion
+   ============================================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  .udl-toolbar button {
+    transition: none;
+  }
+}
+
+/* ============================================================================
+   Media Query: Mobile Responsive
+   ============================================================================ */
+
+@media (max-width: 640px) {
+  .udl-toolbar {
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .udl-toolbar__toggle {
+    width: 44px;
+    height: 44px;
+  }
+
+  .udl-toolbar__panel {
+    min-width: 200px;
+    max-width: 240px;
+  }
+
+  .udl-toolbar button {
+    font-size: 11px;
+    padding: 6px 10px;
+    min-height: 28px;
+  }
+
+  .udl-toolbar__hint {
+    font-size: 10px;
+  }
+}
