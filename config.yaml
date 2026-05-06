@@ -1,7 +1,11 @@
-baseURL: "http://localhost:1313/"
+baseURL: "https://msu-cerl.github.io/cmse101/"
 locale: "en-us"
 title: "AI and Society Course"
 theme: "terminal"
+
+caches:
+  images:
+    dir: :cacheDir/images
 
 params:
   # dir name of your main content
