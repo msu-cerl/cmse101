@@ -261,7 +261,7 @@ html.udl-light-mode .udl-toolbar {
 
 html.udl-light-mode .udl-toolbar__toggle {
   background: var(--a11y-accent);
-  color: var(--background);
+  color: #ffffff !important;
 }
 
 html.udl-light-mode .udl-toolbar button {
@@ -272,6 +272,11 @@ html.udl-light-mode .udl-toolbar button {
 html.udl-light-mode .udl-toolbar button[aria-pressed="true"] {
   background: var(--a11y-accent);
   color: var(--background);
+}
+
+/* Enhanced nav focus in light mode */
+html.udl-light-mode .navigation-menu__inner a:focus-visible {
+  background-color: rgba(0, 87, 168, 0.15);
 }
 
 /* ============================================================================
@@ -328,6 +333,12 @@ html.udl-high-contrast input,
 html.udl-high-contrast select,
 html.udl-high-contrast textarea {
   border-width: 2px;
+}
+
+/* Enhanced nav focus in high contrast */
+html.udl-high-contrast .navigation-menu__inner a:focus-visible {
+  outline-width: 4px;
+  background-color: rgba(255, 255, 0, 0.3);
 }
 
 /* ============================================================================

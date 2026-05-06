@@ -54,6 +54,13 @@ select:focus-visible {
   outline-offset: 2px;
 }
 
+/* Enhanced visibility for navigation links */
+.navigation-menu__inner a:focus-visible {
+  outline: 3px solid #ffff00;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px rgba(255, 255, 0, 0.4);
+}
+
 /* Enhanced heading contrast and hierarchy */
 h1, h2, h3, h4, h5, h6 {
   color: var(--foreground);
