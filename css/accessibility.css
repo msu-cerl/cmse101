@@ -15,6 +15,7 @@
   --a11y-warning: #d29922;
   --a11y-focus-color: #ffffff;
   --a11y-focus-outline: #58a6ff;
+  --a11y-focus-bg: #0d1117;
 }
 
 /* Skip to main content link - hidden by default, visible on focus */
@@ -51,24 +52,6 @@ select:focus-visible {
 *:focus-visible {
   outline: 3px solid var(--a11y-focus-color);
   outline-offset: 2px;
-}
-
-/* Semantic landmarks */
-header {
-  role: banner;
-}
-
-nav {
-  role: navigation;
-}
-
-main,
-.a11y-main {
-  role: main;
-}
-
-footer {
-  role: contentinfo;
 }
 
 /* Enhanced heading contrast and hierarchy */
