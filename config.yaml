@@ -1,4 +1,4 @@
-baseURL: "https://msucerl.org/cmse101/"
+baseURL: "https://msu-cerl.github.io/cmse101/"
 locale: "en-us"
 title: "AI and Society Course"
 theme: "terminal"
