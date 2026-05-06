@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313/"
+baseURL: "https://msucerl.org/cmse101/"
 locale: "en-us"
 title: "AI and Society Course"
 theme: "terminal"
