@@ -1,4 +1,6 @@
 src/
+output/
+.claude/
 
 # Hugo build output
 /public/

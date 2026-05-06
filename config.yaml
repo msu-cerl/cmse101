@@ -1,5 +1,5 @@
 baseURL: "http://localhost:1313/"
-languageCode: "en-us"
+locale: "en-us"
 title: "AI and Society Course"
 theme: "terminal"
 
@@ -7,7 +7,7 @@ params:
   # dir name of your main content
   contentTypeName: "posts"
   # Show navigation menu
-  showMenuItems: 5
+  showMenuItems: 6
   # center theme with default width
   centerTheme: true
   # if your resource directory contains an image called `cover.(jpg|png|webp)`,
@@ -16,9 +16,19 @@ params:
   # Show metadata
   showLastUpdated: false
 
+  # Accessibility add-on layer (WCAG AAA & UDL compliant)
+  a11y:
+    enabled: true
+    # Validate alt text on images (build-time check)
+    enforceAltText: true
+    # Enable skip to main content link
+    enableSkipNav: true
+    # Enable ARIA landmarks
+    enableLandmarks: true
+
 languages:
   en:
-    languageName: "English"
+    label: "English"
     title: "AI and Society Course"
     subtitle: "Exploring the Intersection of AI and Society"
     menuMore: "Show more"
@@ -52,7 +62,7 @@ languages:
           name: "Assignments"
           url: "/assignments/"
           weight: 45
-        - identifier: "resources"
-          name: "Resources"
-          url: "/resources/"
+        - identifier: "documentation"
+          name: "Documentation"
+          url: "/documentation/"
           weight: 50

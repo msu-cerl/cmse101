@@ -1,0 +1,37 @@
+{{/*
+  Accessible form input shortcode
+  Ensures proper label association and ARIA attributes
+
+  Usage:
+  {{< form-input type="text" name="email" label="Email Address" required="true" >}}
+*/}}
+
+{{ $type := .Get "type" | default "text" }}
+{{ $name := .Get "name" }}
+{{ $label := .Get "label" }}
+{{ $required := .Get "required" }}
+{{ $id := printf "input-%s-%d" $name (now.UnixNano) }}
+
+{{ if not $name }}
+  {{ errorf "form-input shortcode requires 'name' parameter" }}
+{{ end }}
+
+{{ if not $label }}
+  {{ errorf "form-input shortcode requires 'label' parameter" }}
+{{ end }}
+
+<div class="form-group">
+  <label for="{{ $id }}">
+    {{ $label }}
+    {{ if eq $required "true" }}
+      <span aria-label="required">*</span>
+    {{ end }}
+  </label>
+  <input
+    type="{{ $type }}"
+    id="{{ $id }}"
+    name="{{ $name }}"
+    {{ if eq $required "true" }}required{{ end }}
+    class="keyboard-focus"
+  >
+</div>

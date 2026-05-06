@@ -1,0 +1,32 @@
+{{/*
+  Accessibility-aware image shortcode
+  Enforces alt text and proper markup for WCAG compliance
+
+  Usage:
+  {{< img-a11y src="path/to/image.png" alt="Description of image" title="Optional title" >}}
+*/}}
+
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ $title := .Get "title" }}
+
+{{ if not $src }}
+  {{ errorf "img-a11y shortcode requires 'src' parameter" }}
+{{ end }}
+
+{{ if not $alt }}
+  {{ errorf "img-a11y shortcode requires 'alt' parameter (WCAG requirement)" }}
+{{ end }}
+
+<figure>
+  <img
+    src="{{ $src | relURL }}"
+    alt="{{ $alt }}"
+    {{ with $title }}title="{{ . }}"{{ end }}
+    loading="lazy"
+    decoding="async"
+  >
+  {{ with $alt }}
+  <figcaption>{{ . }}</figcaption>
+  {{ end }}
+</figure>
