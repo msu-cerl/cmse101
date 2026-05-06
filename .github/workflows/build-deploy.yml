@@ -76,7 +76,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
+    needs: [build]
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
@@ -97,7 +97,10 @@ jobs:
 
       - name: Install Typst
         run: |
-          curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/typst/typst/main/scripts/install.sh | sh
+          wget -q https://github.com/typst/typst/releases/download/v0.11.1/typst-x86_64-unknown-linux-gnu.tar.xz
+          tar -xf typst-x86_64-unknown-linux-gnu.tar.xz
+          sudo mv typst-x86_64-unknown-linux-gnu/typst /usr/local/bin/
+          typst --version
 
       - name: Set up Python
         uses: actions/setup-python@v4
