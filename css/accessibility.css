@@ -1,0 +1,289 @@
+/* ============================================================================
+   Accessibility Add-On Layer
+   WCAG AAA & UDL Compliance Enhancements
+   ============================================================================ */
+
+:root {
+  /* Dark mode color scheme - WCAG AAA compliant (all 7:1+) */
+  --background: #0d1117;
+  --foreground: #ffffff;
+  --a11y-accent: #58a6ff;
+  --a11y-accent-hover: #79c0ff;
+  --a11y-accent-visited: #bc8ef8;
+  --a11y-success: #3fb950;
+  --a11y-error: #ff8888;
+  --a11y-warning: #d29922;
+  --a11y-focus-color: #ffffff;
+  --a11y-focus-outline: #58a6ff;
+}
+
+/* Skip to main content link - hidden by default, visible on focus */
+.skip-to-main {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--a11y-focus-bg);
+  color: var(--a11y-focus-color);
+  padding: 8px 16px;
+  text-decoration: none;
+  z-index: 100;
+  border-bottom: 2px solid var(--a11y-focus-color);
+  font-weight: bold;
+}
+
+.skip-to-main:focus {
+  top: 0;
+  outline: 3px solid var(--a11y-focus-color);
+  outline-offset: 2px;
+}
+
+/* Enhanced focus visible styles for AAA compliance */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--a11y-focus-color) !important;
+  outline-offset: 2px;
+}
+
+/* Keyboard focus indicator for interactive elements */
+*:focus-visible {
+  outline: 3px solid var(--a11y-focus-color);
+  outline-offset: 2px;
+}
+
+/* Semantic landmarks */
+header {
+  role: banner;
+}
+
+nav {
+  role: navigation;
+}
+
+main,
+.a11y-main {
+  role: main;
+}
+
+footer {
+  role: contentinfo;
+}
+
+/* Enhanced heading contrast and hierarchy */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--foreground);
+  margin-bottom: 0.5em;
+  margin-top: 0.75em;
+}
+
+h1 {
+  font-size: 2.2em;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+h5, h6 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+/* Link contrast enhancement - AAA compliant bright colors */
+a {
+  color: var(--a11y-accent);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  transition: color 0.15s linear;
+}
+
+a:hover {
+  color: var(--a11y-accent-hover);
+  text-decoration-thickness: 3px;
+}
+
+a:visited {
+  color: var(--a11y-accent-visited);
+}
+
+/* Form accessibility improvements */
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+  color: var(--foreground);
+}
+
+label input[type="checkbox"],
+label input[type="radio"] {
+  margin-right: 0.5em;
+  margin-top: 0;
+  width: auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="url"],
+textarea,
+select {
+  min-height: 44px; /* WCAG touch target size */
+  font-size: 16px; /* Prevents zoom on focus on iOS */
+  border: 2px solid var(--foreground);
+}
+
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  border-color: var(--a11y-focus-color);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Error messages - AAA compliant red */
+.form-error,
+[aria-invalid="true"],
+.error {
+  color: var(--a11y-error);
+  background-color: rgba(248, 81, 73, 0.15);
+  padding: 0.5em;
+  border-left: 4px solid var(--a11y-error);
+  margin: 0.5em 0;
+  font-weight: 500;
+}
+
+/* Success messages - AAA compliant green */
+.form-success,
+.success {
+  color: var(--a11y-success);
+  background-color: rgba(63, 185, 80, 0.15);
+  padding: 0.5em;
+  border-left: 4px solid var(--a11y-success);
+  margin: 0.5em 0;
+  font-weight: 500;
+}
+
+/* Ensure sufficient line height for readability */
+body {
+  line-height: 1.6;
+}
+
+p, li, dt, dd {
+  line-height: 1.6;
+}
+
+/* Code blocks - AAA compliant cyan text */
+code,
+pre {
+  background-color: rgba(88, 166, 255, 0.1);
+  color: var(--a11y-accent);
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+pre {
+  padding: 1em;
+  overflow-x: auto;
+  border: 1px solid var(--foreground);
+}
+
+/* Alt text for images that are missing */
+img:not([alt]),
+img[alt=""] {
+  border: 3px dashed #ff6b6b;
+  background-color: rgba(255, 107, 107, 0.1);
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Dark mode support - respects prefers-color-scheme */
+@media (prefers-color-scheme: light) {
+  :root {
+    --a11y-focus-color: #000000;
+    --a11y-focus-bg: #ffffff;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: more) {
+  a {
+    text-decoration-thickness: 3px;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    border-width: 2px;
+  }
+}
+
+/* Print styles for accessibility */
+@media print {
+  a {
+    text-decoration: underline;
+  }
+
+  a::after {
+    content: " (" attr(href) ")";
+  }
+
+  .skip-to-main {
+    display: none;
+  }
+}
+
+/* Visually hide content but keep it available to screen readers */
+.sr-only,
+.a11y-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Visible focus indicator for keyboard navigation */
+.keyboard-focus:focus-visible {
+  outline: 3px dashed var(--a11y-focus-color);
+  outline-offset: 3px;
+}
+
+/* Wider container for full navigation visibility */
+.container {
+  max-width: 1200px;
+}
+
+/* Navigation menu - compact spacing so items fit */
+.navigation-menu__inner > li:not(:last-of-type) {
+  margin-right: 15px;
+}

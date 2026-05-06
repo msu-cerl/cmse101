@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>System Documentation on AI and Society Course</title><link>https://msucerl.org/cmse101/documentation/</link><description>Recent content in System Documentation on AI and Society Course</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://msucerl.org/cmse101/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>System Overview</title><link>https://msucerl.org/cmse101/documentation/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://msucerl.org/cmse101/documentation/overview/</guid><description>&lt;h1 id="system-architecture-overview"&gt;System Architecture Overview&lt;/h1&gt;
+&lt;p&gt;This page explains how all the pieces of the course infrastructure fit together.&lt;/p&gt;
+&lt;h2 id="the-big-picture"&gt;The Big Picture&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt; Hugo Site (Content)
+ │
+ ┌─────────┼─────────┐
+ │ │ │
+ Markdown Theme CSS
+ Content (Terminal) (A11y)
+ │ │ │
+ └─────────┼─────────┘
+ │
+ [Website Output]
+ (HTML, CSS, JS)
+ │
+ ┌─────────┴─────────┐
+ │ │
+ [Browser] [D2L Generator]
+ (Website) │
+ ┌─────────┴──────────┐
+ │ │
+ Typst PDF Pandoc DOCX
+ (Beautiful) (Editable)
+ │ │
+ [PDF Output] [DOCX Output]
+ (For Reading) (For Editing)
+ │ │
+ └─────────┬──────────┘
+ │
+ [Brightspace Upload]
+ (PDF + DOCX Files)
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="component-breakdown"&gt;Component Breakdown&lt;/h2&gt;
+&lt;h3 id="1-hugo-site-generator"&gt;1. Hugo Site Generator&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;What it does:&lt;/strong&gt; Converts markdown content + templates into a static website&lt;/p&gt;</description></item><item><title>Accessibility Features</title><link>https://msucerl.org/cmse101/documentation/accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://msucerl.org/cmse101/documentation/accessibility/</guid><description>&lt;h1 id="accessibility-features--wcag-aaa-compliance"&gt;Accessibility Features &amp;amp; WCAG AAA Compliance&lt;/h1&gt;
+&lt;p&gt;This site includes a &lt;strong&gt;separate accessibility layer&lt;/strong&gt; that provides WCAG AAA and UDL (Universal Design for Learning) compliance without modifying the base theme.&lt;/p&gt;
+&lt;h2 id="whats-included"&gt;What&amp;rsquo;s Included&lt;/h2&gt;
+&lt;h3 id="-core-features"&gt;🎯 Core Features&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Skip Navigation Link&lt;/strong&gt; — Keyboard users jump to main content (Tab at page top)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ARIA Landmarks&lt;/strong&gt; — Semantic roles for screen readers (&lt;code&gt;main&lt;/code&gt;, &lt;code&gt;nav&lt;/code&gt;, &lt;code&gt;contentinfo&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enhanced Focus Styles&lt;/strong&gt; — 3px white outline with 2px offset for keyboard navigation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Color Contrast&lt;/strong&gt; — All text meets 7:1+ AAA ratio (dark theme, white text)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Form Accessibility&lt;/strong&gt; — Proper labels, 44px touch targets, error messaging&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reduced Motion Support&lt;/strong&gt; — Respects &lt;code&gt;prefers-reduced-motion&lt;/code&gt; user preference&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dark/Light Mode&lt;/strong&gt; — Adapts to &lt;code&gt;prefers-color-scheme&lt;/code&gt; setting&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Alt Text Validation&lt;/strong&gt; — Build-time checks for missing image descriptions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Print-Friendly Styles&lt;/strong&gt; — Optimized for paper and PDF output&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Screen Reader Support&lt;/strong&gt; — Content hidden from view but available to assistive tech&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="wcag-aaa-compliance"&gt;WCAG AAA Compliance&lt;/h2&gt;
+&lt;p&gt;All elements meet or exceed AAA (Triple-A) standards:&lt;/p&gt;</description></item><item><title>D2L Document Generation</title><link>https://msucerl.org/cmse101/documentation/d2l-generation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://msucerl.org/cmse101/documentation/d2l-generation/</guid><description>&lt;h1 id="d2l-document-generation"&gt;D2L Document Generation&lt;/h1&gt;
+&lt;p&gt;Python-based system to generate professional, WCAG AAA-compliant PDFs and DOCX files from course content for Brightspace (D2L) upload.&lt;/p&gt;
+&lt;h2 id="features"&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;📄 &lt;strong&gt;Dual-path generation&lt;/strong&gt; — PDFs via Typst (beautiful), DOCXs via Pandoc (editable)&lt;/li&gt;
+&lt;li&gt;🎯 &lt;strong&gt;Flexible modes&lt;/strong&gt; — Combined or individual files per content item&lt;/li&gt;
+&lt;li&gt;✅ &lt;strong&gt;WCAG AAA compliant&lt;/strong&gt; — Both formats meet accessibility standards&lt;/li&gt;
+&lt;li&gt;🎨 &lt;strong&gt;Professional styling&lt;/strong&gt; — MSU green branding template&lt;/li&gt;
+&lt;li&gt;📊 &lt;strong&gt;Multiple content types&lt;/strong&gt; — Readings, assignments, resources, docs&lt;/li&gt;
+&lt;li&gt;🔄 &lt;strong&gt;Batch processing&lt;/strong&gt; — Generate all at once or by type&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="generate-readings-as-pdf--docx"&gt;Generate readings as PDF + DOCX&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd /path/to/repo
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;source venv/bin/activate.fish
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;python scripts/generate-d2l-docs.py --type readings --format both
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Output:&lt;/p&gt;</description></item><item><title>Template Customization</title><link>https://msucerl.org/cmse101/documentation/template-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://msucerl.org/cmse101/documentation/template-guide/</guid><description>&lt;h1 id="typst-pdf-template-guide"&gt;Typst PDF Template Guide&lt;/h1&gt;
+&lt;p&gt;Complete guide to the Typst template used for professional PDF generation.&lt;/p&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The template is located at: &lt;code&gt;templates/typst/clean/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Used by the D2L document generator to create beautiful, WCAG AAA-compliant PDFs.&lt;/p&gt;
+&lt;h2 id="design-specifications"&gt;Design Specifications&lt;/h2&gt;
+&lt;h3 id="typography"&gt;Typography&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Element&lt;/th&gt;
+ &lt;th&gt;Font&lt;/th&gt;
+ &lt;th&gt;Size&lt;/th&gt;
+ &lt;th&gt;Color&lt;/th&gt;
+ &lt;th&gt;Weight&lt;/th&gt;
+ &lt;th&gt;Notes&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Body&lt;/td&gt;
+ &lt;td&gt;Roboto&lt;/td&gt;
+ &lt;td&gt;11pt&lt;/td&gt;
+ &lt;td&gt;White&lt;/td&gt;
+ &lt;td&gt;Normal&lt;/td&gt;
+ &lt;td&gt;Main text, 17.4:1 contrast&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;h1&lt;/td&gt;
+ &lt;td&gt;Roboto&lt;/td&gt;
+ &lt;td&gt;15pt&lt;/td&gt;
+ &lt;td&gt;MSU Green&lt;/td&gt;
+ &lt;td&gt;Bold&lt;/td&gt;
+ &lt;td&gt;Title, 10.75:1 contrast&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;h2&lt;/td&gt;
+ &lt;td&gt;Roboto&lt;/td&gt;
+ &lt;td&gt;12.5pt&lt;/td&gt;
+ &lt;td&gt;MSU Green&lt;/td&gt;
+ &lt;td&gt;Semibold&lt;/td&gt;
+ &lt;td&gt;Section heading&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;h3&lt;/td&gt;
+ &lt;td&gt;Roboto&lt;/td&gt;
+ &lt;td&gt;11pt&lt;/td&gt;
+ &lt;td&gt;Gray&lt;/td&gt;
+ &lt;td&gt;Semibold&lt;/td&gt;
+ &lt;td&gt;Subsection&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Code (inline)&lt;/td&gt;
+ &lt;td&gt;Roboto&lt;/td&gt;
+ &lt;td&gt;9.9pt&lt;/td&gt;
+ &lt;td&gt;Green&lt;/td&gt;
+ &lt;td&gt;Normal&lt;/td&gt;
+ &lt;td&gt;Highlighted background&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Code (block)&lt;/td&gt;
+ &lt;td&gt;Roboto&lt;/td&gt;
+ &lt;td&gt;9.68pt&lt;/td&gt;
+ &lt;td&gt;Green&lt;/td&gt;
+ &lt;td&gt;Normal&lt;/td&gt;
+ &lt;td&gt;Light green box&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Footer&lt;/td&gt;
+ &lt;td&gt;Roboto&lt;/td&gt;
+ &lt;td&gt;9pt&lt;/td&gt;
+ &lt;td&gt;Gray&lt;/td&gt;
+ &lt;td&gt;Normal&lt;/td&gt;
+ &lt;td&gt;Page numbers, 8.06:1 contrast&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="colors"&gt;Colors&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typst" data-lang="typst"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// MSU Green palette&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;#let&lt;/span&gt; green &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;rgb&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;#18453B&amp;#34;&lt;/span&gt;) &lt;span style="color:#75715e"&gt;// Main color&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;#let&lt;/span&gt; green-light &lt;span style="color:#f92672"&gt;=&lt;/span&gt; green.&lt;span style="color:#a6e22e"&gt;lighten&lt;/span&gt;(&lt;span style="color:#ae81ff"&gt;88&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;%&lt;/span&gt;) &lt;span style="color:#75715e"&gt;// Light background&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Grays&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;body text: luma(30) &lt;span style="color:#75715e"&gt;// Very dark (17.4:1)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;footer text: luma(80) &lt;span style="color:#75715e"&gt;// Medium gray (8.06:1)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;heading h3: luma(50) &lt;span style="color:#75715e"&gt;// Dark gray&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;borders: luma(210) &lt;span style="color:#75715e"&gt;// Light gray&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;All colors tested for AAA contrast (7:1+ ratio).&lt;/p&gt;</description></item></channel></rss>

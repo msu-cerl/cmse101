@@ -1,0 +1,121 @@
+<!doctype html><html lang=en><head><title>System Overview :: AI and Society Course</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Architecture and design of the course infrastructure"><meta name=keywords content><meta name=robots content="noodp"><link rel=canonical href=https://msucerl.org/cmse101/documentation/overview/><link rel=stylesheet href=https://msucerl.org/cmse101/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css><link rel=stylesheet href=https://msucerl.org/cmse101/css/code.min.c4581949edab7810737609fc5568852bcd908945f14561e366dcd2300a370545.css><link rel=stylesheet href=https://msucerl.org/cmse101/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css><link rel=stylesheet href=https://msucerl.org/cmse101/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css><link rel=stylesheet href=https://msucerl.org/cmse101/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css><link rel=stylesheet href=https://msucerl.org/cmse101/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css><link rel=stylesheet href=https://msucerl.org/cmse101/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css><link rel=stylesheet href=https://msucerl.org/cmse101/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css><link rel=stylesheet href=https://msucerl.org/cmse101/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css><link rel=stylesheet href=https://msucerl.org/cmse101/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css><link rel=stylesheet href=https://msucerl.org/cmse101/css/syntax.min.a2cc694a9b481f15d41722bffc2cc54eea4c4f74fd9072b0b33253604c22606e.css><link rel=stylesheet href=https://msucerl.org/cmse101/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css><link rel=stylesheet href=https://msucerl.org/cmse101/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css><link rel="shortcut icon" href=https://msucerl.org/cmse101/favicon.png><link rel=apple-touch-icon href=https://msucerl.org/cmse101/apple-touch-icon.png><meta name=twitter:card content="summary"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="og:title" content="System Overview"><meta property="og:description" content="Architecture and design of the course infrastructure"><meta property="og:url" content="https://msucerl.org/cmse101/documentation/overview/"><meta property="og:site_name" content="AI and Society Course"><meta property="og:image" content="https://msucerl.org/cmse101/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="627"><link rel=stylesheet href=/cmse101/css/accessibility.css></head><body><div class="container center"><a href=#main-content class=skip-to-main>Skip to main content</a><header class=header><div class=header__inner><div class=header__logo><a href=/><div class=logo>AI & Society</div></a></div><ul class="menu menu--mobile"><li class=menu__trigger>Menu&nbsp;▾</li><li><ul class=menu__dropdown><li><a href=/cmse101/>Home</a></li><li><a href=/cmse101/learning-goals/>Learning Goals</a></li><li><a href=/cmse101/schedule/>Schedule</a></li><li><a href=/cmse101/readings/>Readings</a></li><li><a href=/cmse101/assignments/>Assignments</a></li><li><a href=/cmse101/documentation/>Documentation</a></li></ul></li></ul></div><nav class=navigation-menu><ul class="navigation-menu__inner menu--desktop"><li><a href=/cmse101/>Home</a></li><li><a href=/cmse101/learning-goals/>Learning Goals</a></li><li><a href=/cmse101/schedule/>Schedule</a></li><li><a href=/cmse101/readings/>Readings</a></li><li><a href=/cmse101/assignments/>Assignments</a></li><li><a href=/cmse101/documentation/>Documentation</a></li></ul></nav></header><div class=content role=main id=main-content><article class=post><h1 class=post-title><a href=https://msucerl.org/cmse101/documentation/overview/>System Overview</a></h1><div class=post-meta></div><div class=post-content><div><h1 id=system-architecture-overview>System Architecture Overview<a href=#system-architecture-overview class=hanchor arialabel=Anchor>#</a></h1><p>This page explains how all the pieces of the course infrastructure fit together.</p><h2 id=the-big-picture>The Big Picture<a href=#the-big-picture class=hanchor arialabel=Anchor>#</a></h2><pre tabindex=0><code>                    Hugo Site (Content)
+                          │
+                ┌─────────┼─────────┐
+                │         │         │
+            Markdown    Theme      CSS
+            Content   (Terminal)  (A11y)
+                │         │         │
+                └─────────┼─────────┘
+                          │
+                    [Website Output]
+                    (HTML, CSS, JS)
+                          │
+                ┌─────────┴─────────┐
+                │                   │
+           [Browser]         [D2L Generator]
+           (Website)               │
+                         ┌─────────┴──────────┐
+                         │                    │
+                    Typst PDF           Pandoc DOCX
+                    (Beautiful)         (Editable)
+                         │                    │
+                    [PDF Output]         [DOCX Output]
+                    (For Reading)        (For Editing)
+                         │                    │
+                         └─────────┬──────────┘
+                                   │
+                          [Brightspace Upload]
+                          (PDF + DOCX Files)
+</code></pre><h2 id=component-breakdown>Component Breakdown<a href=#component-breakdown class=hanchor arialabel=Anchor>#</a></h2><h3 id=1-hugo-site-generator>1. Hugo Site Generator<a href=#1-hugo-site-generator class=hanchor arialabel=Anchor>#</a></h3><p><strong>What it does:</strong> Converts markdown content + templates into a static website</p><p><strong>Key files:</strong></p><ul><li><code>config.yaml</code> — Site configuration</li><li><code>themes/terminal/</code> — Website theme</li><li><code>layouts/</code> — Custom Hugo templates</li><li><code>content/</code> — Course material (markdown)</li></ul><p><strong>Output:</strong> Static HTML/CSS/JS website</p><h3 id=2-accessibility-add-on-layer>2. Accessibility Add-On Layer<a href=#2-accessibility-add-on-layer class=hanchor arialabel=Anchor>#</a></h3><p><strong>What it does:</strong> Makes the website WCAG AAA compliant without modifying the theme</p><p><strong>Key files:</strong></p><ul><li><code>layouts/_default/baseof.html</code> — Override base template</li><li><code>layouts/partials/accessibility/</code> — Accessibility partials</li><li><code>static/css/accessibility.css</code> — Accessibility styles</li><li><code>layouts/shortcodes/img-a11y.html</code> — Enforced alt text shortcode</li><li><code>layouts/shortcodes/form-input.html</code> — Accessible form inputs</li></ul><p><strong>Features:</strong></p><ul><li>Skip navigation link</li><li>ARIA landmarks</li><li>Enhanced focus styles (AAA-compliant)</li><li>Dark mode color scheme (18.92:1 contrast)</li><li>Keyboard navigation</li><li>Screen reader support</li><li>Form accessibility</li><li>Reduced motion support</li></ul><p><strong>Output:</strong> Website meets WCAG AAA standards</p><h3 id=3-d2l-document-generation-system>3. D2L Document Generation System<a href=#3-d2l-document-generation-system class=hanchor arialabel=Anchor>#</a></h3><p><strong>What it does:</strong> Converts course content to professional PDFs and DOCXs for Brightspace</p><p><strong>Key files:</strong></p><ul><li><code>scripts/generate-d2l-docs.py</code> — Main generator script</li><li><code>templates/typst/clean/template.typ</code> — Typst PDF template</li><li><code>venv/</code> — Python environment with Typst, Pandoc, dependencies</li></ul><p><strong>Process:</strong></p><ol><li>Read markdown files from <code>content/</code></li><li>Extract frontmatter (title, weight, metadata)</li><li>Sort by weight</li><li><strong>For PDF:</strong> Convert to Typst → Compile with Typst CLI</li><li><strong>For DOCX:</strong> Convert directly to DOCX with Pandoc</li></ol><p><strong>Output:</strong> <code>output/d2l/</code> contains PDFs and DOCXs ready for upload</p><h3 id=4-typst-pdf-template>4. Typst PDF Template<a href=#4-typst-pdf-template class=hanchor arialabel=Anchor>#</a></h3><p><strong>What it does:</strong> Provides professional, accessible PDF styling</p><p><strong>Key files:</strong></p><ul><li><code>templates/typst/clean/template.typ</code> — Template design</li><li><code>templates/typst/clean/template.yml</code> — Template metadata</li></ul><p><strong>Features:</strong></p><ul><li>MSU green branding (#18453B)</li><li>Roboto font (accessible for dyslexia)</li><li>Proper heading hierarchy (h1 → h2 → h3)</li><li>Color contrast compliance (all 7:1+ ratio)</li><li>Code block highlighting</li><li>Proper margins and spacing</li></ul><p><strong>Output:</strong> Beautiful, accessible PDFs</p><h2 id=data-flow>Data Flow<a href=#data-flow class=hanchor arialabel=Anchor>#</a></h2><h3 id=publishing-content>Publishing Content<a href=#publishing-content class=hanchor arialabel=Anchor>#</a></h3><pre tabindex=0><code>1. Author creates markdown file in content/readings/week-01.md
+   - Includes frontmatter: title, weight, date
+   - Includes content: markdown text
+
+2. Hugo generates website
+   - Reads markdown + frontmatter
+   - Applies theme + accessibility layer
+   - Generates HTML/CSS/JS
+   - Output: Hugo site at localhost:1313
+
+3. D2L document generator reads same markdown
+   - Extracts frontmatter
+   - Converts to Typst (PDF) or DOCX
+   - Generates in output/d2l/
+
+4. Instructor uploads to Brightspace
+   - PDF for reading
+   - DOCX for editing/annotation
+</code></pre><h3 id=content-processing>Content Processing<a href=#content-processing class=hanchor arialabel=Anchor>#</a></h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-markdown data-lang=markdown><span style=display:flex><span>Source: content/readings/week-01.md
+</span></span><span style=display:flex><span>│
+</span></span><span style=display:flex><span>├─→ [Hugo] ──→ website/readings/week-01/index.html
+</span></span><span style=display:flex><span>│
+</span></span><span style=display:flex><span>└─→ [D2L Gen] ──→ [Typst] ──→ output/d2l/week-01.pdf
+</span></span><span style=display:flex><span>                ──→ [Pandoc] ──→ output/d2l/week-01.docx
+</span></span></code></pre></div><h2 id=the-three-outputs>The Three Outputs<a href=#the-three-outputs class=hanchor arialabel=Anchor>#</a></h2><h3 id=1-website-hugo>1. Website (Hugo)<a href=#1-website-hugo class=hanchor arialabel=Anchor>#</a></h3><p><strong>When to use:</strong> Students browsing on any device</p><p><strong>Characteristics:</strong></p><ul><li>Interactive, responsive</li><li>Keyboard accessible</li><li>WCAG AAA compliant</li><li>Dark theme</li><li>Online or offline (can save HTML)</li></ul><h3 id=2-pdf-typst>2. PDF (Typst)<a href=#2-pdf-typst class=hanchor arialabel=Anchor>#</a></h3><p><strong>When to use:</strong> Professional, formatted reading</p><p><strong>Characteristics:</strong></p><ul><li>Beautiful typography</li><li>Consistent branding</li><li>Page numbers</li><li>Works offline</li><li>Print-friendly</li><li>AAA accessible</li></ul><h3 id=3-docx-pandoc>3. DOCX (Pandoc)<a href=#3-docx-pandoc class=hanchor arialabel=Anchor>#</a></h3><p><strong>When to use:</strong> Students want to edit/annotate</p><p><strong>Characteristics:</strong></p><ul><li>Native Microsoft Word format</li><li>Editable in Word, Google Docs, etc.</li><li>Can be annotated</li><li>Accessible structure</li><li>Works offline</li></ul><h2 id=technology-decisions>Technology Decisions<a href=#technology-decisions class=hanchor arialabel=Anchor>#</a></h2><h3 id=why-typst-for-pdf>Why Typst for PDF?<a href=#why-typst-for-pdf class=hanchor arialabel=Anchor>#</a></h3><ul><li>✅ Generates beautiful PDFs</li><li>✅ Accessible output (contrast, fonts, structure)</li><li>✅ Self-contained (no external web services)</li><li>✅ Fast compilation</li><li>✅ Version control friendly (text-based)</li></ul><h3 id=why-hugo-for-website>Why Hugo for Website?<a href=#why-hugo-for-website class=hanchor arialabel=Anchor>#</a></h3><ul><li>✅ Static site (secure, fast, no database)</li><li>✅ Content in markdown (human-readable)</li><li>✅ Theme support (professional looking)</li><li>✅ Built-in accessibility (semantic HTML)</li><li>✅ GitHub Pages compatible</li></ul><h3 id=why-pandoc-for-docx>Why Pandoc for DOCX?<a href=#why-pandoc-for-docx class=hanchor arialabel=Anchor>#</a></h3><ul><li>✅ Direct markdown → DOCX (preserves structure)</li><li>✅ Maintains accessibility (native Word format)</li><li>✅ Cross-platform (works on Mac, Linux, Windows)</li><li>✅ Open source</li></ul><h3 id=why-custom-accessibility-layer>Why Custom Accessibility Layer?<a href=#why-custom-accessibility-layer class=hanchor arialabel=Anchor>#</a></h3><ul><li>✅ Keeps theme untouched (easier to update)</li><li>✅ Centralized accessibility improvements</li><li>✅ Easy to disable if needed</li><li>✅ Demonstrates accessibility best practices</li></ul><h2 id=file-organization>File Organization<a href=#file-organization class=hanchor arialabel=Anchor>#</a></h2><pre tabindex=0><code>.
+├── config.yaml                  # Hugo config
+├── README.md                    # Getting started
+├── ACCESSIBILITY.md             # A11y documentation
+├── A11Y_QUICKSTART.md          # A11y quick reference
+├── D2L_GENERATION.md           # D2L docs
+├── content/
+│   ├── _index.md               # Home page
+│   ├── readings/               # Course readings
+│   ├── assignments/            # Assignments
+│   ├── resources/              # Resources
+│   ├── schedule/               # Schedule
+│   ├── learning-goals/         # Learning goals
+│   └── documentation/          # This documentation
+├── layouts/
+│   ├── _default/baseof.html    # Override base (adds a11y)
+│   ├── partials/accessibility/ # Accessibility partials
+│   └── shortcodes/             # Custom shortcodes
+├── static/
+│   └── css/accessibility.css   # A11y styles
+├── templates/
+│   └── typst/clean/            # Typst PDF template
+├── scripts/
+│   └── generate-d2l-docs.py    # D2L generator
+├── themes/
+│   └── terminal/               # Hugo theme (untouched)
+└── venv/                        # Python environment
+</code></pre><h2 id=workflow-examples>Workflow Examples<a href=#workflow-examples class=hanchor arialabel=Anchor>#</a></h2><h3 id=adding-a-new-reading>Adding a New Reading<a href=#adding-a-new-reading class=hanchor arialabel=Anchor>#</a></h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-bash data-lang=bash><span style=display:flex><span>1. Create content/readings/week-07.md
+</span></span><span style=display:flex><span>   - Write markdown
+</span></span><span style=display:flex><span>   - Add frontmatter: title, weight
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>2. Push to GitHub
+</span></span><span style=display:flex><span>   - Hugo Auto-builds <span style=color:#f92672>(</span><span style=color:#66d9ef>if</span> using GitHub Pages<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>   - Site updates automatically
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>3. Generate D2L PDFs
+</span></span><span style=display:flex><span>   python scripts/generate-d2l-docs.py --type readings
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>4. Upload reading.pdf to Brightspace
+</span></span></code></pre></div><h3 id=customizing-the-website>Customizing the Website<a href=#customizing-the-website class=hanchor arialabel=Anchor>#</a></h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-bash data-lang=bash><span style=display:flex><span>1. Edit static/css/accessibility.css
+</span></span><span style=display:flex><span>   - Change colors, fonts, spacing
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>2. Test locally
+</span></span><span style=display:flex><span>   hugo serve
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>3. Verify accessibility
+</span></span><span style=display:flex><span>   - Check keyboard navigation
+</span></span><span style=display:flex><span>   - Check screen reader
+</span></span><span style=display:flex><span>   - Check color contrast
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>4. Commit and push
+</span></span><span style=display:flex><span>   git add static/css/accessibility.css
+</span></span><span style=display:flex><span>   git commit -m <span style=color:#e6db74>&#34;Adjust styling&#34;</span>
+</span></span></code></pre></div><h3 id=updating-the-pdf-template>Updating the PDF Template<a href=#updating-the-pdf-template class=hanchor arialabel=Anchor>#</a></h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-bash data-lang=bash><span style=display:flex><span>1. Edit templates/typst/clean/template.typ
+</span></span><span style=display:flex><span>   - Change fonts, margins, colors
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>2. Test generation
+</span></span><span style=display:flex><span>   python scripts/generate-d2l-docs.py --type readings --format pdf
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>3. Review PDF output
+</span></span><span style=display:flex><span>   - Check typography
+</span></span><span style=display:flex><span>   - Check contrast
+</span></span><span style=display:flex><span>   - Check formatting
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>4. Commit changes
+</span></span><span style=display:flex><span>   git add templates/
+</span></span><span style=display:flex><span>   git commit -m <span style=color:#e6db74>&#34;Update template styling&#34;</span>
+</span></span></code></pre></div><h2 id=key-design-principles>Key Design Principles<a href=#key-design-principles class=hanchor arialabel=Anchor>#</a></h2><h3 id=1-accessibility-first>1. Accessibility First<a href=#1-accessibility-first class=hanchor arialabel=Anchor>#</a></h3><ul><li>Every decision considers WCAG AAA compliance</li><li>Color contrast verified (7:1+)</li><li>Keyboard navigation from day one</li><li>Screen reader testing included</li></ul><h3 id=2-content-focused>2. Content-Focused<a href=#2-content-focused class=hanchor arialabel=Anchor>#</a></h3><ul><li>Markdown is the source of truth</li><li>No database complexity</li><li>Version control all content</li><li>Same content → multiple outputs</li></ul><h3 id=3-open-source>3. Open Source<a href=#3-open-source class=hanchor arialabel=Anchor>#</a></h3><ul><li>All code is public</li><li>All documentation is included</li><li>No vendor lock-in</li><li>MIT licensed</li></ul><h3 id=4-self-contained>4. Self-Contained<a href=#4-self-contained class=hanchor arialabel=Anchor>#</a></h3><ul><li>No external services required</li><li>Works offline (except for fonts)</li><li>Single git repository</li><li>Easy to clone and customize</li></ul><h2 id=performance-metrics>Performance Metrics<a href=#performance-metrics class=hanchor arialabel=Anchor>#</a></h2><ul><li><strong>Website build:</strong> ~40ms</li><li><strong>Single PDF generation:</strong> 2-3 seconds</li><li><strong>Single DOCX generation:</strong> 1-2 seconds</li><li><strong>Full regenerate (all types, both formats):</strong> 30-60 seconds</li></ul><h2 id=scalability>Scalability<a href=#scalability class=hanchor arialabel=Anchor>#</a></h2><p>The system handles:</p><ul><li>✅ 50+ content files</li><li>✅ Multiple content types</li><li>✅ Batch document generation</li><li>✅ 1000+ page PDFs</li><li>✅ 100+ students (no database bottleneck)</li></ul><h2 id=next-steps>Next Steps<a href=#next-steps class=hanchor arialabel=Anchor>#</a></h2><ul><li>Explore <a href=../accessibility/>Accessibility Features</a></li><li>Learn <a href=../d2l-generation/>D2L Generation</a></li><li>Customize <a href=../template-guide/>PDF Template</a></li></ul><hr><p><strong>Last Updated:</strong> May 2026<br><strong>Status:</strong> Production ready</p></div></div></article></div><footer class=footer><div class=footer__inner><div class=copyright><span>© 2026 Powered by <a href=https://gohugo.io>Hugo</a></span>
+<span>:: <a href=https://github.com/panr/hugo-theme-terminal target=_blank>Theme</a> made by <a href=https://github.com/panr target=_blank>panr</a></span></div></div></footer><script type=text/javascript src=/cmse101/bundle.min.js></script></div></body></html>
