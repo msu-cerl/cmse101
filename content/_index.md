@@ -1,5 +1,5 @@
 ---
-title: "AI and the Real World: Data, Power, and Society"
+title: "AI and the Real World: Data, Power, & Society"
 date: 2026-05-05
 draft: false
 description: "Explore the conceptual foundations and societal implications of artificial intelligence."
@@ -7,7 +7,9 @@ tags: ["AI", "society", "education"]
 author: "Danny Caballero"
 ---
 
-# AI and the Real World: Data, Power, and Society
+**Under construction. Check back soon for updates!**
+
+# AI and the Real World: Data, Power, & Society
 
 ![Course Banner made by Google Gemini by prompting it with the summary of the course and asking it to make a banner image for the course.](images/course-banner.png)
 
