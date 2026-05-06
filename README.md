@@ -15,7 +15,7 @@ Hugo Site → Website + Accessibility Layer
 - 📖 **Static website** — Fast, secure, no database
 - ♿ **WCAG AAA compliant** — Fully accessible site and documents
 - 📄 **Multi-format output** — HTML website + PDF + DOCX
-- 📚 **Open source** — MIT licensed, fully documented
+- 📚 **Open source** — CC BY-NC-SA 4.0 licensed, fully documented
 - 🚀 **Production ready** — Used for active course delivery
 
 ## 🚀 Quick Start
@@ -246,14 +246,16 @@ source venv/bin/activate.fish
 
 ## 📄 License
 
-MIT License — This system is open source and free to use, modify, and distribute for educational purposes.
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+You are free to share and adapt this material for non-commercial purposes, provided you give attribution and distribute any derivatives under the same license.
 
 ## Status
 
 - ✅ **Production Ready** — Active course deployment
 - ✅ **WCAG AAA** — Full accessibility compliance
 - ✅ **Documented** — Complete system documentation
-- ✅ **Open Source** — MIT licensed
+- ✅ **Open Source** — CC BY-NC-SA 4.0 licensed
 
 ---
 
