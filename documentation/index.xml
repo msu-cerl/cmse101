@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>System Documentation on AI and Society Course</title><link>https://msu-cerl.github.io/cmse101/documentation/</link><description>Recent content in System Documentation on AI and Society Course</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://msu-cerl.github.io/cmse101/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>System Overview</title><link>https://msu-cerl.github.io/cmse101/documentation/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://msu-cerl.github.io/cmse101/documentation/overview/</guid><description>&lt;h1 id="system-architecture-overview"&gt;System Architecture Overview&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>System Documentation on AI and Society Course</title><link>http://localhost:1313/documentation/</link><description>Recent content in System Documentation on AI and Society Course</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://localhost:1313/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>System Overview</title><link>http://localhost:1313/documentation/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/documentation/overview/</guid><description>&lt;h1 id="system-architecture-overview"&gt;System Architecture Overview&lt;/h1&gt;
 &lt;p&gt;This page explains how all the pieces of the course infrastructure fit together.&lt;/p&gt;
 &lt;h2 id="the-big-picture"&gt;The Big Picture&lt;/h2&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt; Hugo Site (Content)
@@ -31,7 +31,7 @@
  (PDF + DOCX Files)
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id="component-breakdown"&gt;Component Breakdown&lt;/h2&gt;
 &lt;h3 id="1-hugo-site-generator"&gt;1. Hugo Site Generator&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;What it does:&lt;/strong&gt; Converts markdown content + templates into a static website&lt;/p&gt;</description></item><item><title>Accessibility Features</title><link>https://msu-cerl.github.io/cmse101/documentation/accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://msu-cerl.github.io/cmse101/documentation/accessibility/</guid><description>&lt;h1 id="accessibility-features--wcag-aaa-compliance"&gt;Accessibility Features &amp;amp; WCAG AAA Compliance&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;What it does:&lt;/strong&gt; Converts markdown content + templates into a static website&lt;/p&gt;</description></item><item><title>Accessibility Features</title><link>http://localhost:1313/documentation/accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/documentation/accessibility/</guid><description>&lt;h1 id="accessibility-features--wcag-aaa-compliance"&gt;Accessibility Features &amp;amp; WCAG AAA Compliance&lt;/h1&gt;
 &lt;p&gt;This site includes a &lt;strong&gt;separate accessibility layer&lt;/strong&gt; that provides WCAG AAA and UDL (Universal Design for Learning) compliance without modifying the base theme.&lt;/p&gt;
 &lt;h2 id="whats-included"&gt;What&amp;rsquo;s Included&lt;/h2&gt;
 &lt;h3 id="-core-features"&gt;🎯 Core Features&lt;/h3&gt;
@@ -48,7 +48,7 @@
 &lt;li&gt;&lt;strong&gt;Screen Reader Support&lt;/strong&gt; — Content hidden from view but available to assistive tech&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="wcag-aaa-compliance"&gt;WCAG AAA Compliance&lt;/h2&gt;
-&lt;p&gt;All elements meet or exceed AAA (Triple-A) standards:&lt;/p&gt;</description></item><item><title>D2L Document Generation</title><link>https://msu-cerl.github.io/cmse101/documentation/d2l-generation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://msu-cerl.github.io/cmse101/documentation/d2l-generation/</guid><description>&lt;h1 id="d2l-document-generation"&gt;D2L Document Generation&lt;/h1&gt;
+&lt;p&gt;All elements meet or exceed AAA (Triple-A) standards:&lt;/p&gt;</description></item><item><title>D2L Document Generation</title><link>http://localhost:1313/documentation/d2l-generation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/documentation/d2l-generation/</guid><description>&lt;h1 id="d2l-document-generation"&gt;D2L Document Generation&lt;/h1&gt;
 &lt;p&gt;Python-based system to generate professional, WCAG AAA-compliant PDFs and DOCX files from course content for Brightspace (D2L) upload.&lt;/p&gt;
 &lt;h2 id="features"&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
@@ -64,7 +64,7 @@
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd /path/to/repo
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;source venv/bin/activate.fish
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;python scripts/generate-d2l-docs.py --type readings --format both
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Output:&lt;/p&gt;</description></item><item><title>Template Customization</title><link>https://msu-cerl.github.io/cmse101/documentation/template-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://msu-cerl.github.io/cmse101/documentation/template-guide/</guid><description>&lt;h1 id="typst-pdf-template-guide"&gt;Typst PDF Template Guide&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Output:&lt;/p&gt;</description></item><item><title>Template Customization</title><link>http://localhost:1313/documentation/template-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/documentation/template-guide/</guid><description>&lt;h1 id="typst-pdf-template-guide"&gt;Typst PDF Template Guide&lt;/h1&gt;
 &lt;p&gt;Complete guide to the Typst template used for professional PDF generation.&lt;/p&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;The template is located at: &lt;code&gt;templates/typst/clean/&lt;/code&gt;&lt;/p&gt;
