@@ -1,0 +1,29 @@
+{{ if .Site.Params.a11y.enabled }}
+<!-- UDL: FOUC Prevention — Apply preferences before paint -->
+<script>
+(function() {
+  var KEYS = {
+    fontSize: 'udl-font-size',
+    lineSpacing: 'udl-line-spacing',
+    dyslexia: 'udl-dyslexia',
+    mode: 'udl-mode',
+    focusMode: 'udl-focus-mode'
+  };
+  var h = document.documentElement;
+  try {
+    var fs = localStorage.getItem(KEYS.fontSize);
+    if (fs && fs !== 'default') h.classList.add('udl-font-' + fs);
+    if (localStorage.getItem(KEYS.lineSpacing) === 'relaxed') h.classList.add('udl-line-relaxed');
+    if (localStorage.getItem(KEYS.dyslexia) === 'true') h.classList.add('udl-dyslexia');
+    var mode = localStorage.getItem(KEYS.mode);
+    if (mode && mode !== 'dark') {
+      h.classList.add(mode === 'light' ? 'udl-light-mode' : 'udl-high-contrast');
+    }
+    if (localStorage.getItem(KEYS.focusMode) === 'true') h.classList.add('udl-focus-mode');
+  } catch(e) {}
+})();
+</script>
+<!-- UDL: Dyslexia font preload (non-blocking) -->
+<link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/opendyslexic" media="print" onload="this.media='all'; this.onload=null;">
+{{ end }}

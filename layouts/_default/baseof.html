@@ -8,6 +8,8 @@
   <!-- Accessibility add-on: Load AAA-compliant CSS -->
   {{ if .Site.Params.a11y.enabled }}
   <link rel="stylesheet" href="{{ "css/accessibility.css" | relURL }}">
+  <!-- UDL add-on: Load UDL toolbar CSS -->
+  <link rel="stylesheet" href="{{ "css/udl.css" | relURL }}">
   {{ end }}
 </head>
 <body>
@@ -27,6 +29,11 @@
 
   {{ block "footer" . }}
     {{ partial "footer.html" . }}
+  {{ end }}
+
+  <!-- UDL add-on: Toolbar for reading accessibility controls -->
+  {{ if .Site.Params.a11y.enabled }}
+  {{ partial "udl/toolbar.html" . }}
   {{ end }}
 </div>
 

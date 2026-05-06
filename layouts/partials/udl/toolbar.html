@@ -1,0 +1,99 @@
+<aside
+  id="udl-toolbar"
+  class="udl-toolbar udl-toolbar--collapsed"
+  aria-label="Reading accessibility controls"
+>
+  <!-- Toggle button — always visible -->
+  <button
+    id="udl-toolbar-toggle"
+    class="udl-toolbar__toggle"
+    aria-expanded="false"
+    aria-controls="udl-toolbar-panel"
+    aria-label="Open accessibility toolbar"
+  >
+    <span aria-hidden="true">Aa</span>
+  </button>
+
+  <!-- Panel — hidden when collapsed -->
+  <div
+    id="udl-toolbar-panel"
+    class="udl-toolbar__panel"
+    hidden
+  >
+    <h2 class="udl-toolbar__heading" id="udl-toolbar-heading">
+      Reading Controls
+    </h2>
+
+    <!-- Font size group -->
+    <fieldset class="udl-toolbar__group">
+      <legend>Font size</legend>
+      <div class="udl-toolbar__row" role="group" aria-label="Font size">
+        <button data-udl-action="font-sm" aria-pressed="false" title="Small font (Alt+1)">S</button>
+        <button data-udl-action="font-default" aria-pressed="true" title="Default font (Alt+2)">M</button>
+        <button data-udl-action="font-lg" aria-pressed="false" title="Large font (Alt+3)">L</button>
+        <button data-udl-action="font-xl" aria-pressed="false" title="Extra large font (Alt+4)">XL</button>
+      </div>
+    </fieldset>
+
+    <!-- Line spacing -->
+    <fieldset class="udl-toolbar__group">
+      <legend>Line spacing</legend>
+      <button
+        data-udl-action="line-spacing"
+        aria-pressed="false"
+        title="Toggle relaxed line spacing (Alt+L)"
+      >Relaxed spacing</button>
+    </fieldset>
+
+    <!-- Dyslexia font -->
+    <fieldset class="udl-toolbar__group">
+      <legend>Font style</legend>
+      <button
+        data-udl-action="dyslexia"
+        aria-pressed="false"
+        title="Toggle dyslexia-friendly font (Alt+D)"
+      >Dyslexia-friendly font</button>
+    </fieldset>
+
+    <!-- Contrast / theme -->
+    <fieldset class="udl-toolbar__group">
+      <legend>Display mode</legend>
+      <div class="udl-toolbar__row">
+        <button data-udl-action="mode-dark" aria-pressed="true" title="Dark mode (Alt+5)">Dark</button>
+        <button data-udl-action="mode-light" aria-pressed="false" title="Light mode (Alt+6)">Light</button>
+        <button data-udl-action="mode-hc" aria-pressed="false" title="High contrast (Alt+7)">High contrast</button>
+      </div>
+    </fieldset>
+
+    <!-- Focus / reading mode -->
+    <fieldset class="udl-toolbar__group">
+      <legend>Reading</legend>
+      <button
+        data-udl-action="focus-mode"
+        aria-pressed="false"
+        title="Toggle focus mode (Alt+F)"
+      >Focus mode</button>
+    </fieldset>
+
+    <!-- Text-to-speech -->
+    <fieldset class="udl-toolbar__group">
+      <legend>Text to speech</legend>
+      <button data-udl-action="tts-selection" title="Read selected text (Alt+R)">Read selection</button>
+      <button data-udl-action="tts-page" title="Read full page (Alt+P)">Read page</button>
+      <button data-udl-action="tts-stop" aria-disabled="true" title="Stop reading (Alt+S)">Stop</button>
+    </fieldset>
+
+    <!-- Keyboard shortcut hint -->
+    <p class="udl-toolbar__hint">
+      <kbd>Alt</kbd>+<kbd>U</kbd> opens/closes this panel
+    </p>
+  </div>
+
+  <!-- ARIA live region for announcements -->
+  <div
+    id="udl-announce"
+    class="sr-only"
+    aria-live="polite"
+    aria-atomic="true"
+  ></div>
+</aside>

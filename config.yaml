@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313/"
+baseURL: "https://msucerl.org/cmse101/"
 locale: "en-us"
 title: "AI and Society Course"
 theme: "terminal"
@@ -54,18 +54,18 @@ languages:
           name: "Learning Goals"
           url: "/learning-goals/"
           weight: 20
-        - identifier: "schedule"
-          name: "Schedule"
-          url: "/schedule/"
-          weight: 30
-        - identifier: "readings"
-          name: "Readings"
-          url: "/readings/"
-          weight: 40
-        - identifier: "assignments"
-          name: "Assignments"
-          url: "/assignments/"
-          weight: 45
+        # - identifier: "schedule"
+        #   name: "Schedule"
+        #   url: "/schedule/"
+        #   weight: 30
+        # - identifier: "readings"
+        #   name: "Readings"
+        #   url: "/readings/"
+        #   weight: 40
+        # - identifier: "assignments"
+        #   name: "Assignments"
+        #   url: "/assignments/"
+        #   weight: 45
         - identifier: "documentation"
           name: "Documentation"
           url: "/documentation/"
