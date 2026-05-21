@@ -54,6 +54,14 @@ languages:
           name: "Learning Goals"
           url: "/learning-goals/"
           weight: 20
+        # - identifier: "course-planning"
+        #   name: "Course Planning"
+        #   url: "/course-planning/"
+        #   weight: 25
+        - identifier: "use-cases"
+          name: "Use Cases"
+          url: "/use-cases/"
+          weight: 27
         # - identifier: "schedule"
         #   name: "Schedule"
         #   url: "/schedule/"
