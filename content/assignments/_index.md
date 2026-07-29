@@ -1,64 +1,69 @@
 ---
 title: "Assignments"
-date: 2026-05-05
+date: 2026-07-29
 draft: false
-description: "Course assignments, activities, and project milestones for the AI and Society course"
+description: "Exit tickets, weekly reflections, and project milestones for CMSE 101"
 tags: ["AI", "society", "assignments", "education"]
-author: "Course Instructor"
+author: "Danny Caballero"
 ---
 
-## 📝 Course Assignments
+# Assignments
 
-This section contains all assignments, activities, and project milestones for the course. Assignments reinforce learning goals and build skills in analysis, communication, and critical thinking about AI and society.
+Three kinds of work, on three different rhythms: **daily**, **weekly**, and **three times a semester**.
 
----
-
-### 📋 Assignment Overview
-
-| Week | Topic | Assignment | Due | Weight |
-|:----:|-------|-----------|-----|--------|
-| 1 | Fundamentals of AI | [Week 1 Assignment](/assignments/week-01/) | End of Week 1 | 5% |
-| 2 | AI Systems & Data | [Week 2 Assignment](/assignments/week-02/) | End of Week 2 | 5% |
-| 3 | Ethics & Bias | [Week 3 Assignment](/assignments/week-03/) | End of Week 3 | 5% |
-| 4 | Policy & Governance | [Week 4 Assignment](/assignments/week-04/) | End of Week 4 | 5% |
-| 5 | Employment & Economics | [Week 5 Assignment](/assignments/week-05/) | End of Week 5 | 5% |
-| 6 | AI in Society | [Week 6 Assignment](/assignments/week-06/) | End of Week 6 | 5% |
-| 7 | Midterm Assessment | [Midterm Exam](/assignments/midterm/) | End of Week 7 | 20% |
-| 8 | Case Studies | [Week 8 Assignment](/assignments/week-08/) | End of Week 8 | 5% |
-| 9 | Emerging Issues | [Week 9 Assignment](/assignments/week-09/) | End of Week 9 | 5% |
-| 10 | Autonomous Systems | [Week 10 Assignment](/assignments/week-10/) | End of Week 10 | 5% |
-| 11 | Futures & Regulation | [Week 11 Assignment](/assignments/week-11/) | End of Week 11 | 5% |
-| 12 | Final Project | [Final Project](/assignments/final-project/) | End of Week 12 | 20% |
+> 📌 Individual assignment pages and rubrics are in progress. See the [schedule](/schedule/) for all dates.
 
 ---
 
-## 📌 Assignment Types
+## 1. Exit Tickets — every class day
 
-### Weekly Reflections & Discussion Posts
-Short reflection essays and discussion forum participation (5-10 minutes each).
+A short in-class response that closes each meeting. Credit-based, low-stakes, 42 of them.
 
-### Reading Quizzes
-Low-stakes knowledge checks on weekly readings.
-
-### Analysis & Critique Papers
-Deep analysis of AI systems, policies, and societal impacts.
-
-### Case Study Reports
-Investigation and presentation of real-world AI applications.
-
-### Midterm & Final Assessments
-Cumulative assessments of learning goals.
-
-### Final Project
-Student-led exploration of an AI and society topic of choice.
+Exit tickets do double duty: they tell me what landed and what didn't before the next class, and they give you a running record of your own thinking to draw on in the weekly reflection.
 
 ---
 
-## 📤 Submission Guidelines
+## 2. Weekly Reflections — D2L discussion board
 
-- Submit all assignments through **D2L Brightspace** unless otherwise noted
-- Use standard formatting: 12pt font, 1-inch margins, double-spaced
-- Late submissions accepted with 10% penalty per day, max 3 days late
-- See individual assignment pages for specific rubrics and expectations
+| Piece | Due |
+|-------|-----|
+| Reflection post | Sunday, 11:59 PM |
+| Responses to two classmates | Tuesday, 11:59 PM |
 
-📌 **Need accommodations?** Contact your instructor as soon as possible.
+13 reflections across the semester (none during Thanksgiving week). Reflections should engage the week's prep reading and Wednesday's case specifically, and are the main place you'll do the **metacognitive analysis** in the [learning goals](/learning-goals/) — how your own use of and relationship to these systems is shifting.
+
+---
+
+## 3. Design Project — teams, three milestones
+
+Teams design a solution *with* AI. Not a hypothetical: a scoped proposal grounded in evidence, analyzed with [DTPA](/learning-goals/), framed with STS resources, and evaluated against ethical frameworks such as the EU AI Act's risk tiers.
+
+| Milestone | Due | Focus |
+|-----------|-----|-------|
+| Teams formed | Fri, Sep 18 | — |
+| **Plan I** | Fri, Oct 2 | Problem, stakeholders, initial DTPA scoping |
+| **Plan II** | Fri, Nov 6 | Evidence base, STS framing, ethical risk analysis |
+| **Plan III** | Fri, Dec 4 | Full draft solution + response to critique |
+| Showcase | Dec 7 & 9 | Team presentations |
+| Final deliverable | Fri, Dec 11 | — |
+
+Friday **studio** sessions are working time for this. Each plan is a revision of the last, not a fresh document — the project accumulates.
+
+---
+
+## Submission
+
+- Everything goes through **D2L Brightspace** unless noted otherwise
+- Exit tickets are completed in class
+- D2L is authoritative for deadlines
+
+📌 **Need accommodations?** Contact your [instructor](mailto:caball14@msu.edu) as early as you can.
+
+---
+
+## To Be Determined
+
+- Grading weights across the three categories
+- Reflection drop policy
+- Late and makeup policy for exit tickets
+- Rubrics for each project milestone

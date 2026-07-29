@@ -1,6 +1,6 @@
 baseURL: "https://msucerl.org/cmse101/"
 locale: "en-us"
-title: "AI and Society Course"
+title: "AI in the Real World: Data, Power, & Society"
 theme: "terminal"
 
 caches:
@@ -33,7 +33,7 @@ params:
 languages:
   en:
     label: "English"
-    title: "AI and Society Course"
+    title: "AI in the Real World: Data, Power, & Society"
     subtitle: "Exploring the Intersection of AI and Society"
     menuMore: "Show more"
     readMore: "Read more"
@@ -41,7 +41,7 @@ languages:
 
     params:
       logo:
-        logoText: "AI & Society"
+        logoText: "AI in the Real World"
         logoHomeLink: "/"
 
     menu:
@@ -50,6 +50,10 @@ languages:
           name: "Home"
           url: "/"
           weight: 10
+        - identifier: "syllabus"
+          name: "Syllabus"
+          url: "/syllabus/"
+          weight: 15
         - identifier: "learning-goals"
           name: "Learning Goals"
           url: "/learning-goals/"
@@ -58,6 +62,10 @@ languages:
         #   name: "Course Planning"
         #   url: "/course-planning/"
         #   weight: 25
+        - identifier: "schedule"
+          name: "Schedule"
+          url: "/schedule/"
+          weight: 25
         - identifier: "use-cases"
           name: "Use Cases"
           url: "/use-cases/"
