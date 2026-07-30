@@ -1,37 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Schedule on AI in the Real World: Data, Power, &amp; Society</title><link>https://msucerl.org/cmse101/tags/schedule/</link><description>Recent content in Schedule on AI in the Real World: Data, Power, &amp; Society</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 29 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://msucerl.org/cmse101/tags/schedule/index.xml" rel="self" type="application/rss+xml"/><item><title>Schedule</title><link>https://msucerl.org/cmse101/schedule/</link><pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate><guid>https://msucerl.org/cmse101/schedule/</guid><description>&lt;h1 id="schedule--fall-2026"&gt;Schedule — Fall 2026&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Meets:&lt;/strong&gt; Monday / Wednesday / Friday
-&lt;strong&gt;First class:&lt;/strong&gt; Monday, August 31, 2026
-&lt;strong&gt;Last class:&lt;/strong&gt; Friday, December 11, 2026
-&lt;strong&gt;Total meetings:&lt;/strong&gt; 42&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Meets:&lt;/strong&gt; Monday / Wednesday / Friday&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;First class:&lt;/strong&gt; Monday, August 31, 2026&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Last class:&lt;/strong&gt; Friday, December 11, 2026&lt;/li&gt;
+&lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;📌 This is a planning skeleton. Every date is fixed; topics are placeholders (&lt;code&gt;_TBD_&lt;/code&gt;) until the reading list and use-case sequence are set.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="how-a-week-works"&gt;How a Week Works&lt;/h2&gt;
-&lt;table&gt;
+&lt;p&gt;This will be our pacing after the first few weeks.&lt;/p&gt;
+&lt;table style="table-layout: fixed; width: 100%;"&gt;
+ &lt;colgroup&gt;
+ &lt;col style="width: 15%"&gt;
+ &lt;col style="width: 15%"&gt;
+ &lt;col style="width: 70%"&gt;
+ &lt;/colgroup&gt;
  &lt;thead&gt;
  &lt;tr&gt;
- &lt;th style="text-align: center"&gt;Day&lt;/th&gt;
+ &lt;th style="text-align: center;"&gt;Day&lt;/th&gt;
  &lt;th&gt;Role&lt;/th&gt;
  &lt;th&gt;What happens&lt;/th&gt;
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
  &lt;tr&gt;
- &lt;td style="text-align: center"&gt;&lt;strong&gt;Monday&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: center;"&gt;&lt;strong&gt;Monday&lt;/strong&gt;&lt;/td&gt;
  &lt;td&gt;&lt;strong&gt;Concept&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;Unpack the mechanics behind the week&amp;rsquo;s prep reading — the &lt;em&gt;logic of the machine&lt;/em&gt;. What is this system? What can it do? What can&amp;rsquo;t it?&lt;/td&gt;
+ &lt;td&gt;Unpack the mechanics behind the week's prep reading — the &lt;em&gt;logic of the machine&lt;/em&gt;. What is this system? What can it do? What can't it?&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
- &lt;td style="text-align: center"&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: center;"&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;/td&gt;
  &lt;td&gt;&lt;strong&gt;Case&lt;/strong&gt;&lt;/td&gt;
  &lt;td&gt;Take a real deployment through the &lt;a href="https://msucerl.org/cmse101/learning-goals/"&gt;DTPA framework&lt;/a&gt;: Data → Tools → Practices → Actions. Evidence-driven, from primary and secondary sources.&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
- &lt;td style="text-align: center"&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: center;"&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;/td&gt;
  &lt;td&gt;&lt;strong&gt;Studio&lt;/strong&gt;&lt;/td&gt;
  &lt;td&gt;Team work on the design project. Peer review, milestone progress, applying STS resources and ethical frameworks to your own proposal.&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;Every class day:&lt;/strong&gt; an &lt;strong&gt;exit ticket&lt;/strong&gt; for credit — a short in-class response that closes the day and seeds Friday&amp;rsquo;s studio and the weekly reflection.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;Every class day:&lt;/strong&gt; an &lt;strong&gt;&lt;a href="https://msucerl.org/cmse101/assignments/exit-tickets/"&gt;exit ticket&lt;/a&gt;&lt;/strong&gt; for credit — a short in-class response that closes the day and seeds Friday&amp;rsquo;s studio and the weekly reflection.&lt;/p&gt;</description></item></channel></rss>
