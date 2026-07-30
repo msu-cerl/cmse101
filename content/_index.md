@@ -35,10 +35,7 @@ To do this we will employ the Data, Tools, Practices, and Actions (DTPA) framewo
 - **[Syllabus](/syllabus/)** — Course overview, policies, and grading
 - **[Learning Goals](/learning-goals/)** — What you'll be able to do by the end
 - **[Schedule](/schedule/)** — Weekly topics and modules
-- **[Readings](/readings/)** — Weekly reading materials and discussion prompts
 - **[Assignments](/assignments/)** — Homework, projects, and assessments
-- **[Resources](/resources/)** — Curated links and materials
-- **[Documentation](/documentation/)** — Site documentation and build notes
 
 ---
 
