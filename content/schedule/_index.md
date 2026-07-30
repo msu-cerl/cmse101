@@ -9,10 +9,9 @@ author: "Danny Caballero"
 
 # Schedule — Fall 2026
 
-**Meets:** Monday / Wednesday / Friday
-**First class:** Monday, August 31, 2026
-**Last class:** Friday, December 11, 2026
-**Total meetings:** 42
+* **Meets:** Monday / Wednesday / Friday
+* **First class:** Monday, August 31, 2026
+* **Last class:** Friday, December 11, 2026
 
 > 📌 This is a planning skeleton. Every date is fixed; topics are placeholders (`_TBD_`) until the reading list and use-case sequence are set.
 
@@ -20,15 +19,44 @@ author: "Danny Caballero"
 
 ## How a Week Works
 
-| Day | Role | What happens |
-|:---:|------|--------------|
-| **Monday** | **Concept** | Unpack the mechanics behind the week's prep reading — the *logic of the machine*. What is this system? What can it do? What can't it? |
-| **Wednesday** | **Case** | Take a real deployment through the [DTPA framework](/learning-goals/): Data → Tools → Practices → Actions. Evidence-driven, from primary and secondary sources. |
-| **Friday** | **Studio** | Team work on the design project. Peer review, milestone progress, applying STS resources and ethical frameworks to your own proposal. |
+This will be our pacing after the first few weeks.
 
-**Every class day:** an **exit ticket** for credit — a short in-class response that closes the day and seeds Friday's studio and the weekly reflection.
+<table style="table-layout: fixed; width: 100%;">
+  <colgroup>
+    <col style="width: 15%">
+    <col style="width: 15%">
+    <col style="width: 70%">
+  </colgroup>
+  <thead>
+    <tr>
+      <th style="text-align: center;">Day</th>
+      <th>Role</th>
+      <th>What happens</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;"><strong>Monday</strong></td>
+      <td><strong>Concept</strong></td>
+      <td>Unpack the mechanics behind the week's prep reading — the <em>logic of the machine</em>. What is this system? What can it do? What can't it?</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Wednesday</strong></td>
+      <td><strong>Case</strong></td>
+      <td>Take a real deployment through the <a href="/learning-goals/">DTPA framework</a>: Data → Tools → Practices → Actions. Evidence-driven, from primary and secondary sources.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Friday</strong></td>
+      <td><strong>Studio</strong></td>
+      <td>Team work on the design project. Peer review, milestone progress, applying STS resources and ethical frameworks to your own proposal.</td>
+    </tr>
+  </tbody>
+</table>
 
-**Every week:** a **prep reading** to complete *before Monday*, and a **weekly reflection** posted to the D2L discussion board with peer responses.
+**Every class day:** an **[exit ticket](../assignments/exit-tickets.md)** for credit — a short in-class response that closes the day and seeds Friday's studio and the weekly reflection.
+
+**Every week:** a **prep "reading"** to complete *before Monday*, and a **weekly reflection** posted to the D2L discussion board with peer responses. 
+> We put "reading" in quotes because we anticipate some of the preparatory material will be videos or podcast episodes.
 
 ### Recurring deadlines
 
@@ -79,9 +107,9 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Aug 31** | Concept | _TBD_ |
-| W | **Sep 2** | Case | _TBD_ |
-| F | **Sep 4** | Studio | _TBD_ |
+| M | **Aug 31** | Introduction to CMSE 101 | Discuss Course Syllabus; Answer Questions |
+| W | **Sep 2** | Concept | Data Collection and Encoding |
+| F | **Sep 4** | Case (Data Focus) | Census of Populations; W.E.B Dubois |
 
 **Due:** Exit ticket ×3 · Reflection 1 (Sun Sep 6) · Responses (Tue Sep 8)
 
@@ -95,8 +123,8 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
 | M | ~~Sep 7~~ | — | 🚫 **No class** — Labor Day, University closed |
-| W | **Sep 9** | Concept + Case | _TBD_ |
-| F | **Sep 11** | Studio | _TBD_ |
+| W | **Sep 9** | Concept | Neural Networks & Image Recognition |
+| F | **Sep 11** | Case (Tools Focus) | Mail Systems; Facial Recognition |
 
 **Due:** Exit ticket ×2 · Reflection 2 (Sun Sep 13) · Responses (Tue Sep 15)
 
@@ -109,9 +137,9 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Sep 14** | Concept | _TBD_ |
-| W | **Sep 16** | Case | _TBD_ |
-| F | **Sep 18** | Studio | Team formation · project overview |
+| M | **Sep 14** | Concept | Transformers & LLMs |
+| W | **Sep 16** | Case (Practice Focus) | Generative AI for writing code |
+| F | **Sep 18** | Studio | Team formation · Project Overview |
 
 **Due:** Exit ticket ×3 · **Teams formed (Fri Sep 18)** · Reflection 3 (Sun Sep 20) · Responses (Tue Sep 22)
 

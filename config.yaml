@@ -7,6 +7,13 @@ caches:
   images:
     dir: :cacheDir/images
 
+markup:
+  goldmark:
+    renderer:
+      # Allow raw HTML in content — needed for the occasional table that
+      # needs explicit column widths (colgroup), which Markdown has no syntax for.
+      unsafe: true
+
 params:
   # dir name of your main content
   contentTypeName: "posts"
