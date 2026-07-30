@@ -6,7 +6,7 @@ weight: 1
 
 # Course Infrastructure Documentation
 
-This is the complete, open-source documentation for the **AI and Society Course** website infrastructure. Everything here is designed to be:
+This is the complete, open-source documentation for the **AI in the Real World Course** website infrastructure. Everything here is designed to be:
 
 - **Accessible** — WCAG AAA compliant
 - **Open source** — MIT licensed, fully transparent

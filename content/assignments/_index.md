@@ -1,69 +1,37 @@
 ---
 title: "Assignments"
-date: 2026-07-29
+date: 2026-07-30
 draft: false
-description: "Exit tickets, weekly reflections, and project milestones for CMSE 101"
+description: "Landing page for CMSE 101 assignments — exit tickets, forum posts, case studies, lesson planning, and the semester case design project"
 tags: ["AI", "society", "assignments", "education"]
 author: "Danny Caballero"
 ---
 
 # Assignments
 
-Three kinds of work, on three different rhythms: **daily**, **weekly**, and **three times a semester**.
+This is the landing page for all assignments in the course. Each assignment type below has its own page with what it is, how it's formatted, and how/where to submit it.
 
-> 📌 Individual assignment pages and rubrics are in progress. See the [schedule](/schedule/) for all dates.
+📌 **This page is tentative.** Grading weights and rubrics for each category live on the [syllabus](/syllabus/) — this page covers the practical side (what to do, when, and where). Several assignment pages below are still placeholders while templates and D2L setup are finalized.
 
----
+## Daily
 
-## 1. Exit Tickets — every class day
+- [Exit Tickets](/assignments/exit-tickets/) — a short in-class response after every meeting
 
-A short in-class response that closes each meeting. Credit-based, low-stakes, 42 of them.
+## Weekly
 
-Exit tickets do double duty: they tell me what landed and what didn't before the next class, and they give you a running record of your own thinking to draw on in the weekly reflection.
+- [Forum Posts](/assignments/forum-posts/) — D2L discussion board post + replies on the week's material
+- [Case Studies](/assignments/case-studies/) — team DTPA case analysis + individual effort report
 
----
+## Occasional / Semester-long
 
-## 2. Weekly Reflections — D2L discussion board
-
-| Piece | Due |
-|-------|-----|
-| Reflection post | Sunday, 11:59 PM |
-| Responses to two classmates | Tuesday, 11:59 PM |
-
-13 reflections across the semester (none during Thanksgiving week). Reflections should engage the week's prep reading and Wednesday's case specifically, and are the main place you'll do the **metacognitive analysis** in the [learning goals](/learning-goals/) — how your own use of and relationship to these systems is shifting.
-
----
-
-## 3. Design Project — teams, three milestones
-
-Teams design a solution *with* AI. Not a hypothetical: a scoped proposal grounded in evidence, analyzed with [DTPA](/learning-goals/), framed with STS resources, and evaluated against ethical frameworks such as the EU AI Act's risk tiers.
-
-| Milestone | Due | Focus |
-|-----------|-----|-------|
-| Teams formed | Fri, Sep 18 | — |
-| **Plan I** | Fri, Oct 2 | Problem, stakeholders, initial DTPA scoping |
-| **Plan II** | Fri, Nov 6 | Evidence base, STS framing, ethical risk analysis |
-| **Plan III** | Fri, Dec 4 | Full draft solution + response to critique |
-| Showcase | Dec 7 & 9 | Team presentations |
-| Final deliverable | Fri, Dec 11 | — |
-
-Friday **studio** sessions are working time for this. Each plan is a revision of the last, not a fresh document — the project accumulates.
+- [Lesson Planning & Leading Class](/assignments/lesson-planning/) — opt-in, once per student
+- [Case Design](/assignments/case-design/) — scaffolded team project, three milestones
 
 ---
 
 ## Submission
 
-- Everything goes through **D2L Brightspace** unless noted otherwise
-- Exit tickets are completed in class
+- Everything goes through **D2L Brightspace** unless noted otherwise on an assignment's page
 - D2L is authoritative for deadlines
 
 📌 **Need accommodations?** Contact your [instructor](mailto:caball14@msu.edu) as early as you can.
-
----
-
-## To Be Determined
-
-- Grading weights across the three categories
-- Reflection drop policy
-- Late and makeup policy for exit tickets
-- Rubrics for each project milestone

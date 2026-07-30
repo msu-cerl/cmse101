@@ -32,9 +32,13 @@ This course will uses a labor and standards-based frame for evaluation. That is,
 
 Each week, there will be outside material for you to read, watch, or listen to (depending on the topic and available material). You are expected to respond to a posed question for that material each week in a roughly 250 word post. This post should be considered a formal response and thus should use evidence from the material you have review (as well as other material you have researched) to respond to the post. We expect that you will use [APA formatting](https://apastyle.apa.org/style-grammar-guidelines/references/examples) for references in those posts.
 
+**Forum posts are completed on D2L.** **(TODO)**
+
 #### Exit Tickets (Expected Engagement)
 
-Your attendance is expected and rewarded. We will use "Exit Tickets" to check in on your thinking after each class. Completing these tickets ensures that we close the loop in the following classes when issues, questions, or concerns arise. It also helps us as instructors make sense of where the class's collective understanding is heading and how to ensure we support each of you in reaching the learning goals. We expect that you will take the Exit Ticketing seriously.
+Your attendance is expected and rewarded. We will use "Exit Tickets" to check in on your thinking after each class. Completing these tickets ensures that we close the loop in the following classes when issues, questions, or concerns arise. It also helps us as instructors make sense of where the class's collective understanding is heading and how to ensure we support each of you in reaching the learning goals. We expect that you will take the Exit Ticketing seriously. 
+
+**Exit tickets are completed on D2L.** **(TODO)**
 
 #### Forum Replies (Deeper Engagement)
 
@@ -42,7 +46,7 @@ Replying to posts in the forum warrant additional credit for your deeper engagem
 
 #### Lesson Planning/Leading Class (Deeper Engagement)
 
-After the first few weeks of class, we will invite groups of students (no more than 4) to plan and lead a lesson. We anticipate this will take four students roughly 10 hours each to plan and lead a class lesson. To do so, you must reach out to your [instructor](mailto:caball14@msu.edu) at least one week prior to your planned lesson. You will be expected to have learning goals, engagement strategies, and appropriate Exit Ticketing for your lesson. 
+After the first few weeks of class, we will invite groups of students (*at least 3, but no more than 4*) to plan and lead a lesson. We anticipate this will take four students roughly 10 hours each to plan and lead a class lesson. To do so, you must reach out to your [instructor](mailto:caball14@msu.edu) at least one week prior to your planned lesson. You will be expected to have learning goals, engagement strategies, and appropriate Exit Ticketing for your lesson. 
 
 Note: _A student may only participate once in this lesson planning, and the schedule might require your lesson to be scheduled later._
 
@@ -71,13 +75,15 @@ Consistent with our labor and standards-based approach, we will assign the follo
 
 ### Case Studies
 
-Each week, we will begin with a particular use case of AI in society. The elements of the case will be presented by the instructor along with any additional information or links that are worth reviewing. 
+Most weeks, we will begin with a particular use case of AI in society. The elements of the case will be presented by the instructor along with any additional information or links that are worth reviewing. 
 
 #### Case Analyses (Expected Engagement)
 
-In class, your group (of up to 4), will dive into this case to analyze it from the DTPA framework answering key questions along the way with evidence. Early on, we will focus on particular components of the DTPA framework (e.g., Data, then Tools, then Practices) to develop a standard for our class on how to collect and evaluate evidence for each component. As class progresses, we will expect you to provide an evaluation of these cases using the full DTPA framework. We also expect you to find additional cases in the same area (e.g., voting, criminal justice, the environment) as part of your team's research to provide a synthesis of uses in that particular area.
+In class, your group (*at least 3, but no more than 4*), will dive into this case to analyze it from the DTPA framework answering key questions along the way with evidence. Early on, we will focus on particular components of the DTPA framework (e.g., Data, then Tools, then Practices) to develop a standard for our class on how to collect and evaluate evidence for each component. As class progresses, we will expect you to provide an evaluation of these cases using the full DTPA framework. We also expect you to find additional cases in the same area (e.g., voting, criminal justice, the environment) as part of your team's research to provide a synthesis of uses in that particular area.
 
-To assist you, we have developed a template for your case study analysis that you will complete each week. We expect that you will again use [APA formatting](https://apastyle.apa.org/style-grammar-guidelines/references/examples) for your analysis. At the end of the week, your group's case analysis is due.
+To assist you, we have developed a [template for your case study analyses with additional instructions](nowhere.com) **(TODO)** that you will complete each week. We expect that you will again use [APA formatting](https://apastyle.apa.org/style-grammar-guidelines/references/examples) in the writeup of your analysis. At the end of the week, your group's case analysis is due.
+
+**Case Analyses are turned in using D2L.** **(TODO)**
 
 #### Individual Effort and Metacognitive Report (Expected Engagement)
 
@@ -86,6 +92,8 @@ For each case analyses, you are expected to complete an effort and metacognitive
 This report will be reviewed along with the reports from other members of the group to ensure that each member is meeting a minimum standard for engagement and to determine if any (or all) members are exceeding those expectations. These reports will ask for you to reflect on your learning around this week's subject matter, what went well, what needs to improve. In addition, we ask that you disclose any use AI in your work.
 
 #### Evaluation
+
+Consistent with our labor and standards-based approach, we will assign the following grades for your Case Studies.
 
 **2.0 — Not meeting expectations**
 - Completing >50% of Case Studies
@@ -104,3 +112,59 @@ This report will be reviewed along with the reports from other members of the gr
 - Completing >90% of Case Studies
 - Completing >90% of Effort Reports
 - Effort Reports suggest consistent exceeding of expectations
+
+### Case Design
+
+The principal assessment for this course is a semester-long, scaffolded case design project. Please [review the template and detailed instructions](nowhere.com) before getting started. **(TODO)** 
+
+You will complete this project in groups of 3 to 4 students. Your chosen topic must be substantial enough in scope to warrant a group effort.
+
+Guided by the DTPA framework, your team will conduct research and document evidence to develop one of the following two cases:
+
+> **I. Proactive AI Solution**: A proposed AI application that directly addresses a societal issue while maintaining transparency around its biases, ethical boundaries, and real-world impact on communities.
+
+> **II. Targeted AI Restriction**: A proposed limit, safeguard, or policy constraint on an AI system where its deployment poses documented or predictable harm—including algorithmic bias, ethical risks, or adverse community impacts. 
+
+Your case design must be grounded in robust evidence, drawing from sources such as peer-reviewed academic journals, scientific reports, news coverage, empirical research studies, economic projections, or historical documentation. This evidence should be documented with [APA formatting](https://apastyle.apa.org/style-grammar-guidelines/references/examples).
+
+You will have two assignments prior to completing your final case study. These assignments will scaffold the final case study. For each of these assignments you will receive feedback from your instructor. In the assignment that follows these assignments (i.e., the second scaffold and the final case study), you will need to respond directly to the instructor feedback in a separate document. 
+
+You should anticipate that the each assignment will have a minimum word limit of 500, 1000, and 2000 words respectively (not including the separate response to feedback).
+
+
+#### Evaluation
+
+Consistent with our labor and standards-based approach, we will assign the following grades for your Case Design.
+
+**2.0 — Not meeting expectations**
+- Completing Final Case Design 
+- Completing Both Scaffolding Assignments
+
+**3.0 — Meeting expectations**
+- Completing Final Case Design
+- Completing Both Scaffolding Assignments
+
+**3.5 — Exceeding expectations**
+- Completing Final Case Design
+- Completing Both Scaffolding Assignments
+- Responding to Both Scaffolding Feedbacks
+
+**4.0 — Deep engagement**
+- Completing Final Case Design
+- Completing Both Scaffolding Assignments
+- Responding to Both Scaffolding Feedbacks 
+    - And providing direct evidence of decision making, changes, and problems resolved
+
+## Grade Calculation
+
+Your final grade consists of a weighted average of the Course Components.
+
+* Class Engagement - 40%
+* Case Studies - 30%
+* Case Design - 30%
+
+Your letter grade will be determined by rounding to the nearest 0.5, resulting in the following cutoffs:
+
+| Earned Grade | 4.0 | 3.5 | 3.0 | 2.5 | 2.0 | 1.5 | 1.0 | 0.0 |
+|--------------|-----|-----|-----|-----|-----|-----|-----|-----|
+| Score Range  | > 3.75 | 3.74... - 3.25 | 3.24... - 2.75 | 2.74... - 2.25| 2.24... - 1.75 | 1.74... - 1.25 | 1.24 - 0.75 | < 0.75 |
