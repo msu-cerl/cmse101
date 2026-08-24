@@ -1,33 +1,7 @@
+{{/* This site is course documentation, not a blog: no byline, tags, reading time, or comments on regular pages. */}}
 {{ define "main" }}
 <article class="post">
-  <h1 class="post-title">
-    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
-  </h1>
-  <div class="post-meta">
-    {{- if .Date -}}
-      <time class="post-date">
-        {{- partial "post-date" . -}}
-        {{- if and $.Site.Params.showLastUpdated .Lastmod -}}
-          &nbsp;{{- partial "post-lastmod" . -}}
-        {{- end -}}
-      </time>
-    {{- end -}}
-    {{- with .Params.Author -}}
-      <span class="post-author">{{ . }}</span>
-    {{- end -}}
-    <!-- UDL: Always show reading time and word count -->
-    <span class="post-reading-time">{{ .ReadingTime }} {{ $.Site.Params.minuteReadingTime | default "min read" }}</span>
-    <span class="post-word-count">({{ .WordCount }} {{ $.Site.Params.words | default "words" }})</span>
-  </div>
-
-  {{ if .Params.tags }}
-    <span class="post-tags">
-      {{ range .Params.tags }}
-      #<a href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">{{ . }}</a>&nbsp;
-      {{ end }}
-    </span>
-  {{ end }}
-  {{ partial "cover.html" . }}
+  <h1 class="post-title">{{ .Title | markdownify }}</h1>
 
   {{ if (.Params.Toc | default .Site.Params.Toc) }}
     <div class="table-of-contents">
@@ -45,13 +19,5 @@
       </div>
     {{- end -}}
   </div>
-
-  {{ if eq .Type $.Site.Params.contentTypeName }}
-    {{ partial "posts_pagination.html" . }}
-  {{ end }}
-
-  {{ if not (.Params.hideComments | default false) }}
-    {{ partial "comments.html" . }}
-  {{ end }}
 </article>
 {{ end }}

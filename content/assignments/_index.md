@@ -34,4 +34,6 @@ This is the landing page for all assignments in the course. Each assignment type
 - Everything goes through **D2L Brightspace** unless noted otherwise on an assignment's page
 - D2L is authoritative for deadlines
 
-📌 **Need accommodations?** Contact your [instructor](mailto:caball14@msu.edu) as early as you can.
+📌 **Need accommodations?** Contact [Danny](mailto:caball14@msu.edu) as early as you can.
+
+---

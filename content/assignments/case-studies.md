@@ -8,7 +8,6 @@ tags: ["AI", "society", "assignments", "education"]
 author: "Danny Caballero"
 ---
 
-# Case Studies  
 
 Most weeks begin with a particular AI‑in‑society use case presented by the instructor. In class, your group (3–4 students) analyzes the case using the **[DTPA framework](/learning-goals/)**, answering key questions with evidence. Early on, groups focus on one component of DTPA at a time (Data → Tools → Practices); later, groups apply the full framework and are expected to locate additional, related cases (e.g., voting, criminal‑justice, environment) to synthesize across uses.
 

@@ -81,3 +81,5 @@ At present, AI is booming in its applications across various sectors. We will an
 ### Where are we going?
 
 The future of AI is exciting, anxiety-inducing, and uncertain. We will explore emerging trends, potential future applications, and the societal implications of these technologies. This forward-looking approach will encourage you to think critically about the role of AI in shaping our world and to consider how you can contribute to its responsible development and deployment.
+
+---

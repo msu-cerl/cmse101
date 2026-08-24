@@ -88,7 +88,11 @@ languages:
         - identifier: "assignments"
           name: "Assignments"
           url: "/assignments/"
-          weight: 45
+          weight: 30
+        - identifier: "resources"
+          name: "Resources"
+          url: "/resources/"
+          weight: 40
         # - identifier: "documentation"
         #   name: "Site Docs"
         #   url: "/documentation/"

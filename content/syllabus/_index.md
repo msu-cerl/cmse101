@@ -197,3 +197,5 @@ Consistent with our labor and standards-based approach, we will assign the follo
 - Responding to Both Scaffolding Feedbacks (providing direct evidence of decision making, changes, and problems resolved) *and*
 - Completing Classroom Showcase *and*
 - Completing Final Case Design (providing direct evidence of decision making, changes, and problems resolved after Classroom Showcase)
+
+---

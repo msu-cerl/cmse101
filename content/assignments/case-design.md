@@ -8,8 +8,6 @@ tags: ["AI", "society", "assignments", "education"]
 author: "Danny Caballero"
 ---
 
-# Case Design
-
 * **Students:** Teams of 3-4
 * **Framework:** Data-Tools-Practices-Actions (DTPA)
 
