@@ -1,6 +1,6 @@
 ---
 title: "Forum Posts"
-date: 2026-07-30
+date: 2026-08-24
 draft: false
 weight: 20
 description: "Weekly D2L discussion board post and replies on the week's material"
@@ -10,27 +10,10 @@ author: "Danny Caballero"
 
 # Forum Posts
 
-Each week there's outside material to read, watch, or listen to. You respond to a posed question about that material in a roughly 250-word post, using evidence from the material (and your own research) with [APA formatting](https://apastyle.apa.org/style-grammar-guidelines/references/examples). This is also the main place you'll do the **metacognitive analysis** described in the [learning goals](/learning-goals/) — how your own use of and relationship to these systems is shifting.
+Each week there's outside material to read, watch, or listen to. You respond to a posed question about that material in a roughly 250-word post, using evidence from the material and your own research, cited in [APA format](https://apastyle.apa.org/style-grammar-guidelines/references/examples). This is also the main place you'll do the metacognitive analysis described in the [learning goals](/learning-goals/): how your own use of, and relationship to, these systems is shifting.
 
-Replying to classmates' posts (Forum Replies) is a deeper-engagement option: same evidence-and-citation expectations as the original post, civil and grounded in documentable research.
+> **Forum posts are due on D2L before the first day of class each week (Sunday at 11:59pm).**
 
-## Format
+Replying to classmates' posts is a deeper-engagement option, held to the same evidence-and-citation standard as the original post. Replies must be civil and grounded in documentable research; a reactionary or inflammatory reply means a required meeting with me.
 
-- ~250 words per post, APA-formatted evidence
-- Replies held to the same standard as the original post
-
-## Rhythm
-
-- Weekly (**TBD**: exact day/time for post and reply deadlines — carried over from an earlier draft as Sunday 11:59 PM post / Tuesday 11:59 PM replies, needs confirming)
-
-## Submission
-
-- **D2L Brightspace** discussion board
-- **(TODO)** Confirm D2L forum setup
-
-📌 See the [syllabus](/syllabus/#class-engagement) for how Forum Posts and Forum Replies factor into your Class Engagement grade.
-
-## To Be Determined
-
-- Confirmed due days/times
-- Drop policy (if any) across the semester
+Meeting expectations means posting consistently at or above the standard. Exceeding expectations also means replying to four forum posts over the semester. See the [syllabus](/syllabus/#class-engagement) for the full Class Engagement breakdown.
