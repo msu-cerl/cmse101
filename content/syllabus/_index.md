@@ -17,9 +17,9 @@ This course will cover a range of topics related to AI, some of which may be sen
 
 **That is completely OK.**
 
-We are aiming to create a space where we can explore these topics together, and we will strive to create a respectful and inclusive learning environment. Please approach the material with an open mind and be prepared to engage in thoughtful discussions. The DTPA framework will help you analyze the material in a structured way with a common vocabulary. We will also provide opportunities for you to reflect on your own perspectives and experiences, and to consider how they may influence your understanding of the material.
+We are aiming to create a space where we can explore these topics together and agree on a shared set of facts using the DTPA framework. We will strive to create a respectful and inclusive learning environment. Please approach the material with an open mind and be prepared to engage in thoughtful discussions. The DTPA framework will help you analyze the material in a structured way with a common vocabulary. We will also provide opportunities for you to reflect on your own perspectives and experiences, and to consider how they may influence your understanding of the material.
 
-Lastly, this material is actively affecting your life and the lives of those around you, and it is important to approach it with care and consideration. If you have any concerns about the material, please reach out to your [instructor](mailto:caball14@msu.edu).
+Lastly, this material is actively affecting your life and the lives of those around you, and it is important to approach it with care and consideration. If you have any concerns about the material, please reach out to [Danny](mailto:caball14@msu.edu).
 
 ## Course Components
 
