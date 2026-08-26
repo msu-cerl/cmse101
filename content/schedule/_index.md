@@ -9,78 +9,14 @@ author: "Danny Caballero"
 
 # Schedule — Fall 2026
 
-* **Meets:** Monday / Wednesday / Friday
-* **First class:** Monday, August 31, 2026
-* **Last class:** Friday, December 11, 2026
-
-> 📌 This is a planning skeleton. Every date is fixed; topics are placeholders (`_TBD_`) until the reading list and use-case sequence are set.
-
----
-
-## How a Week Works
-
-This will be our pacing after the first few weeks.
-
-<table style="table-layout: fixed; width: 100%;">
-  <colgroup>
-    <col style="width: 15%">
-    <col style="width: 15%">
-    <col style="width: 70%">
-  </colgroup>
-  <thead>
-    <tr>
-      <th style="text-align: center;">Day</th>
-      <th>Role</th>
-      <th>What happens</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center;"><strong>Monday</strong></td>
-      <td><strong>Concept</strong></td>
-      <td>Unpack the mechanics behind the week's prep reading — the <em>logic of the machine</em>. What is this system? What can it do? What can't it?</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;"><strong>Wednesday</strong></td>
-      <td><strong>Case</strong></td>
-      <td>Take a real deployment through the <a href="/learning-goals/">DTPA framework</a>: Data → Tools → Practices → Actions. Evidence-driven, from primary and secondary sources.</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;"><strong>Friday</strong></td>
-      <td><strong>Studio</strong></td>
-      <td>Team work on the design project. Peer review, milestone progress, applying STS resources and ethical frameworks to your own proposal.</td>
-    </tr>
-  </tbody>
-</table>
-
-**Every class day:** an **[exit ticket](../assignments/exit-tickets.md)** for credit — a short in-class response that closes the day and seeds Friday's studio and the weekly reflection.
-
-**Every week:** a **prep "reading"** to complete *before Monday*, and a **weekly reflection** posted to the D2L discussion board with peer responses. 
-> We put "reading" in quotes because we anticipate some of the preparatory material will be videos or podcast episodes.
-
-### Recurring deadlines
+## Recurring deadlines
 
 | What | When | Where |
 |------|------|-------|
-| Prep reading | Before Monday's class | — |
-| Exit ticket | End of each class meeting | In class |
-| Reflection post | Sunday, 11:59 PM | D2L discussion |
-| Peer responses (2) | Tuesday, 11:59 PM | D2L discussion |
-
----
-
-## Project Milestones
-
-Teams design a solution *with* AI, grounded in DTPA, evidence, STS resources, and ethical frameworks (e.g. the EU AI Act risk tiers).
-
-| Milestone | Due | Week |
-|-----------|-----|:----:|
-| Teams formed | Fri, Sep 18 | 3 |
-| **Project Plan I** — problem, stakeholders, initial DTPA scoping | Fri, Oct 2 | 5 |
-| **Project Plan II** — evidence base, STS framing, ethical risk analysis | Fri, Nov 6 | 10 |
-| **Project Plan III** — full draft solution + critique response | Fri, Dec 4 | 14 |
-| Showcase presentations | Mon Dec 7 & Wed Dec 9 | 15 |
-| Final deliverable | Fri, Dec 11 | 15 |
+| Prep reading and Forum Post | Typically before Monday's class | Excludes week 1; D2L discussion board |
+| Peer responses to Forum Post (if desired) | Thursdays, 11:59 PM | Excludes week 1; D2L discussion board |
+| Exit ticket | End of each class meeting | In class Monday, Wednesday, Friday |
+| Case Study (group) and Reflection post (individual) | Sundays, 11:59 PM | D2L assignments |
 
 ---
 
@@ -90,35 +26,52 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 | Unit | Weeks | Question |
 |------|:-----:|----------|
-| I | 1–5 | **Where have we been?** Foundations, mechanics, and the history that produced these systems |
-| II | 6–10 | **Where are we now?** Contemporary deployments, domain by domain |
+| I | 1–4 | **Where have we been?** Foundations, mechanics, and the history that produced these systems |
+| II | 5–10 | **Where are we now?** Contemporary deployments, domain by domain |
 | III | 11–15 | **Where are we going?** Futures, governance, and your own proposals |
 
-> Unit boundaries are a first draft — move them as the topic sequence firms up.
+> Unit boundaries are a first draft — we might move them as the topic sequence firms up.
 
 ---
 
 ## Week by Week
 
 ### Week 1 · Aug 31 – Sep 4
+
 *Unit I — Where have we been?*
 
-**Prep reading:** _TBD_ — course framing, no reading due before day one
+**Prep reading & resources (Complete by Friday, Sep 4):** 
+
+*You do not individually have to review all materials. We expect that you will spend at least 90 minutes with these materials. Groups can discuss how to ensure all posted materials are reviewed each week.*
+* 📖 [What The Census Calls Us](https://www.pewresearch.org/social-trends/feature/what-census-calls-us/) (Pew Research Center) — interactive timeline of every race/ethnicity category, 1790–2020. Watch for categories that appear and then vanish. Note that until 1950 the census taker decided your race for you and it was not until 2000 that could you pick more than one.
+* 📺 [Why Does the Government Care About Race?](https://www.youtube.com/watch?v=WwQvGgyXtg8) (PBS Origins, 2019) — covers "mulatto" being added in 1850 at the request of racial scientist [Josiah Nott](https://en.wikipedia.org/wiki/Josiah_C._Nott), who hoped to use it to prove false theories about biological difference (9 min).
+* 🎧 [A Race To Know](https://www.npr.org/2020/04/01/825227253/a-race-to-know) (Throughline, National Public Radio, April 2, 2020) — the census isn't just a set of questions, it's a statement. Some historians argue it helps form notions of racial hierarchy (40 min).
+* 📖 [W.E.B. Du Bois' hand-drawn charts from 1900 show the story of Black Americans through data](https://usafacts.org/articles/web-du-bois-hand-drawn-data-visualizations-black-americans/) (USAFacts, 2021) — data and visualizations of these data collected by American sociologist [W.E.B. Du Bois](https://en.wikipedia.org/wiki/W._E._B._Du_Bois). He and his students at Atlanta University built roughly 60 hand-drawn charts for the 1900 Paris World's Fair out of US Census and Bureau of Labor numbers. Thi was the same federal data others were using to argue the opposite conclusion. This is mostly pictures and quick to review.
+* 📖 [W.E.B. Du Bois' Visionary Infographics Come Together for the First Time in Full Color](https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/) (Mansky for *Smithsonian Magazine*, 2018) — the story of Du Bois's data collection practices. "Du Bois's charts" were made by a whole network of Black students, alumni, and field researchers across the South.
+* 📺 [Hidden Barriers: Health Care's Invisible Minority](https://www.pbs.org/video/model-minority-mlult7/) (Cascade PBS, 2021) — the aggregation problem made clear. Asian Americans are often perceived as wealthier, better educated, and healthier than other minority groups, but that preconception hides disparities that are in some cases worse than any other racial group's. Watch for how a single "healthier than average" number gets built, and who it makes invisible (7 min).
+* 📖 [Income Inequality in the U.S. Is Rising Most Rapidly Among Asians](https://www.pewresearch.org/social-trends/2018/07/12/income-inequality-in-the-u-s-is-rising-most-rapidly-among-asians/) (Pew Research Center, 2018) — this describes what a single checkbox can hide. In 2015, the share of adults with a bachelor's degree inside the "Asian" category ran from 72% (Indian) down to 9% (Bhutanese), and median household income from $100,000 down to $36,000. Between 1970 and 2016 the group went from one of the most economically equal in the country to the most unequal. The category name stayed the same.
+* 📖 [Income inequality is greater among Chinese Americans than any other Asian origin group in the U.S.](https://www.pewresearch.org/short-reads/2024/05/31/income-inequality-is-greater-among-chinese-americans-than-any-other-asian-origin-group-in-the-us/) (Pew Research Center, 2024) — short follow-up showing the same aggregation problem, but one level down. After you split "Asian" into origin groups, the gaps observed inside those groups remain large.
+* 📖 [How data disaggregation matters for Asian Americans and Pacific Islanders](https://equitablegrowth.org/how-data-disaggregation-matters-for-asian-americans-and-pacific-islanders/) (Washington Center for Equitable Growth, 2016) — collection of four charts that makes the structural version of the aggregation argument. Reporting one median income for a category containing 50+ ethnic groups doesn't just simplify the picture, it actively conceals inequities that policy would otherwise have to address.
+* 📖 [Who is Hispanic?](https://www.pewresearch.org/short-reads/2024/09/12/who-is-hispanic/) (Pew Research Center, 2024) — the Census Bureau treats "Hispanic" as an ethnicity, not a race, so it isn't an option on the race question. In the 2022 ACS, 22.5 million Hispanics answered "some other race," mostly by writing in a nationality. Meanwhile only 17% of Hispanic adults say being Hispanic is mainly about race; 42% say it's mainly about culture.
+* 🎧 [Puerto Rico, Island Of Racial Harmony?](https://www.npr.org/2020/04/23/842832544/puerto-rico-island-of-racial-harmony) (Code Switch, National Public Radio, April 24, 2020) — reporter Adrian Florido opens by asking his co-hosts to guess what share of Puerto Ricans identified as white alone on the 2000 census. Both guess low; the answer is 81%. The 2000 count was the first time the island got the race question at all. For the previous fifty years, Puerto Rico used a local form that didn't ask the question (33 min).
+* 📖 [Shedding Light on Race Reporting Among Hispanics](https://www.census.gov/newsroom/blogs/random-samplings/2014/03/shedding-light-on-race-reporting-among-hispanics.html) (United States Census Bureau, 2014) — the government's own analysis of the same issue. More than 43% of Hispanics who self-reported their origin in 2010 did not fit into any federally recognized race group. The agency documented the mismatch and kept the form.
+* 📖 [Who Is 'Some Other Race,' the Second-Largest Racial Group in Massachusetts?](https://www.bostonindicators.org/article-pages/2022/april/some-other-race-census-20220426) (Shuster for Boston Indicators, 2022) — what happens to your answers *after* you submit them. If you check "White" and write in "Mexican," the Bureau's processing rules may record you as two races even though you selected one. 
+
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Aug 31** | Introduction to CMSE 101 | Discuss Course Syllabus; Answer Questions |
-| W | **Sep 2** | Concept | Data Collection and Encoding |
+| M | **Aug 31** | Introduction to CMSE 101 | Discuss Course Syllabus; Answer Questions; Group Activity |
+| W | **Sep 2** | Concept & Case | Data Collection and Encoding; Census of Populations; W.E.B Dubois |
 | F | **Sep 4** | Case (Data Focus) | Census of Populations; W.E.B Dubois |
 
-**Due:** Exit ticket ×3 · Reflection 1 (Sun Sep 6) · Responses (Tue Sep 8)
+**Due:** Exit ticket ×3 · Week 1 Case Study & Week 1 Reflection (Sun Sep 6)
 
 ---
 
 ### Week 2 · Sep 7 – 11
-*Unit I*
+*Unit I — Where have we been?*
 
-**Prep reading (before Wed):** _TBD_
+**Prep reading & resources (Complete by Wed, Sep 9):** _TBD_
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
@@ -126,10 +79,11 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 | W | **Sep 9** | Concept | Neural Networks & Image Recognition |
 | F | **Sep 11** | Case (Tools Focus) | Mail Systems; Facial Recognition |
 
-**Due:** Exit ticket ×2 · Reflection 2 (Sun Sep 13) · Responses (Tue Sep 15)
+**Due:** Exit ticket ×2 · Forum Post (Tue Sep 8) · Week 2 Case Study & Week 2 Reflection (Sun Sep 13) · Forum Replies (Thu Sep 10)
 
 ---
 
+<!--- 
 ### Week 3 · Sep 14 – 18
 *Unit I*
 
@@ -325,33 +279,4 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 ---
 
-## Calendar Notes
-
-**No-class days** (3 meetings lost from 45):
-
-| Date | Reason |
-|------|--------|
-| Mon, Sep 7 | Holiday — University closed |
-| Mon, Oct 26 | Fall Break (Oct 26–27) |
-| Fri, Nov 27 | Holiday — University closed |
-
-**Weeks that lose their Monday** (2 and 9) compress Concept + Case into Wednesday and keep Friday studio intact, so project rhythm never breaks.
-
-**Week 13** loses Friday, so studio moves to Wednesday Nov 25.
-
----
-
-## Still To Decide
-
-- [ ] Prep reading for each week
-- [ ] Which of the [28 use cases](/use-cases/) anchor each Wednesday — 12 Case days + 2 compressed = ~14 slots for 11 domains
-- [ ] Which cross-cutting themes get named Concept days
-- [ ] Whether the ethical frameworks unit (EU AI Act risk tiers, etc.) is its own week or threaded through
-- [ ] Exit ticket mechanism — paper, D2L quiz, or form
-- [ ] Grading weights: exit tickets / reflections / three project plans / final deliverable
-- [ ] Reflection drop policy (drop lowest 1–2 of 13?)
-- [ ] Late/makeup policy for exit tickets
-
----
-
-**Note:** Dates are fixed against the MSU Fall 2026 calendar. Topics may shift. D2L is authoritative for deadlines.
+--->
