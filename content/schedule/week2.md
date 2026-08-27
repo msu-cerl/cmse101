@@ -171,3 +171,5 @@ Each of you also submits an **Individual Effort & Metacognitive Report** (~250 w
 Put your group's names at the top of the page, and do not copy from or to other groups' Case Studies.
 
 Case Studies that do not meet the standard will be returned without credit, and your group will have one week from receiving it to revise and meet the standard.
+
+---

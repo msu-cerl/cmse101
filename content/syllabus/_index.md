@@ -53,6 +53,12 @@ Your letter grade will be determined by rounding to the nearest 0.5, resulting i
 
 # Class Engagement
 
+Each component of Class Engagement will be equally weighted. Final letter grades will be determined as indicated below.
+
+## Class Attendance (Expected Engagement)
+
+Each class is important to engage with. As you work on your case analyses each day, we will take attendance and include that in your Class Engagement grade. 
+
 
 ## Forum Posts (Expected Engagement)
 
@@ -88,29 +94,33 @@ After the first few weeks of class, we will invite groups of students (*at least
 Consistent with our labor and standards-based approach, we will assign the following grades for your Class Engagement.
 
 **2.0 — Not meeting expectations**
-- Completing >50% of Exit Tickets at/above the standard
-- Completing >50% of Forum Posts at/above the standard
+- Earning more than 50% on Class Attendance
+- Earning more than 50% on Exit Tickets
+- Earning more than 50% on Forum Posts
 
 **3.0 — Meeting expectations**
-- Completing >75% of Exit Tickets at/above the standard
-- Completing >75% of Forum Posts at/above the standard
+- Earning more than 75% on Class Attendance
+- Earning more than 75% on Exit Tickets
+- Earning more than 75% on Forum Posts
 
 **3.5 — Exceeding expectations**
-- Completing >90% of Exit Tickets at/above the standard
-- Completing >90% of Forum Posts at/above the standard
-- Replying to 4 Forum Posts at/above the standard
+- Earning more than 90% on Class Attendance
+- Earning more than 90% on Exit Tickets
+- Earning more than 90% on Forum Posts
+- Replying to 4 Forum Posts
 
 **4.0 — Deep engagement**
-- Completing >90% of Exit Tickets at/above the standard
-- Completing >90% of Forum Posts at/above the standard
-- Replying to 4 Forum Posts at/above the standard
+- Earning more than 90% on Class Attendance
+- Earning more than 90% on Exit Tickets
+- Earning more than 90% on Forum Posts
+- Replying to 4 Forum Posts
 - Leading a Class
 
 ---
 
 # Case Studies
 
-Most weeks, we will begin class with a particular use case of AI in society. The elements of the case will be provided by the instructor along with any additional information or links that are worth reviewing at least one week prior. 
+Most weeks, we will begin class with a particular use case of AI in society. The elements of the case will be provided by the instructor along with any additional information or links that are worth reviewing at least one week prior. Each component of your Case Studies grade will be equally weighted.
 
 ## Case Analyses (Expected Engagement)
 
@@ -135,22 +145,22 @@ This report will be reviewed along with the reports from other members of the gr
 Consistent with our labor and standards-based approach, we will assign the following grades for your Case Studies.
 
 **2.0 — Not meeting expectations**
-- Completing >50% of Case Studies at/above the standard
-- Completing >50% of Effort Reports at/above the standard
+- Earning >50% on Case Studies 
+- Earning >50% on Effort Reports 
 
 **3.0 — Meeting expectations**
-- Completing >75% of Case Studies at/above the standard
-- Completing >75% of Effort Reports at/above the standard
+- Earning >75% on Case Studies 
+- Earning >75% on Effort Reports 
 
 **3.5 — Exceeding expectations**
-- Completing >90% of Case Studies at/above the standard
-- Completing >90% of Effort Reports at/above the standard
-- Effort Reports suggest intermittent exceeding of expectations and/or deep reflection
+- Earning >90% on Case Studies 
+- Earning >90% on Effort Reports 
+- Effort Reports suggest **intermittent** exceeding of expectations and/or deep reflection
 
 **4.0 — Deep engagement**
-- Completing >90% of Case Studies at/above the standard
-- Completing >90% of Effort Reports at/above the standard
-- Effort Reports suggest consistent exceeding of expectations and/or deep reflection
+- Earning >90% on Case Studies
+- Earning >90% on Effort Reports
+- Effort Reports suggest **consistent** exceeding of expectations and/or deep reflection
 
 ---
 

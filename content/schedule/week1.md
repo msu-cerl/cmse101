@@ -99,3 +99,5 @@ Make sure to put your group's names at the top of the page for your Case Study, 
 Case Studies that do not meet the standard will be returned without credit, and your group will have one week from receiving it to revise and meet the standard. Revision is expected and normal, especially in week one — this is a new format for everyone.
 
 *As we move forward, Case Studies will require more elements, so you might have to complete them as out-of-class homework assignments.*
+
+---
