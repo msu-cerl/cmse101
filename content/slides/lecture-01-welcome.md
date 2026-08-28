@@ -11,20 +11,8 @@ paginate: true
 # AI in the Real World
 ## Data, Power, & Society
 
-**CMSE 101 • Fall 2026**
-Danny Caballero
-
-<!--_speaker_note:
-Welcome students on the first day. This is your chance to set the tone for the entire course. 
-
-Key points to hit:
-- You're teaching a general education course about AI
-- No programming required—this is about critical thinking
-- This course is part of their general education, so frame it as relevant to their lives
-- Get people energized but grounded in what this course actually is
-
-Introduce yourself briefly. Let them know you're excited to teach this, but the work is theirs to do. The course is designed around their engagement and effort, not lecturing.
--->
+**CMSE 492 (aka CMSE 101) • Fall 2026**
+Prof. Danny Caballero
 
 ---
 
@@ -36,28 +24,21 @@ You will not learn to build AI systems.
 
 **Instead, you will learn to evaluate, question, and push back on them.**
 
-<!--_speaker_note:
-This distinction matters because students often come in worried about math or programming. Reassure them: we're focused on critical thinking, not technical depth.
+This class aims to help you become a **Critical Pragmatist** when it comes to AI.
 
-This frames the course as practical and immediately relevant: everyone will work alongside AI. The skills they're building are literacy and judgment, not engineering.
--->
 
 ---
 
-# Why This Course?
+# Why This CMSE 492 (aka 101)?
 
 By the time you graduate:
-- **You will work with AI systems.** Probably many of them.
+- **You will work with AI systems.** Probably with many of them.
 - **You will make decisions about AI.** How to use it, when to trust it, whether it should be used at all.
+- **Forms of AI will be a part of your everyday life** From websites to software to vehicles to appliances.
 - **Others will ask your opinion.** "Does this AI system seem fair to you?" "Should we deploy this?" "Do you trust it?"
 
 **This course prepares you to answer those questions with evidence, not intuition.**
 
-<!--_speaker_note:
-Anchor the course in their future. This isn't abstract philosophy—it's career prep. In five years, they'll be in meetings where these questions come up. This class teaches them how to think through them systematically.
-
-Point out that the questions are real. Their employers, families, and communities will be grappling with AI decisions. They'll have skills others don't have after this course.
--->
 
 ---
 
@@ -68,39 +49,41 @@ This course covers topics related to AI that may be:
 - **Controversial** (regulation, job displacement, autonomy)
 - **Uncertain** (AI's future role, long-term impacts)
 
-Each of you has **different experiences and perspectives.**
+It's also going to touch on issues that affect people differently whether that be **gender**, **race**, **ethnicity**, **class**, **disability**, or **immigration status**.
 
-**We will not all agree. That's completely okay.**
+* We are all affected by AI and more connected to each other than we realize. 
 
-<!--_speaker_note:
-Set the classroom culture from the start. Make it explicit:
-- Disagreement is healthy and expected
-- We're grounded in evidence and research, not ideology
-- You create a space where people feel safe to think out loud
-- This isn't a debate club; we're not trying to "win"
+* Each of you has **different biases, experiences, and perspectives.** That includes me.
 
-Call out that their perspective matters. A student in this room might have been harmed by an AI system. Another might use one daily. Both are valid starting points, and we build from there.
--->
+**We will not all agree. That's completely okay.** But we will listen and hear with humanity.
+
 
 ---
 
 # Our Shared Framework: DTPA
 
-We use **one vocabulary to analyze everything**: the Data-Tools-Practices-Actions framework.
+We use **one vocabulary to analyze everything**. 
 
-Instead of each person bringing their own lens, we all speak the same language.
+## The Data-Tools-Practices-Actions Framework
+
+Instead of each person bringing their own lens, we will strive to speak the same language.
 
 This lets us **disagree on conclusions** while **agreeing on facts.**
 
-<div class="emphasize">
-**By the end of the course, you'll be fluent in DTPA analysis.** It's your toolkit for evaluating *any* AI system.
-</div>
+
+> **By the end of the course, you'll be fluent in DTPA analysis.** It can be your  *starting* toolkit for evaluating *any* AI system.
 
 <!--_speaker_note:
 Introduce DTPA as the binding agent of the course. It's not dogma—it's a method. Explain that having shared language makes disagreements productive instead of chaotic.
 
 Tell them: "When you leave here, this framework travels with you. You'll use it in job interviews, in meetings, in conversations with friends."
 -->
+
+---
+
+# The DTPA Framework
+
+![DTPA Framework w:900](./images/dtpa.png)
 
 ---
 
@@ -130,47 +113,47 @@ Emphasize: DTPA isn't about whether something is "good" or "bad." It's about see
 
 ---
 
-# The Four Pillars of AI Literacy
-
-### **Data Literacy**
-You won't just see a spreadsheet. You'll see the labor of the people who labeled it and whose experiences are missing.
-
-### **Quantitative Literacy**
-You'll recognize when fancy math is masking a lack of evidence. You'll understand what algorithms can and can't do.
-
-### **Ethical Literacy**
-You'll move beyond "right vs. wrong" to ask: *Who is protected? Who is targeted? What incentives does this create?*
-
-### **Critical Literacy**
-You'll challenge the narrative that AI is inevitable. You'll ask: *Why this system, right now, for whom?*
-
-<!--_speaker_note:
-These four literacies are the depth markers of the course. When you assess their work, you're assessing growth in these areas.
-
-Make the connection to their lives:
-- Data Literacy: Your social media feed is shaped by data about you
-- Quantitative Literacy: Credit scores and loan decisions are quantitative claims
-- Ethical Literacy: Resume screening algorithms have winners and losers
-- Critical Literacy: AI companies want you to believe AI is inevitable—is it?
-
-End with: "By the end of the semester, you'll see the world through these lenses automatically. You'll be the person in the room who asks the right questions."
--->
-
----
-
 # Course Structure
 
 **Three main components grade you:**
 
 1. **Class Engagement (40%)**
-   - Forum posts + replies (~250 words each)
-   - Exit tickets (after every class)
-
 2. **Case Studies (30%)**
-   - Analyze AI systems using DTPA each week
-   - Reflect on your own learning and effort
-
 3. **Case Design (30%)**
+
+Your letter grade will be determined by the following cutoffs:
+
+| Earned Grade | 4.0 | 3.5 | 3.0 | 2.5 | 2.0 | 1.5 | 1.0 | 0.0 |
+|--------------|-----|-----|-----|-----|-----|-----|-----|-----|
+| Score Range  | > 3.75 | 3.74... - 3.25 | 3.24... - 2.75 | 2.74... - 2.25| 2.24... - 1.75 | 1.74... - 1.25 | 1.24 - 0.75 | < 0.75 |
+
+---
+
+# 1. Class Engagement (40%)
+
+**Each component counts equally towards your grade.**
+
+- Daily Class Attendance
+   - Being attendant is important; we will use lots of group work and being present for your group matters
+- Forum posts (weekly) + replies (~250 words each)
+   - Posts are expected in response to prompts every week; APA formatting required; Forum replies earn "Deeper Engagement" credit
+- Exit tickets (after every class, ~100 words each)
+   - Each class you will debrief before 5pm; this can also be a place to tell me how you are doing with the material or how things went today
+
+---
+
+# 2. Case Studies (30%)
+
+**Each component counts equally towards your grade.**
+
+- Case Studies
+   - Analyze AI systems using DTPA each week as a group; turn in your weekly report by Sunday 11:59pm
+- Individual & Metacognitive Report (~250 words)
+   - Reflect on your own learning and effort; bring your values into what we just completed; turn in your report by Sunday 11:59pm
+
+---
+
+# 3. Case Design (30%)**
    - Semester-long project: research & design an AI policy or application
    - Two scaffolded assignments + final showcase
 
@@ -179,6 +162,7 @@ Ground them in the structure so they know what to expect. Emphasize that engagem
 
 The scaffolding is intentional: they're not expected to produce a 3000-word case design in week 3. You build up to it with feedback.
 -->
+
 
 ---
 
