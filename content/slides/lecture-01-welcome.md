@@ -42,6 +42,27 @@ By the time you graduate:
 
 ---
 
+# Who are your instructors?
+
+**Prof. Danny Caballero (he/they)** - Physics & Astronomy; CMSE; CREATE for STEM
+
+* Lappan-Phillips Professor of Math and Science Education
+* Co-direct two research labs (in Physics & Computational Science Education)
+* BS Physics, Texas; MS & PhD Physics, Georgia Tech; Postdoc Physics Education, CU-Boulder
+* Former custodian, copy shop manager, high school physics teacher in Atlanta Public Schools
+* Labor organizer for the Union of Tenure System Faculty (UTSF-MSU)
+* Starting my 14th year at MSU **(Go Green!)**
+ 
+> If you are comfortable, please call me "Danny", but Prof. Caballero is fine, too.
+
+---
+
+# Who are your instructors?
+
+**Jorge Martinez-Ortiz** - CMSE
+
+---
+
 # A Note on the Material
 
 This course covers topics related to AI that may be:
@@ -133,11 +154,11 @@ Your letter grade will be determined by the following cutoffs:
 
 **Each component counts equally towards your grade.**
 
-- Daily Class Attendance
-   - Being attendant is important; we will use lots of group work and being present for your group matters
-- Forum posts (weekly) + replies (~250 words each)
+- **Daily Class Attendance & Participation**
+   - Being attendant is important; we will use lots of group work and being present for your group matters; we will check for your participation daily
+- **Forum posts (weekly) + replies (~250 words each)**
    - Posts are expected in response to prompts every week; APA formatting required; Forum replies earn "Deeper Engagement" credit
-- Exit tickets (after every class, ~100 words each)
+- **Exit tickets (after every class, ~100 words each)**
    - Each class you will debrief before 5pm; this can also be a place to tell me how you are doing with the material or how things went today
 
 ---
@@ -146,22 +167,27 @@ Your letter grade will be determined by the following cutoffs:
 
 **Each component counts equally towards your grade.**
 
-- Case Studies
+- **Case Studies (Google Doc Template)**
    - Analyze AI systems using DTPA each week as a group; turn in your weekly report by Sunday 11:59pm
-- Individual & Metacognitive Report (~250 words)
+- **Individual & Metacognitive Report (~250 words)**
    - Reflect on your own learning and effort; bring your values into what we just completed; turn in your report by Sunday 11:59pm
 
 ---
 
-# 3. Case Design (30%)**
-   - Semester-long project: research & design an AI policy or application
-   - Two scaffolded assignments + final showcase
+# 3. Case Design (30%)
 
-<!--_speaker_note:
-Ground them in the structure so they know what to expect. Emphasize that engagement is weighted highest—this is a discussion-based class, not a passive lecture course.
+**Each component counts equally towards your grade.**
 
-The scaffolding is intentional: they're not expected to produce a 3000-word case design in week 3. You build up to it with feedback.
--->
+- **Semester-long group project** 
+   - Research & design an AI policy or application
+- **Two scaffolded assignments (Oct 2nd & Nov 6th)**
+   - Support your group's development
+   - Receive and respond to feedback from instructors
+- **Final showcase (draft due Dec 4th, present last week of class)**
+   - Showcase is ungraded but will have class feedback to improve final turn-in
+   - Presenting at showcase unlocks final turn-in
+- **Final project turn in (Day of our final exam)**
+
 
 
 ---
@@ -172,17 +198,23 @@ This is **not** a traditional grading system.
 
 **What it means:**
 - Your grade reflects your effort and growth, not just "right answers"
+   - *There are no right answers to what we are working on*
 - Most assignments get a second chance if you don't meet the standard initially
-- There's no curve, no "grading on a bell"
+- There's no curve, no "grading on a bell curve"; everyone can earn a 4.0
+
+---
+
+# How We Grade: Labor & Standards-Based
+
+This is **not** a traditional grading system.
 
 **What it doesn't mean:**
 - "Do whatever you want and pass"
 - Standards are real, and we hold to them
 - You need to revise and engage with feedback
 
-<div class="emphasize">
-**The goal: Learn the material deeply, not just perform well on a test.**
-</div>
+>The goal: Learn the material deeply, not just perform well on a test.
+> **We have no tests anyway!**
 
 <!--_speaker_note:
 This is a big shift from what many students expect. Reassure them:
@@ -197,17 +229,18 @@ But also be honest: "Meeting the standard requires real work. I'm not grading on
 
 # What Does "Meeting the Standard" Look Like?
 
+*"In general"* - specifics are available in assignments.
+
 **Meets Standard (3.0)**
-- Evidence from reliable sources
+- Evidence from reliable sources; documenting sources well
 - Thoughtful analysis using the DTPA framework
 - Acknowledgment of complexity and multiple perspectives
-- Clear communication
+- Clear and respectful communication
 
 **Exceeds Standard (3.5–4.0)**
-- Deep research beyond assigned readings
-- Novel insights or connections
-- Metacognitive reflection on your own learning
-- Leadership in group work
+- Deep research beyond assigned readings; new resources and perspectives
+- Metacognitive reflection on your own learning; deep engagement
+- Leadership, Exceeding Efforts, or Novel Contributions in group work
 
 <!--_speaker_note:
 Make the standards concrete. Give examples:
@@ -225,34 +258,35 @@ Emphasize that the bar isn't "perfection." It's "thoughtful engagement with the 
 **Here's what we need from you:**
 
 - **Show up.** Physically and mentally. Exit tickets require attendance.
-- **Engage thoughtfully.** Disagree respectfully, backed by evidence.
-- **Disclose AI use.** If you used ChatGPT to help, tell us. We trust you; don't make us verify.
-- **Meet deadlines.** Forum posts due before class each week. Case analyses due Sundays 11:59pm.
+- **Engage thoughtfully and respectfully.** Disagreements are ok, arguments are not.
+- **Think about your position.** No one has your experience and background. 
+- **Disclose AI use.** If you used it tell us. We trust you.
+- **Meet deadlines.** Forum posts due before class each week. Most of other is due Sundays 11:59pm.
 - **Ask questions.** If something doesn't make sense, say so.
-
-**Here's what you get from us:**
-
-- Clear expectations and feedback
-- A second chance on most assignments
-- Support if you're struggling
-- Respect for your time and perspectives
-
-<!--_speaker_note:
-Frame this as a partnership. "I'm not here to trick you or make this harder than it needs to be. You show up and engage, I'll show up and support you."
-
-The AI disclosure piece is important. You're normalizing AI use while also being clear about academic integrity. "Use it as a tool; don't use it as a crutch."
--->
 
 ---
 
-# Today's Agenda
+# Class Culture & Expectations
+
+**Here's what you should expect from us:**
+
+- Clear expectations and timely feedback
+- A second chance on most assignments
+- Support if you're struggling; space if you need it
+- Respect for your time and perspectives; valuing you as a person
+- Stepping in to manage issues, concerns, and disagreements
+
+
+---
+
+# This Week's Agenda
 
 1. **Course intro** (you're here ✓)
-2. **DTPA deep dive** – We'll work through a real AI case together
-3. **Group formation** – You'll start working in groups of 3–4 for the semester
-4. **First activity** – We'll run a quick exercise to practice DTPA thinking
-
-By the end of class, you'll understand the framework we'll use all semester.
+2. **Group the class!** - Get up and move around!
+3. **Constructing Categories** - How we perceive people matters.
+4. **Wednesday: Who do we make into groups?** – We'll work through the Census timeline together
+   * *In your assigned groups*
+4. **Wednesday & Friday: First Case - Census Data** – Focusing on the Data in DTPA
 
 **Exit ticket** – Your first one is due by 5pm today on D2L.
 
