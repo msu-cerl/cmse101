@@ -11,6 +11,10 @@ author: "Danny Caballero"
 
 ## This Week's Case
 
+![Handwritten numbers recognized by neural network](../../images/handwritten.png)
+
+*Source: https://github.com/JoshEvan/Handwritten-Digits-Recognition-Using-Neural-Network-With-Tensorflow-and-Keras*
+
 **Two systems that look at pixels and decide what they are: the U.S. Postal Service reading handwritten ZIP codes, and police departments running facial recognition.**
 
 These are close cousins. Both take an image, break it into a grid of numbers, and pass those numbers through layers of simple units until a label comes out the other end. The math is nearly the same. The neural network that reads your grandparents's handwriting on an envelope is a direct ancestor of the one that scans a security camera still.
