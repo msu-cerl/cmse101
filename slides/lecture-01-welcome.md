@@ -1,5 +1,5 @@
 ---
-title: "Lecture 01: Welcome to AI in the Real World"
+title: "Day 01: Welcome to AI in the Real World"
 date: 2026-08-26
 marp: true
 theme: default
@@ -9,14 +9,16 @@ paginate: true
 
 <!-- _class: title -->
 # AI in the Real World
-## Data, Power, & Society
+## Data, Power, & Society - Day 01
+
+### Welcome to AI in the Real World
 
 **CMSE 492 (aka CMSE 101) • Fall 2026**
 Prof. Danny Caballero
 
 ---
 
-# Welcome! 👋
+# 👋 Welcome!
 
 This is not a coding class.
 
@@ -34,7 +36,7 @@ This class aims to help you become a **Critical Pragmatist** when it comes to AI
 By the time you graduate:
 - **You will work with AI systems.** Probably with many of them.
 - **You will make decisions about AI.** How to use it, when to trust it, whether it should be used at all.
-- **Forms of AI will be a part of your everyday life** From websites to software to vehicles to appliances.
+- **Forms of AI will be a part of your everyday life.** From websites to software to vehicles to appliances.
 - **Others will ask your opinion.** "Does this AI system seem fair to you?" "Should we deploy this?" "Do you trust it?"
 
 **This course prepares you to answer those questions with evidence, not intuition.**
@@ -44,7 +46,8 @@ By the time you graduate:
 
 # Who are your instructors?
 
-**Prof. Danny Caballero (he/they)** - Physics & Astronomy; CMSE; CREATE for STEM
+## Prof. Danny Caballero (he/they)
+### Physics & Astronomy; CMSE; CREATE for STEM
 
 ![Danny Caballero bg right:25% w:300](./images/dc_outside_square.png)
 
@@ -55,13 +58,17 @@ By the time you graduate:
 - Labor organizer for the Union of Tenure System Faculty (UTSF-MSU)
 - Starting my 14th year at MSU **(Go Green!)**
  
-> If you are comfortable, please call me "Danny", but Prof. Caballero is fine, too.
+> If you are comfortable, please call me "Danny"; Prof. Caballero is fine, too.
 
 ---
 
 # Who are your instructors?
  
-**Jorge Martinez-Ortiz** - CMSE & Political Science
+## Jorge Martinez-Ortiz 
+### CMSE & Political Science
+
+![Jorge Martinez-Ortiz bg right:25% w:300](./images/jorge.jpg)
+
  
 - 4th year PhD Student in CMSE and Political Science
 - BS Physics, Baylor University
@@ -99,9 +106,12 @@ Instead of each person bringing their own lens, we will strive to speak the same
 
 This lets us **disagree on conclusions** while **agreeing on facts.**
 
+**By the end of the course, you'll be fluent in using DTPA for analysis.** 
 
-> **By the end of the course, you'll be fluent in DTPA analysis.** It can be your  *starting* toolkit for evaluating *any* AI system.
+It can be your  *starting* toolkit for evaluating *any* AI system.
 
+
+> *We also hope you will help us develop and strengthen this framework for teaching and learning about AI.*
 
 ---
 
@@ -109,7 +119,7 @@ This lets us **disagree on conclusions** while **agreeing on facts.**
 
 ![DTPA Framework w:900](./images/dtpa.png)
 
-**Developed by:** *Michigan State's [Computing Education Research Lab](https://msucerl.org)*
+**Initially developed by:** *Michigan State's [Computing Education Research Lab](https://msucerl.org)*
 
 ---
 
@@ -125,20 +135,20 @@ How does the AI actually work? What assumptions are built in? What can it do? Wh
 Who uses this system? How? What labor built it? How is it constrained or enabled?
 
 **ACTIONS**
-What happens as a result? Who benefits? Who is harmed? Does it solve the stated problem?
+What happens as a result? Who benefits? Who is harmed? Does it solve the stated problem? At what cost?
 
 
 ---
 
 # Course Structure
 
-**Three main components grade you:**
+## Three main components form your grade:
 
 1. **Class Engagement (40%)**
 2. **Case Studies (30%)**
 3. **Case Design (30%)**
 
-Your letter grade will be determined by the following cutoffs:
+**Your letter grade will be determined by the following cutoffs:**
 
 | Earned Grade | 4.0 | 3.5 | 3.0 | 2.5 | 2.0 | 1.5 | 1.0 | 0.0 |
 |--------------|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -148,7 +158,7 @@ Your letter grade will be determined by the following cutoffs:
 
 # 1. Class Engagement (40%)
 
-**Each component counts equally towards your grade.**
+## Each component counts equally towards your grade
 
 - **Daily Class Attendance & Participation (drop 3)**
    - Being attendant is important
@@ -165,7 +175,7 @@ Your letter grade will be determined by the following cutoffs:
 
 # 2. Case Studies (30%)
 
-**Each component counts equally towards your grade.**
+## Each component counts equally towards your grade
 
 - **Case Studies (Google Doc Template, drop 1)**
    - Analyze AI systems using DTPA each week as a group
@@ -178,10 +188,14 @@ Your letter grade will be determined by the following cutoffs:
 
 # 3. Case Design (30%)
 
-**Each component counts equally towards your grade.**
+## Each component counts equally towards your grade
 
-- **Semester-long group project** 
-   - Research & design an AI policy or application
+### Semester-long group project, either:
+
+1. Design an AI application that directly addresses a major societal problem, or
+2. Propose limits, safeguards, or a set of policy constraints on an existing AI system
+
+### Getting you there
 - **Two scaffolded assignments (Oct 2nd & Nov 6th)**
    - Support your group's development
    - Receive and respond to feedback from instructors
@@ -198,13 +212,13 @@ Your letter grade will be determined by the following cutoffs:
 
 This is **not** a traditional grading system.
 
-**What it means:**
+## What it means:
 - Your grade reflects your effort and growth, not just "right answers"
    - *There are no right answers to what we are working on*
 - Most assignments get a second chance if you don't meet the standard initially
 - There's no curve, no "grading on a bell curve"
 
-> **Everyone can earn a 4.0**
+> **Everyone can earn a 4.0 and we hope you will**
 
 ---
 
@@ -212,7 +226,7 @@ This is **not** a traditional grading system.
 
 This is **not** a traditional grading system.
 
-**What it doesn't mean:**
+## What it doesn't mean:
 - "Do whatever you want and pass"
 - Standards are real, and we hold to them
 - You need to revise and engage with feedback
@@ -225,7 +239,7 @@ This is **not** a traditional grading system.
 
 # What Does "Meeting the Standard" Look Like?
 
-*"In general"* - specifics are available in assignments.
+## "In general" - specifics are available in assignments
 
 **Meets Standard (3.0)**
 - Evidence from reliable sources; documenting sources well
@@ -242,7 +256,7 @@ This is **not** a traditional grading system.
 
 # Class Culture & Expectations
 
-**Here's what we need from you:**
+## Here's what we need from you:
 
 - **Show up.** Physically and mentally. Exit tickets require attendance.
 - **Engage thoughtfully and respectfully.** Disagreements are ok, arguments are not.
@@ -255,7 +269,7 @@ This is **not** a traditional grading system.
 
 # Class Culture & Expectations
 
-**Here's what you should expect from us:**
+## Here's what you should expect from us:
 
 - Clear expectations and timely feedback
 - A second chance on most assignments
@@ -272,14 +286,21 @@ We have tried to design a class that welcomes every learner
 
 ---
 
+# Questions?
+
+![Cat waiting earnestly for questions h:700](./images/questions.png)
+
+---
+
 # This Week's Agenda
 
-1. **Course intro** (you're here ✓)
-2. **Group the class!** - Get up and move around!
-3. **Constructing Categories** - How we perceive people matters.
+1. **Course intro** (✓)
+2. **Group the class!** - Get up and move around! (you're here ✓)
+3. **Wednesday: Constructing Categories** - How we perceive people matters.
 4. **Wednesday: Who do we make into groups?** – We'll work through the Census timeline together
-   - *In your assigned groups*
-4. **Wednesday & Friday: First Case - Census Data** – Focusing on the Data in DTPA
+   - In your assigned groups; check D2L for your first assigned group, please
+   - Exchange contact information!
+4. **Friday: First Case - Census Data** – Drawing on Wednesday's work; Focusing on the Data in DTPA
 
 **Exit ticket** – Your first one is due by 5pm today on D2L.
 
@@ -288,25 +309,35 @@ We have tried to design a class that welcomes every learner
 
 # Activity: Making Groups - Part 1
 
-- Break into six random groups of roughly equal size
-   - Grab a pack of index cards
-- You have five minutes to come up with as many things you all have in common
+## Break into six random groups of roughly equal size
+
+**Grab a pack of index cards**
+
+- You have **seven (7) minutes** to come up with as many things you all have in common
    - Nothing pejorative (e.g., *we all hate Drake*) or physical (e.g., *we all have red hair*)
-- You will have three more minutes to identify the top 2-3 things you all think the rest of the room **won't** share
-   - Each of you write on those 2-3 things on index cards (1 idea per card)
-- **Keep your cards, you need them for Part 2!**
+   - Write as many as you can! 
+- You will have **three (3) more minutes** to identify the top 3 things y'all think the rest of the room **won't** share
+   - Each of you write those 2-3 things on index cards (1 idea per card)
+
+**Keep your cards, you need them for Part 2!**
 
 ---
 
 # Activity: Making Groups - Part 2
 
-- Shuffle into six *new* random groups of roughly equal size 
-   - No more than one other person from your first group
-- Share your 2-3 things; is there anything that hangs you all together?
+## Shuffle into six *new* random groups of roughly equal size 
+
+**No more than one other person from your first group**
+
+- Share your 3 top things; is there anything that hangs you all together?
    - Again, nothing pejorative (e.g., *we all hate Ohio State*) or physical (e.g., *we all have short hair*)
-   - Decide on top 2-3 (discard unused cards; write new cards)
-   If you can't find 2-3 things, shuffle again!
-- **Once you 2-3 things with a new group, try to name your group!**
+   - Decide on top 2-3 (discard unused cards; or write new cards)
+- If you can't find 2-3 things, shuffle yourselves again!
+   - Try hard to keep groups of equal size
+
+**Once you 2-3 things with a new group, try to name your group.**
+
+## You will only have **ten (10) minutes**. Work fast!
 
 ---
 
@@ -315,42 +346,17 @@ We have tried to design a class that welcomes every learner
 ## Share out the commonalities!
 
 **Discussion**: 
-- Are these categories the same "kind of thing"? 
-- Are they truly unique? 
-- What does it mean to categorize people?
+- How easy or hard was it to find groups?
+- Are these groups (or categories) the same "kind of thing"? 
+- Are these categories truly unique? 
+- What does this activity tell you about categorizing people?
 
 ---
 
-# Activity: Our Kind of People - Bayeté Ross Smith
-
-![Bayeté Ross Smith's art project called Our Kind of People depicts the same person in different clothing w:750](./images/our-kind-of-people.png)
-
-**Source:** *https://www.bayeterosssmith.com/our-kind-of-people*
-
----
-
-# Activity: Our Kind of People - Bayeté Ross Smith
-
-- Break into six groups of roughly equal size; we will count off group numbers
-- On D2L, open the link to the [Gallery: Our Kind of People](https://docs.google.com/document/d/1a-4tndR8UAYX9rzKS-n1tbL6dGgCY7Q5jofm_Eu-8h0/edit?tab=t.0#heading=h.m1yl8830yw7o) Activity 
-   - On D2l, under In Class Materials -> Day 01.
-   - Write your names at the top of your Group's Tab in the Google Doc
-## Read the instructions and start working (7 mins.)
-> Write down a list of labels or assumptions someone might make about the person in the photo, answering the question: What assumptions might someone make (regardless of what this person intended to convey) about this person’s identity?
-
----
-
-# Activity: Our Kind of People - Reflection Questions (10 min)
-
-- Why did each group have different labels for photos of the same person?
-- How do we use labels to understand each other? When might those labels be incorrect or incomplete?
-- Where do the labels and stereotypes we apply to others come from?
-- How does clothing allow people to emphasize certain parts of their identities? In what ways does it allow people to hide other aspects of who they are?
-- These images are part of a larger work by an artist named Bayeté Ross Smith, titled “Our Kind of People.” What message do you think the artist was trying to convey by creating this project?
-
----
 
 # Reminders for this week
+
+## Exit Tickets, D2L, and the Course Website
 
 - Don't forget to complete today's Exit Ticket by 5pm (on D2L)
 - Review your group assignment on D2L and connect with your group before Wednesday's class!
