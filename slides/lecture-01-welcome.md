@@ -46,6 +46,8 @@ By the time you graduate:
 
 **Prof. Danny Caballero (he/they)** - Physics & Astronomy; CMSE; CREATE for STEM
 
+![Danny Caballero bg right:25% w:300](./images/dc_outside_square.png)
+
 - Lappan-Phillips Professor of Math and Science Education
 - Co-direct two research labs (in Physics & Computational Science Education)
 - BS Physics, Texas; MS & PhD Physics, Georgia Tech; Postdoc Physics Education, CU-Boulder
@@ -107,6 +109,8 @@ This lets us **disagree on conclusions** while **agreeing on facts.**
 
 ![DTPA Framework w:900](./images/dtpa.png)
 
+**Developed by:** *Michigan State's [Computing Education Research Lab](https://msucerl.org)*
+
 ---
 
 # The Four Components of DTPA
@@ -146,12 +150,16 @@ Your letter grade will be determined by the following cutoffs:
 
 **Each component counts equally towards your grade.**
 
-- **Daily Class Attendance & Participation**
-   - Being attendant is important; we will use lots of group work and being present for your group matters; we will check for your participation daily
-- **Forum posts (weekly) + replies (~250 words each)**
-   - Posts are expected in response to prompts every week; APA formatting required; Forum replies earn "Deeper Engagement" credit
-- **Exit tickets (after every class, ~100 words each)**
-   - Each class you will debrief before 5pm; this can also be a place to tell me how you are doing with the material or how things went today
+- **Daily Class Attendance & Participation (drop 3)**
+   - Being attendant is important
+   - We will use lots of group work and being present for your group matters
+   - *We will check for your participation daily*
+- **Forum posts (weekly, drop 2) + replies (~250 words each)**
+   - Posts are expected in response to prompts every week (11:59pm Sunday); APA formatting required
+   - *Forum replies earn "Deeper Engagement" credit and are not required*
+- **Exit tickets (after every class, ~100 words each, drop 3)**
+   - Each class, you will debrief before 5pm
+   - *Can also be a place to tell me how you are doing with the material or how things went today*
 
 ---
 
@@ -159,10 +167,12 @@ Your letter grade will be determined by the following cutoffs:
 
 **Each component counts equally towards your grade.**
 
-- **Case Studies (Google Doc Template)**
-   - Analyze AI systems using DTPA each week as a group; turn in your weekly report by Sunday 11:59pm
-- **Individual & Metacognitive Report (~250 words)**
-   - Reflect on your own learning and effort; bring your values into what we just completed; turn in your report by Sunday 11:59pm
+- **Case Studies (Google Doc Template, drop 1)**
+   - Analyze AI systems using DTPA each week as a group
+   - *Turn in your weekly report by Sunday 11:59pm*
+- **Individual & Metacognitive Report (~250 words, drop 1)**
+   - Reflect on your own learning and effort; bring your values into what we just completed
+   - *Turn in your report by Sunday 11:59pm*
 
 ---
 
@@ -192,7 +202,9 @@ This is **not** a traditional grading system.
 - Your grade reflects your effort and growth, not just "right answers"
    - *There are no right answers to what we are working on*
 - Most assignments get a second chance if you don't meet the standard initially
-- There's no curve, no "grading on a bell curve"; everyone can earn a 4.0
+- There's no curve, no "grading on a bell curve"
+
+> **Everyone can earn a 4.0**
 
 ---
 
@@ -236,7 +248,7 @@ This is **not** a traditional grading system.
 - **Engage thoughtfully and respectfully.** Disagreements are ok, arguments are not.
 - **Think about your position.** No one has your experience and background. 
 - **Disclose AI use.** If you used it tell us. We trust you.
-- **Meet deadlines.** Forum posts due before class each week. Most of other is due Sundays 11:59pm.
+- **Meet deadlines.** Forum posts due before class each week. Most other deadlines: Sundays 11:59pm.
 - **Ask questions.** If something doesn't make sense, say so.
 
 ---
@@ -251,6 +263,12 @@ This is **not** a traditional grading system.
 - Respect for your time and perspectives; valuing you as a person
 - Stepping in to manage issues, concerns, and disagreements
 
+## Accommodations
+
+We have tried to design a class that welcomes every learner
+
+> Please submit your official accommodation paperwork and
+> Speak with Danny and Jorge about your needs
 
 ---
 
@@ -268,29 +286,31 @@ This is **not** a traditional grading system.
 
 ---
 
-# Making Groups - Part 1
+# Activity: Making Groups - Part 1
 
-- Break into six random groups of roughly equal size 
+- Break into six random groups of roughly equal size
+   - Grab a pack of index cards
 - You have five minutes to come up with as many things you all have in common
-   - Nothing pejorative (e.g., *we all hate Drake*) or physics (e.g., *we all have red hair*)
+   - Nothing pejorative (e.g., *we all hate Drake*) or physical (e.g., *we all have red hair*)
 - You will have three more minutes to identify the top 2-3 things you all think the rest of the room **won't** share
    - Each of you write on those 2-3 things on index cards (1 idea per card)
+- **Keep your cards, you need them for Part 2!**
 
 ---
 
-# Making Groups - Part 2
+# Activity: Making Groups - Part 2
 
 - Shuffle into six *new* random groups of roughly equal size 
    - No more than one other person from your first group
 - Share your 2-3 things; is there anything that hangs you all together?
-   - Again, nothing pejorative (e.g., *we all hate Drake*) or physics (e.g., *we all have red hair*)
+   - Again, nothing pejorative (e.g., *we all hate Ohio State*) or physical (e.g., *we all have short hair*)
    - Decide on top 2-3 (discard unused cards; write new cards)
    If you can't find 2-3 things, shuffle again!
 - **Once you 2-3 things with a new group, try to name your group!**
 
 ---
 
-# Making Groups - Wrap Up
+# Activity: Making Groups - Wrap Up
 
 ## Share out the commonalities!
 
@@ -301,7 +321,7 @@ This is **not** a traditional grading system.
 
 ---
 
-# Our Kind of People - Bayeté Ross Smith
+# Activity: Our Kind of People - Bayeté Ross Smith
 
 ![Bayeté Ross Smith's art project called Our Kind of People depicts the same person in different clothing w:750](./images/our-kind-of-people.png)
 
@@ -309,17 +329,18 @@ This is **not** a traditional grading system.
 
 ---
 
-# Our Kind of People - Bayeté Ross Smith
+# Activity: Our Kind of People - Bayeté Ross Smith
 
 - Break into six groups of roughly equal size; we will count off group numbers
-- On D2L, open the link to the [Gallery: Our Kind of People](https://docs.google.com/document/d/1a-4tndR8UAYX9rzKS-n1tbL6dGgCY7Q5jofm_Eu-8h0/edit?tab=t.0#heading=h.m1yl8830yw7o) Activity under In Class Materials -> Day 01.
+- On D2L, open the link to the [Gallery: Our Kind of People](https://docs.google.com/document/d/1a-4tndR8UAYX9rzKS-n1tbL6dGgCY7Q5jofm_Eu-8h0/edit?tab=t.0#heading=h.m1yl8830yw7o) Activity 
+   - On D2l, under In Class Materials -> Day 01.
    - Write your names at the top of your Group's Tab in the Google Doc
 ## Read the instructions and start working (7 mins.)
 > Write down a list of labels or assumptions someone might make about the person in the photo, answering the question: What assumptions might someone make (regardless of what this person intended to convey) about this person’s identity?
 
 ---
 
-# Reflection Questions (10 min)
+# Activity: Our Kind of People - Reflection Questions (10 min)
 
 - Why did each group have different labels for photos of the same person?
 - How do we use labels to understand each other? When might those labels be incorrect or incomplete?
