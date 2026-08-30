@@ -1,5 +1,5 @@
 ---
-title: "Week 1 Case Study: Data Collection and The Census"
+title: "Week 1 Case Study: Data Collection and The US Census"
 date: 2026-08-27
 draft: false
 description: "Week 1 Materials CMSE 101, Fall 2026"
@@ -9,14 +9,12 @@ author: "Danny Caballero"
 
 > All of this material is also available on [Google Docs](https://docs.google.com/document/d/1KDA21HfV4pG8gozaLeHzXRhVkrgbP5hliAXatMGOnsU/edit?tab=t.mcr5a041tko3) (*MSU login required*)
 
-## This Week's Case
-
 ![US Census Map showing when each county demonstrated its largest growth](../../images/us-census-growth.png)
 
 *Source: <https://www.reddit.com/r/dataisbeautiful/comments/dbgg45/even_though_the_us_has_grown_in_every_census_some/>
 
 
-**The U.S. Census of Population, 1790–today — and W.E.B. Du Bois's data portraits of 1900.**
+## The U.S. Census of Population, 1790–today — and W.E.B. Du Bois's data portraits of 1900.
 
 Every ten years the federal government asks every person in the country to sort themselves into a set of boxes. Those boxes decide how $1.5 trillion in annual federal funding is distributed and how many seats in Congress each state gets. The boxes have changed almost every decade since 1790. Someone chooses them.
 
