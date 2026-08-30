@@ -59,6 +59,8 @@ Each component of Class Engagement will be equally weighted. Final letter grades
 
 Each class is important to engage with. As you work on your case analyses each day, we will take attendance and include that in your Class Engagement grade. 
 
+**You will have three (3) Class Attendance drops; no questions asked.**
+
 
 ## Forum Posts (Expected Engagement)
 
@@ -66,13 +68,19 @@ Each week, there will be outside material for you to read, watch, or listen to (
 
 This post should be considered a formal response and thus should use evidence from the material you have review (as well as other material you have researched) to respond to the post. We expect that you will use [APA formatting](https://apastyle.apa.org/style-grammar-guidelines/references/examples) for references in those posts.
 
+**You will have two (2) Forum Post drops; no questions asked.**
+
 > **Forum posts are completed on D2L before the first day of class each week.**
+
 
 ## Exit Tickets (Expected Engagement)
 
 Your class attendance is expected and rewarded. We will use "Exit Tickets" to check in on your thinking after each class. Completing these tickets ensures that we close the loop in the following classes when issues, questions, or concerns arise. It also helps us as instructors make sense of where the class's collective understanding is heading and how to ensure we support each of you in reaching the learning goals. 
 
 We expect that you will take the Exit Ticketing seriously; there is no second chance to complete your Exit Tickets. Students completing Exit Tickets but not in attendance that day will receive zero credit for the Exit Ticket assignment that day. 
+
+**You will have three (3) Exit Ticket drops; no questions asked.**
+
 
 > **Exit tickets are completed on D2L and are due by 5pm on the day of class.** Should circumstances arise that cause you to miss class, you are expected to contact [Danny](mailto:caball14@msu.edu) within 24 hours. That day's Exit Ticket assignment will typically be excused unless your lack of attendance becomes a recurring issue.
 
@@ -128,6 +136,8 @@ In class, your group (*at least 3, but no more than 4*), will dive into this cas
 
 To assist you, we have developed a [template for your case study analyses with additional instructions](assignments/case-studies) that you will complete each week. A version of this template is available in a [Google Doc](nowhere.com) **(TODO)** for you to copy and complete. We expect that you will again use [APA formatting](https://apastyle.apa.org/style-grammar-guidelines/references/examples) in the writeup of your analysis. At the end of the week, your group's case analysis is due.
 
+**You will have one (1) Case Analyses drop; no questions asked.**
+
 > **Case Analyses are turned in using D2L by the Sunday following a given week's classes at 11:59pm.** We will strive to complete much of the case analyses in class, but what is uncompleted must be done as group homework each week.
 
 ## Individual Effort and Metacognitive Report (Expected Engagement)
@@ -137,6 +147,8 @@ For each case analyses, you are expected to complete an effort and metacognitive
 **We anticipate this report will be roughly 250 words long.**
 
 This report will be reviewed along with the reports from other members of the group to ensure that each member is meeting a minimum standard for engagement and to determine if any (or all) members are exceeding those expectations. These reports will ask for you to reflect on your learning around this week's subject matter, what went well, what needs to improve. In addition, we ask that you disclose any use AI in your work.
+
+**You will have one (1) Individual Effort and Metacognitive Report drops; no questions asked.**
 
 > **Individual Effort and Metacognitive Report are turned in using D2L by the Sunday following a given week's classes at 11:59pm.**
 
