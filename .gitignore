@@ -6,6 +6,10 @@ output/
 /public/
 /resources/_gen/
 
+# Generated MARP decks. Built by ./build-slides.sh locally for preview, and by
+# CI before every Hugo build, so the artifacts never need to be committed.
+/static/slides/
+
 # OS-specific files
 # macOS
 .DS_Store

@@ -1,7 +1,7 @@
 /* Accessible MARP Theme for CMSE 101 */
 /* High contrast, readable, semantic, and keyboard-accessible */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap');
 
 :root {
   /* Color palette */
@@ -18,6 +18,21 @@
   --success: #228b22;
   --warning: #ff8800;
   --error: #cc0000;
+
+  /* Typography */
+  --font-body: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Density controls — a MARP 16:9 slide is a fixed 1280x720 box, so vertical
+     space is a hard budget, not a suggestion. Loosen these and slides start
+     running off the bottom. At these values a slide fits ~13 single-line
+     bullets under a title; at 1.8 line-height it was ~7. */
+  --pad-v: 48px;
+  --pad-h: 60px;
+  --lh-heading: 1.15;
+  --lh-body: 1.45;
+  --gap-block: 12px;   /* between paragraphs, lists, boxes */
+  --gap-item: 3px;     /* between list items */
 }
 
 /* Base styles */
@@ -26,7 +41,7 @@
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -34,79 +49,97 @@ body {
 section {
   background: var(--secondary);
   color: var(--text-dark);
-  font-size: 28px;
-  padding: 60px;
+  /* Must be set here, not just on body: MARP renders each slide as a <section>
+     inside an SVG foreignObject, and a font-family on body never reaches it.
+     Without this the deck silently falls back to the browser's default serif. */
+  font-family: var(--font-body);
+  font-size: 26px;
+  padding: var(--pad-v) var(--pad-h);
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* Anchored to the top, not centered. Centering means an overlong slide
+     bleeds off both ends and clips its own title; this way the title always
+     stays put and only surplus content runs off the bottom. */
+  justify-content: flex-start;
   font-feature-settings: 'kern' 1;
-  line-height: 1.6;
+  line-height: var(--lh-body);
 }
+
+/* Never let the first or last element push the content away from its edge. */
+section > *:first-child { margin-top: 0; }
+section > *:last-child { margin-bottom: 0; }
 
 /* Title slide */
 section.title {
   background: var(--primary);
   color: var(--text-light);
-  justify-content: flex-start;
-  padding-top: 80px;
+  justify-content: center;
 }
 
 section.title h1 {
-  font-size: 56px;
+  font-size: 52px;
   font-weight: 700;
-  margin: 0 0 30px 0;
-  line-height: 1.2;
+  margin: 0 0 20px 0;
+  line-height: var(--lh-heading);
+  color: var(--text-light);
+  border: none;
+  padding: 0;
 }
 
 section.title h2 {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 0 0 16px 0;
   color: var(--accent-light);
 }
 
 section.title p {
   font-size: 20px;
   color: var(--border);
-  margin: 0;
-  margin-top: 40px;
+  margin: 28px 0 0 0;
 }
 
 /* Content slides */
 h1 {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
-  margin: 0 0 30px 0;
+  margin: 0 0 18px 0;
   color: var(--primary);
   border-bottom: 3px solid var(--accent);
-  padding-bottom: 15px;
-  line-height: 1.2;
+  padding-bottom: 10px;
+  line-height: var(--lh-heading);
 }
 
 h2 {
-  font-size: 36px;
-  font-weight: 600;
-  margin: 30px 0 20px 0;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 20px 0 10px 0;
   color: var(--accent-dark);
+  line-height: var(--lh-heading);
 }
 
 h3 {
-  font-size: 28px;
-  font-weight: 600;
-  margin: 20px 0 15px 0;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 14px 0 8px 0;
   color: var(--text-dark);
+  line-height: var(--lh-heading);
 }
 
 p {
-  margin: 15px 0;
+  margin: var(--gap-block) 0;
   font-size: 24px;
-  line-height: 1.7;
+  line-height: var(--lh-body);
 }
 
+/* Inherit rather than hard-coding a dark color: on light slides --primary is
+   identical to --text-dark so nothing changes, but on the dark title and break
+   slides a hard-coded --primary made bold text the same color as the
+   background and it disappeared entirely. */
 strong {
-  font-weight: 600;
-  color: var(--primary);
+  font-weight: 700;
+  color: inherit;
 }
 
 em {
@@ -116,19 +149,33 @@ em {
 
 /* Lists */
 ul, ol {
-  margin: 20px 0;
-  padding-left: 40px;
-  font-size: 22px;
-  line-height: 1.8;
+  margin: var(--gap-block) 0;
+  padding-left: 32px;
+  font-size: 24px;
+  line-height: var(--lh-body);
 }
 
 li {
-  margin: 12px 0;
+  margin: var(--gap-item) 0;
   color: var(--text-dark);
+}
+
+/* Nested lists stay tight and step down a size. */
+li > ul,
+li > ol {
+  margin: var(--gap-item) 0;
+  font-size: 0.9em;
 }
 
 li strong {
   color: var(--accent-dark);
+}
+
+/* Images sit centered and can never be taller than the space left for them. */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 /* Code */
@@ -137,7 +184,7 @@ code {
   color: var(--primary);
   padding: 2px 6px;
   border-radius: 3px;
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-mono);
   font-size: 20px;
   font-weight: 500;
 }
@@ -145,11 +192,11 @@ code {
 pre {
   background: var(--bg-light);
   border-left: 4px solid var(--accent);
-  padding: 15px 20px;
-  margin: 20px 0;
+  padding: 12px 18px;
+  margin: var(--gap-block) 0;
   border-radius: 4px;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.4;
   overflow-x: auto;
 }
 
@@ -178,12 +225,12 @@ a:focus {
 /* Blockquote */
 blockquote {
   border-left: 4px solid var(--accent);
-  padding-left: 20px;
-  margin: 20px 0;
+  padding-left: 18px;
+  margin: var(--gap-block) 0;
   color: var(--text-muted);
   font-size: 22px;
   font-style: italic;
-  line-height: 1.6;
+  line-height: var(--lh-body);
 }
 
 /* Emphasis boxes */
@@ -191,34 +238,39 @@ blockquote {
   background: var(--bg-light);
   border: 2px solid var(--accent);
   border-radius: 6px;
-  padding: 20px;
-  margin: 20px 0;
+  padding: 14px 18px;
+  margin: var(--gap-block) 0;
   font-size: 22px;
-  line-height: 1.6;
+  line-height: var(--lh-body);
 }
+
+/* Keep the box tight around its contents. */
+.emphasize > *:first-child { margin-top: 0; }
+.emphasize > *:last-child { margin-bottom: 0; }
 
 /* Success, warning, error states */
 .success {
   color: var(--success);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .warning {
   color: var(--warning);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .error {
   color: var(--error);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* Tables */
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 20px 0;
+  margin: var(--gap-block) 0;
   font-size: 20px;
+  line-height: var(--lh-body);
 }
 
 thead {
@@ -226,15 +278,15 @@ thead {
 }
 
 th {
-  padding: 12px;
+  padding: 8px 12px;
   text-align: left;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--primary);
   border-bottom: 2px solid var(--accent);
 }
 
 td {
-  padding: 12px;
+  padding: 8px 12px;
   border-bottom: 1px solid var(--border);
   color: var(--text-dark);
 }
@@ -247,8 +299,8 @@ tr:hover {
 footer {
   position: absolute;
   bottom: 20px;
-  left: 60px;
-  right: 60px;
+  left: var(--pad-h);
+  right: var(--pad-h);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -268,17 +320,31 @@ section.break {
 }
 
 section.break h1 {
-  font-size: 60px;
+  font-size: 56px;
   border: none;
   margin: 0;
   color: var(--text-light);
   padding: 0;
 }
 
+/* Dark slides: the muted/dark accents used for inline emphasis on white slides
+   have almost no contrast against --primary, so lift them here. */
+section.title em,
+section.break em {
+  color: var(--border);
+}
+
+section.title li strong,
+section.break li strong,
+section.title a,
+section.break a {
+  color: var(--accent-light);
+}
+
 /* Two column layout */
 .columns {
   display: flex;
-  gap: 40px;
+  gap: 36px;
   width: 100%;
 }
 
