@@ -1,0 +1,46 @@
+{{ define "main" }}
+  {{ with .Content }}
+    <div class="index-content">
+      {{ . }}
+    </div>
+  {{ end }}
+
+  {{/* Populated by build-slides.sh, which regenerates data/slides.yaml over
+       every deck in slides/ on each run. */}}
+  {{ with hugo.Data.slides.decks }}
+    <table class="slides-table">
+      <caption class="sr-only">Lecture slide decks, with links to present in the browser or download as PDF</caption>
+      <thead>
+        <tr>
+          <th scope="col">Lecture</th>
+          <th scope="col">Date</th>
+          <th scope="col">Slides</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range . }}
+          <tr>
+            <th scope="row">
+              {{ .title }}
+              {{ with .description }}<br><small>{{ . }}</small>{{ end }}
+            </th>
+            <td>{{ with .date }}{{ dateFormat "Jan 2, 2006" . }}{{ end }}</td>
+            <td>
+              <a href="{{ printf "slides/%s.html" .slug | relURL }}"
+                 target="_blank" rel="noopener"
+                 aria-label="Present {{ .title }} in a new tab">Present</a>
+              &nbsp;·&nbsp;
+              <a href="{{ printf "slides/%s.pdf" .slug | relURL }}"
+                 aria-label="Download {{ .title }} as PDF">PDF</a>
+            </td>
+          </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  {{ else }}
+    <p>
+      No decks have been built yet. Run <code>./build-slides.sh</code> to
+      generate them.
+    </p>
+  {{ end }}
+{{ end }}

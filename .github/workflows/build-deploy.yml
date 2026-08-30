@@ -53,6 +53,19 @@ jobs:
       - name: Configure Git
         run: git config core.quotepath false
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Must run before Hugo: it writes the decks into static/slides/ and the
+      # deck index into data/slides.yaml, and Hugo consumes both. PDF export
+      # needs a real browser, which the runner image already provides.
+      - name: Build MARP slides
+        env:
+          CHROME_PATH: /usr/bin/google-chrome
+        run: ./build-slides.sh
+
       - name: Build with Hugo
         run: |
           hugo \
@@ -91,6 +104,19 @@ jobs:
 
       - name: Configure Git
         run: git config core.quotepath false
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Must run before Hugo: it writes the decks into static/slides/ and the
+      # deck index into data/slides.yaml, and Hugo consumes both. PDF export
+      # needs a real browser, which the runner image already provides.
+      - name: Build MARP slides
+        env:
+          CHROME_PATH: /usr/bin/google-chrome
+        run: ./build-slides.sh
 
       - name: Build with Hugo
         run: |

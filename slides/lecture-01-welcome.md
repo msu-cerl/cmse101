@@ -46,20 +46,27 @@ By the time you graduate:
 
 **Prof. Danny Caballero (he/they)** - Physics & Astronomy; CMSE; CREATE for STEM
 
-* Lappan-Phillips Professor of Math and Science Education
-* Co-direct two research labs (in Physics & Computational Science Education)
-* BS Physics, Texas; MS & PhD Physics, Georgia Tech; Postdoc Physics Education, CU-Boulder
-* Former custodian, copy shop manager, high school physics teacher in Atlanta Public Schools
-* Labor organizer for the Union of Tenure System Faculty (UTSF-MSU)
-* Starting my 14th year at MSU **(Go Green!)**
+- Lappan-Phillips Professor of Math and Science Education
+- Co-direct two research labs (in Physics & Computational Science Education)
+- BS Physics, Texas; MS & PhD Physics, Georgia Tech; Postdoc Physics Education, CU-Boulder
+- Former custodian, copy shop manager, high school physics teacher in Atlanta Public Schools
+- Labor organizer for the Union of Tenure System Faculty (UTSF-MSU)
+- Starting my 14th year at MSU **(Go Green!)**
  
 > If you are comfortable, please call me "Danny", but Prof. Caballero is fine, too.
 
 ---
 
 # Who are your instructors?
-
-**Jorge Martinez-Ortiz** - CMSE
+ 
+**Jorge Martinez-Ortiz** - CMSE & Political Science
+ 
+- 4th year PhD Student in CMSE and Political Science
+- BS Physics, Baylor University
+- International student from Zacatecas, Mexico
+- Treasurer for the Comunidad Latinoamericana (CLA) graduate student org.
+ 
+> You can call me “Joy” or “Jorge”.
 
 ---
 
@@ -72,9 +79,8 @@ This course covers topics related to AI that may be:
 
 It's also going to touch on issues that affect people differently whether that be **gender**, **race**, **ethnicity**, **class**, **disability**, or **immigration status**.
 
-* We are all affected by AI and more connected to each other than we realize. 
-
-* Each of you has **different biases, experiences, and perspectives.** That includes me.
+- We are all affected by AI and more connected to each other than we realize. 
+- Each of you has **different biases, experiences, and perspectives.** That includes your instructors.
 
 **We will not all agree. That's completely okay.** But we will listen and hear with humanity.
 
@@ -94,11 +100,6 @@ This lets us **disagree on conclusions** while **agreeing on facts.**
 
 > **By the end of the course, you'll be fluent in DTPA analysis.** It can be your  *starting* toolkit for evaluating *any* AI system.
 
-<!--_speaker_note:
-Introduce DTPA as the binding agent of the course. It's not dogma—it's a method. Explain that having shared language makes disagreements productive instead of chaotic.
-
-Tell them: "When you leave here, this framework travels with you. You'll use it in job interviews, in meetings, in conversations with friends."
--->
 
 ---
 
@@ -122,15 +123,6 @@ Who uses this system? How? What labor built it? How is it constrained or enabled
 **ACTIONS**
 What happens as a result? Who benefits? Who is harmed? Does it solve the stated problem?
 
-<!--_speaker_note:
-Walk them through each letter. Use examples if needed:
-- DATA: Facial recognition trained only on lighter skin tones misses dark-skinned faces
-- TOOLS: A "predictive" algorithm can't actually predict the future; it extrapolates patterns
-- PRACTICES: Content moderation is done by humans being paid $2/hour to see traumatic content
-- ACTIONS: A "fair" lending algorithm still denies loans at different rates to different groups
-
-Emphasize: DTPA isn't about whether something is "good" or "bad." It's about seeing the full system.
--->
 
 ---
 
@@ -216,14 +208,6 @@ This is **not** a traditional grading system.
 >The goal: Learn the material deeply, not just perform well on a test.
 > **We have no tests anyway!**
 
-<!--_speaker_note:
-This is a big shift from what many students expect. Reassure them:
-- Effort matters here. Showing up and engaging is valued.
-- They're not competing against each other
-- The bar is set by *what you need to know*, not by "how many A's can I give out"
-
-But also be honest: "Meeting the standard requires real work. I'm not grading on effort alone; I'm grading on your demonstrated learning."
--->
 
 ---
 
@@ -241,15 +225,6 @@ But also be honest: "Meeting the standard requires real work. I'm not grading on
 - Deep research beyond assigned readings; new resources and perspectives
 - Metacognitive reflection on your own learning; deep engagement
 - Leadership, Exceeding Efforts, or Novel Contributions in group work
-
-<!--_speaker_note:
-Make the standards concrete. Give examples:
-- "You don't need to use fancy language. You need clear thinking."
-- "Using AI to help brainstorm is fine; passing it off as your own thinking isn't."
-- "If you disagree with the material, that's fine—show us your evidence."
-
-Emphasize that the bar isn't "perfection." It's "thoughtful engagement with the material."
--->
 
 ---
 
@@ -285,23 +260,83 @@ Emphasize that the bar isn't "perfection." It's "thoughtful engagement with the 
 2. **Group the class!** - Get up and move around!
 3. **Constructing Categories** - How we perceive people matters.
 4. **Wednesday: Who do we make into groups?** – We'll work through the Census timeline together
-   * *In your assigned groups*
+   - *In your assigned groups*
 4. **Wednesday & Friday: First Case - Census Data** – Focusing on the Data in DTPA
 
 **Exit ticket** – Your first one is due by 5pm today on D2L.
 
-<!--_speaker_note:
-Set the pace. You're moving from intro to practical work. Let them know the day's structure so they know what to expect.
-
-The exit ticket is a chance to close the loop: "What landed? What confused you? What do you have questions about?" It also signals that engagement is tracked from day one.
-
-Transition to the next activity smoothly. "Let's jump into a real example so you see what DTPA analysis actually looks like."
--->
 
 ---
 
-<!-- _class: break -->
-# Let's Build Our Shared Language
+# Making Groups - Part 1
 
-Next: A real AI case using DTPA
+- Break into six random groups of roughly equal size 
+- You have five minutes to come up with as many things you all have in common
+   - Nothing pejorative (e.g., *we all hate Drake*) or physics (e.g., *we all have red hair*)
+- You will have three more minutes to identify the top 2-3 things you all think the rest of the room **won't** share
+   - Each of you write on those 2-3 things on index cards (1 idea per card)
 
+---
+
+# Making Groups - Part 2
+
+- Shuffle into six *new* random groups of roughly equal size 
+   - No more than one other person from your first group
+- Share your 2-3 things; is there anything that hangs you all together?
+   - Again, nothing pejorative (e.g., *we all hate Drake*) or physics (e.g., *we all have red hair*)
+   - Decide on top 2-3 (discard unused cards; write new cards)
+   If you can't find 2-3 things, shuffle again!
+- **Once you 2-3 things with a new group, try to name your group!**
+
+---
+
+# Making Groups - Wrap Up
+
+## Share out the commonalities!
+
+**Discussion**: 
+- Are these categories the same "kind of thing"? 
+- Are they truly unique? 
+- What does it mean to categorize people?
+
+---
+
+# Our Kind of People - Bayeté Ross Smith
+
+![Bayeté Ross Smith's art project called Our Kind of People depicts the same person in different clothing w:750](./images/our-kind-of-people.png)
+
+**Source:** *https://www.bayeterosssmith.com/our-kind-of-people*
+
+---
+
+# Our Kind of People - Bayeté Ross Smith
+
+- Break into six groups of roughly equal size; we will count off group numbers
+- On D2L, open the link to the [Gallery: Our Kind of People](https://docs.google.com/document/d/1a-4tndR8UAYX9rzKS-n1tbL6dGgCY7Q5jofm_Eu-8h0/edit?tab=t.0#heading=h.m1yl8830yw7o) Activity under In Class Materials -> Day 01.
+   - Write your names at the top of your Group's Tab in the Google Doc
+## Read the instructions and start working (7 mins.)
+> Write down a list of labels or assumptions someone might make about the person in the photo, answering the question: What assumptions might someone make (regardless of what this person intended to convey) about this person’s identity?
+
+---
+
+# Reflection Questions (10 min)
+
+- Why did each group have different labels for photos of the same person?
+- How do we use labels to understand each other? When might those labels be incorrect or incomplete?
+- Where do the labels and stereotypes we apply to others come from?
+- How does clothing allow people to emphasize certain parts of their identities? In what ways does it allow people to hide other aspects of who they are?
+- These images are part of a larger work by an artist named Bayeté Ross Smith, titled “Our Kind of People.” What message do you think the artist was trying to convey by creating this project?
+
+---
+
+# Reminders for this week
+
+- Don't forget to complete today's Exit Ticket by 5pm (on D2L)
+- Review your group assignment on D2L and connect with your group before Wednesday's class!
+- Spend time before Friday (~90 minutes) going over this week's preparatory materials
+
+## Questions?
+
+Email Danny (<caball14@msu.edu>) and/or Jorge (<martjor@msu.edu>)
+
+**Have a great first week!**

@@ -1,63 +1,69 @@
 # MARP Slides Workflow for CMSE 101
 
-This document explains how to create, build, and deploy accessible MARP slides for the course.
+How lecture decks are written, built, and published.
+
+## How it fits together
+
+```
+slides/                          # SOURCES — you edit these
+  _theme.css                     #   shared accessible theme
+  images/                        #   deck images
+  lecture-01-welcome.md          #   one file per lecture
+  lecture-02-....md
+
+static/slides/                   # GENERATED — gitignored, never edit
+  lecture-01-welcome.html        #   interactive deck
+  lecture-01-welcome.pdf         #   download / D2L upload
+  images/                        #   copied so HTML image srcs resolve
+
+data/slides.yaml                 # GENERATED — committed, feeds the index page
+content/slides/_index.md         # the /slides/ landing page copy
+layouts/slides/list.html         # renders the deck table from data/slides.yaml
+```
+
+Two rules explain the layout:
+
+1. **Sources live in `slides/`, not `content/slides/`.** Anything under
+   `content/` gets rendered by Hugo as a normal page. A MARP deck rendered that
+   way is a mess — every `---` slide break, every `<!-- _class: -->` directive,
+   and every speaker note dumped onto one long page.
+2. **Output goes to `static/slides/`, not `public/`.** Hugo wipes and rebuilds
+   `public/` on every run, and `public/` is gitignored, so anything written
+   there is thrown away. Hugo copies `static/` through verbatim, so
+   `static/slides/lecture-01-welcome.html` is served at
+   `/slides/lecture-01-welcome.html`.
 
 ## Setup
 
-### Prerequisites
+You need Node.js. The build script pins the MARP version and fetches it through
+`npx`, so there is nothing to install globally.
 
-You need Node.js and npm installed. Then install MARP CLI:
+PDF export needs Chrome, Edge, or Firefox installed — MARP renders PDFs through
+a real browser. On a Mac with Chrome you are already set.
 
-```bash
-npm install -g @marp-team/marp-cli
-```
+## Writing a deck
 
-Or use npx (included in npm) to run without global installation.
-
-### Directory Structure
-
-```
-content/
-  slides/
-    _theme.css            # Shared accessible theme
-    lecture-01-welcome.md # First slide deck
-    lecture-02-....md     # Additional lectures
-    ...
-
-public/
-  slides/
-    lecture-01-welcome.html  # Generated HTML for web
-    lecture-01-welcome.pdf   # Generated PDF for download/D2L
-    ...
-
-build-slides.sh           # Build script
-```
-
-## Creating Slides
-
-### File Naming
-- Save markdown files in `content/slides/`
-- Use lowercase with hyphens: `lecture-01-welcome.md`
-- One file per lecture/topic
-
-### Markdown Structure
-
-Each slide file starts with frontmatter:
+Create `slides/lecture-NN-topic.md`. Frontmatter:
 
 ```markdown
 ---
-title: "Lecture 01: Welcome to AI in the Real World"
-date: 2026-08-26
+title: "Lecture 02: Where AI Came From"
+date: 2026-08-28
+description: "Optional one-line summary, shown on the slides index"
 marp: true
-theme: default
 size: 16:9
 paginate: true
 ---
 ```
 
-### Slide Types
+`title` and `date` are what appear on the `/slides/` index, so keep them
+accurate. You do **not** need a `theme:` line — the build script applies
+`slides/_theme.css` to every deck and overrides whatever frontmatter says.
 
-**Content slide** (default):
+### Slide types
+
+Content slide (default):
+
 ```markdown
 # Slide Title
 
@@ -67,26 +73,22 @@ Content here. Use **bold**, *italic*, and `code` as needed.
 - Another point
 ```
 
-**Title slide** (use at start):
+Title slide:
+
 ```markdown
 <!-- _class: title -->
 # Main Title
 ## Subtitle
-
-Content here
 ```
 
-**Break/section slide** (visual pause):
+Break / section slide:
+
 ```markdown
 <!-- _class: break -->
 # Section Title
-
-Next topic begins here
 ```
 
-### Presenter Notes
-
-Add speaker notes that won't appear on slides but will survive PDF export:
+### Presenter notes
 
 ```markdown
 # Slide Title
@@ -94,33 +96,27 @@ Add speaker notes that won't appear on slides but will survive PDF export:
 Visible content here.
 
 <!--_speaker_note:
-This appears in presenter view only.
-Use for talking points, timing, cues.
-Write naturally—these are reminders, not scripts.
+Talking points, timing, cues. Visible in presenter view (press `p`), not on
+the slide itself.
 -->
 ```
 
-### Accessibility Features
+Notes are **not** stripped from the published HTML — they are in the page
+source, and anyone who presses `p` can read them. Do not put anything in a
+speaker note you would not want a student to see.
 
-The theme includes:
+### Images
 
-- **High contrast colors** (WCAG AA compliant)
-- **Readable sans-serif fonts** (Inter, 24px minimum)
-- **Semantic HTML structure** (headings, lists, proper nesting)
-- **Alt text for images** (use markdown: `![alt text](image.png)`)
-- **Keyboard navigation** (all interactive elements are keyboard-accessible)
-- **Focus indicators** (blue outline when tabbing)
+Put them in `slides/images/` and reference them relatively:
 
-**Best practices:**
-- Use semantic headings (h1 for slide title, h2/h3 for content)
-- Keep text simple and direct
-- Avoid animations and decorative elements
-- Use lists instead of paragraphs when possible
-- Provide context for images
+```markdown
+![Description of the image for screen readers w:900](./images/dtpa.png)
+```
 
-### Emphasis & Special Boxes
+The alt text is everything before the MARP sizing directive (`w:900`), so write
+a real description there.
 
-Highlight important content:
+### Emphasis box and two columns
 
 ```markdown
 <div class="emphasize">
@@ -128,168 +124,109 @@ Highlight important content:
 </div>
 ```
 
-### Two-Column Layout
-
 ```markdown
 <div class="columns">
 <div class="column">
 
-### Left Column
+### Left
 - Point 1
-- Point 2
 
 </div>
 <div class="column">
 
-### Right Column
+### Right
 - Point A
-- Point B
 
 </div>
 </div>
 ```
 
-## Building Slides
-
-### Build All Slides
+## Building
 
 ```bash
-./build-slides.sh
+./build-slides.sh                     # every deck
+./build-slides.sh lecture-01-welcome  # just one
 ```
 
-This generates both HTML and PDF for every `lecture-*.md` file in `content/slides/`.
+Each run produces, per deck, an HTML file and a PDF in `static/slides/`, copies
+`slides/images/` next to them, and regenerates `data/slides.yaml` across *all*
+decks so the index page never goes stale.
 
-### Build a Specific Slide
+To preview in the site as students will see it:
 
 ```bash
-./build-slides.sh lecture-01-welcome
+./build-slides.sh && hugo server
 ```
 
-This builds only that slide (no `.md` extension needed).
+Then open `/slides/`.
 
-### Output
+In the HTML deck: arrow keys or space to advance, `f` for fullscreen, `p` for
+presenter view with notes.
 
-- **HTML**: `public/slides/lecture-01-welcome.html`
-  - Open in browser for in-class viewing
-  - Presenter mode available (press `p` in browser)
-  - All speaker notes visible in presenter mode
+## Publishing
 
-- **PDF**: `public/slides/lecture-01-welcome.pdf`
-  - Download and share with students
-  - Upload directly to D2L Brightspace
-  - Embeddable in LMS
-
-## Deployment
-
-### Linking from Hugo Site
-
-Add links to the schedule page or syllabus:
-
-```markdown
-# Lecture 1: Welcome
-
-[View Slides (HTML)](../slides/lecture-01-welcome.html)
-[Download PDF](../slides/lecture-01-welcome.pdf)
-```
-
-### D2L Upload
-
-1. Build the PDF: `./build-slides.sh lecture-01-welcome`
-2. Upload `public/slides/lecture-01-welcome.pdf` to D2L Content
-3. Students can download or view inline
-
-### Static Site Hosting
-
-The `public/slides/` directory is served by Hugo. Once built, HTML slides are immediately accessible at:
-
-```
-https://yourdomain.com/slides/lecture-01-welcome.html
-```
-
-## Workflow Tips
-
-### During Class Preparation
-
-1. Write the markdown file in `content/slides/`
-2. Run `./build-slides.sh lecture-01-welcome`
-3. Open the HTML file in your browser
-4. Test presenter mode (press `p`)
-5. Verify all speaker notes are present
-6. Check accessibility: tab through with keyboard, test with screen reader
-
-### Iteration
-
-- Edit the markdown file
-- Rebuild: `./build-slides.sh lecture-01-welcome`
-- Refresh browser (Cmd+Shift+R for hard refresh)
-- Changes appear instantly
-
-### Version Control
-
-Commit both:
-- `.md` source files (the real content)
-- `.html` and `.pdf` in `public/slides/` (for easy linking)
+Commit the source and push:
 
 ```bash
-git add content/slides/*.md
-git add public/slides/*.html public/slides/*.pdf
-git commit -m "Add lecture 01 slides"
+git add slides/ data/slides.yaml
+git commit -m "Add lecture 02 slides"
+git push
 ```
+
+CI does the rest. `.github/workflows/build-deploy.yml` runs `./build-slides.sh`
+before `hugo`, so the decks are rebuilt from source on every deploy. Generated
+HTML and PDFs are **never committed** — `static/slides/` is gitignored.
+
+`data/slides.yaml` is the one generated file that *is* committed. CI regenerates
+it anyway, so the deployed index is always correct; committing it just means
+`hugo server` shows the right index without running the slide build first.
+
+### D2L
+
+`./build-slides.sh lecture-NN-topic`, then upload
+`static/slides/lecture-NN-topic.pdf` to D2L Content. Same PDF the site serves,
+so students who use either route get identical slides.
+
+## Accessibility
+
+The theme provides WCAG AA contrast, a 24px minimum readable sans-serif,
+semantic heading structure, visible focus indicators, and keyboard navigation.
+
+Before publishing a deck:
+
+- [ ] Every image has descriptive alt text
+- [ ] Headings nest logically (no h1 → h3 skips)
+- [ ] Color is never the only carrier of meaning
+- [ ] No flashing or animated content
+- [ ] Speaker notes contain nothing student-facing you would not share
+- [ ] The PDF is readable and nothing is clipped
+
+Test with keyboard-only navigation, a screen reader (VoiceOver / NVDA), and
+200% browser zoom.
 
 ## Troubleshooting
 
-### "MARP command not found"
+**Images missing from the PDF.** The build needs `--allow-local-files` for the
+headless browser to read `slides/images/`. Without it MARP prints a warning and
+silently drops every local image. This is already in `build-slides.sh`; if you
+run `marp` by hand, include it.
 
-Install globally or use npx:
-```bash
-npm install -g @marp-team/marp-cli
-# or
-npx marp --version
-```
+**Images broken in the HTML.** MARP leaves HTML image srcs relative
+(`./images/foo.png`), so the images must sit beside the generated HTML.
+`build-slides.sh` copies `slides/images/` into `static/slides/images/` on every
+run — if you invoke MARP directly, you have to do that yourself.
 
-### PDF generation fails
+**The theme isn't applying.** The flag is `--theme`, not `--css`. There is no
+`--css` option; MARP accepts it silently and ignores it, and the deck renders in
+MARP's built-in default theme with no error.
 
-MARP's PDF export requires a Chromium/Chrome browser. If you don't have one:
+**PDF generation fails.** MARP needs a Chromium-based browser. Install Chrome,
+or set `CHROME_PATH` to a browser binary. As a fallback, open the HTML in Chrome
+and print to PDF.
 
-```bash
-# Install Puppeteer's Chromium
-npm install puppeteer
-```
+**A deck isn't on the /slides/ index.** The index reads `data/slides.yaml`,
+which only lists files matching `slides/lecture-*.md`. Check the filename
+prefix, then rerun `./build-slides.sh`.
 
-Or skip PDF and manually export from browser:
-1. Open HTML in Chrome
-2. Cmd+P (or Ctrl+P)
-3. Save as PDF
-
-### HTML looks different than expected
-
-- Hard refresh browser: Cmd+Shift+R (Mac) or Ctrl+Shift+R (Windows/Linux)
-- Check theme CSS is in `content/slides/_theme.css`
-- Verify markdown frontmatter has `theme: default`
-
-## Accessibility Verification
-
-Before deploying, verify:
-
-- [ ] All images have alt text
-- [ ] Headings are nested logically (no skipping h1 → h3)
-- [ ] Color is not the only way to convey information
-- [ ] Text has sufficient contrast (verified in CSS)
-- [ ] No flashing or animated content that could trigger seizures
-- [ ] Speaker notes are complete and clear
-- [ ] PDF exports readable without losing formatting
-
-Test with:
-- Keyboard navigation (Tab through all slides)
-- Screen reader (VoiceOver on Mac, NVDA on Windows)
-- Browser zoom (test at 200%)
-
-## Future Enhancements
-
-Potential improvements:
-- Auto-generate slide index page from frontmatter
-- Link slides to schedule automatically
-- Create speaker guide PDFs (notes only)
-- Batch D2L uploads with a script
-- Analytics tracking for which slides are viewed
-
+**A deck renders as a mangled web page.** Its source is in `content/` instead of
+`slides/`. Move it.
