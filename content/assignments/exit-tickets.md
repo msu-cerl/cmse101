@@ -16,6 +16,8 @@ Exit tickets do double duty: they tell me what landed and what didn't before the
 
 There's no second chance to complete a ticket after the fact. If you miss class, contact [me](mailto:caball14@msu.edu) within 24 hours; that day's ticket is typically excused unless it becomes a pattern.
 
+**You get three (3) drops; no questions asked.**
+
 See the [syllabus](/syllabus/#class-engagement) for how Exit Tickets factor into your Class Engagement grade.
 
 ---

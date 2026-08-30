@@ -21,6 +21,8 @@ Alongside the group analysis, each student completes an **Individual Effort and 
 | **Every week** | Individual Effort & Metacognitive Report (~250 words) | End of the week |
 | **All weeks** | Submit via **D2L** (group folder for the case analysis, individual upload for the effort report) | 11:59 pm on the Sunday |
 
+**You get one (1) drop on the group case analysis; no questions asked.** The [Individual Effort & Metacognitive Report](/assignments/individual-report/) carries its own separate drop.
+
 *If you need an extension, follow the "extenuating circumstances" policy in the syllabus.*
 
 ## How to Use the Template  

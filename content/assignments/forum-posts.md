@@ -14,6 +14,8 @@ Each week there's outside material to read, watch, or listen to. You respond to 
 
 Replying to classmates' posts is a deeper-engagement option, held to the same evidence-and-citation standard as the original post. Replies must be civil and grounded in documentable research; a reactionary or inflammatory reply means a required meeting with me.
 
+**You get two (2) drops; no questions asked.**
+
 Meeting expectations means posting consistently at or above the standard. Exceeding expectations also means replying to four forum posts over the semester. See the [syllabus](/syllabus/#class-engagement) for the full Class Engagement breakdown.
 
 ---

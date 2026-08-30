@@ -11,16 +11,16 @@ author: "Danny Caballero"
 
 This is the landing page for all assignments in the course. Each assignment type below has its own page with what it is, how it's formatted, and how/where to submit it.
 
-📌 **This page is tentative.** Grading weights and rubrics for each category live on the [syllabus](/syllabus/) — this page covers the practical side (what to do, when, and where). Several assignment pages below are still placeholders while templates and D2L setup are finalized.
-
 ## Daily
 
+- [Class Attendance](/assignments/attendance/) — your involvement in class is critical for your success
 - [Exit Tickets](/assignments/exit-tickets/) — a short in-class response after every meeting
 
 ## Weekly
 
 - [Forum Posts](/assignments/forum-posts/) — D2L discussion board post + replies on the week's material
 - [Case Studies](/assignments/case-studies/) — team DTPA case analysis + individual effort report
+- [Individual Effort & Metacognitive Report](/assignments/individual-report/) — your contribution, your learning, and a place to reflect on your values
 
 ## Occasional / Semester-long
 
