@@ -18,17 +18,38 @@ Prof. Danny Caballero
 
 ---
 
+# Answer to Your Questions...so far.
+
+- **Is there an Honors Option?**
+   - Yes there will be. Gimme a couple weeks to post some information about it.
+- **Does this course count as a "selective"?**
+   - Yes, for Data Science majors only. Ask Kevin M. if you have questions/issues.
+- **Wait, where do we find our assigned groups?**
+   - For the first few weeks, you have been assigned groups. Find them using the D2L group assignment.
+- **How long will we have these groups?**
+   - About 4-5 weeks depending on how the schedule goes. You will switch to new groups later.
+- **What happens if I'm absent during group work?**
+   - It is your job to communicate with your group and distribute the work accordingly. 
+   - *You cannot complete Case Studies individually; they require discussion.*
+- **What about the final project?**
+   - You will select your final project groups and tell us Oct. 2nd.
+- **Office Hours?**
+   - Complete this [poll](https://crab.fit/cmse-492-office-hours-655856) by next Wednesday - also posted in D2L.
+
+
+---
+
 # This Week's Agenda
 
 1. **Course intro** (✓)
 2. **Group the class!** - Get up and move around! (✓)
 3. **Wednesday: Constructing Categories** - How we perceive people matters (you're here ✓).
 4. **Wednesday: Who do we make into groups?** – We'll work through the Census timeline together
-   - *In your assigned groups*
+   - *In your assigned groups - find them on D2L*
 4. **Friday: First Case - Census Data** – Drawing on Wednesday's work; Focusing on the Data in DTPA
 
 **Exit ticket** – Your second one is due by 5pm today on D2L.
-**Case Analyses** - Today, we will get started together; try to complete Friday
+**Case Analyses** - Today, we will get started together; try to complete Friday; due Sunday 11:59pm.
 
 ---
 
@@ -118,7 +139,7 @@ Prof. Danny Caballero
 
 **Come with a complete timeline for discussion on Friday**
 
---
+---
 
 # Friday's Activity: The US Census and its history of race/ethnicity
 
@@ -134,11 +155,13 @@ Prof. Danny Caballero
 
 # Reminders for this week
 
-## Exit Tickets, D2L, and the Course Website
+## Exit Tickets, Forum Posts, Office Hours
 
 - Don't forget to complete today's Exit Ticket by 5pm (on D2L)
 - **Friday:** Free work on Census Case Study
    - Case study due 11:59pm Sunday
    - Individual and Metacognitive Reflection due 11:59pm Sunday
 - Spend time before Sunday (~90 minutes) going over next week's preparatory materials
-   - Forum Post due 11:59pm Sunday
+   - Forum Post (Week 2) due 11:59pm Sunday (anonymous to class; Jorge and Danny can see author)
+   - If you choose to reply, due 11:59pm Thursday (anonymous to class; Jorge and Danny can see author)
+- Complete this [office hours poll](https://crab.fit/cmse-492-office-hours-655856) by next Wednesday - also posted in D2L.
