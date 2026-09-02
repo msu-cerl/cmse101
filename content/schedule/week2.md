@@ -56,50 +56,53 @@ This week we focus on **Tools**. The lesson is not that neural networks are good
 
 ## Wednesday: We Build a Network Out of People
 
-You are the network. We will not use computers.
+You are the network. We will not use computers. Stay in your group for the whole session.
 
-### Round 1 — one layer, in your groups (~15 min)
+### Round 1 — one layer, in your groups (~10 min)
 
-Each group gets a printed digit rendered on a coarse grid. Each person (except one) in the group owns one or more cells and can report exactly one thing about their cell: filled or empty. You are the **input neurons**. One group member, who acts as the **output neuron**, turns away and cannot see the grid.
+Each group gets a set of printed shapes — circle, square, rectangle, or triangle — rendered on a coarse grid. Each person (except one) in the group owns one or more cells and can report exactly one thing about their cell: filled or empty. You are the **input neurons**. One group member, who acts as the **output neuron**, turns away and cannot see the grid.
 
-The rule that makes this work: input neurons may not say "it looks like a seven." You report your cell. That's all you have. The output neuron announces the digit.
+> Input neurons choose the image they want to start with; output neuron can't see the image.
 
-Run it twice with different digits. You all can discuss how your input neurons can change what they describe in either a given cell or assigning a set of cells. **Notice how much better the output neuron gets the second time.** That improvement is training.
+The rule that makes this work: input neurons may not say "it looks like a triangle." You report your cell. That's all you have. After asking enough questions about the cell, the output neuron announces the shape.
 
-### Round 2 — join another group to add a hidden layer (~15 min)
+Run it more times with different shapes (and you can change the person acting as the **output neuron**). You all can discuss how your input neurons can change what they describe in either a given cell or assigning a set of cells. **How much better does the output neuron get the second time?** 
 
-Now we chain. Input neurons still report only their own cells, but they report to a **middle layer**, and each middle-layer student is assigned one question: *is there a horizontal bar across the top? a vertical stroke down the right? a closed loop?* Middle-layer students poll only the cells they need and pass forward a single number from 0 to 3 for how confident they are to the output neuron. The middle layer can't see the digits and the output neuron hears only the middle layer never the raw cells.
+### Discussion — why digits are harder (~10 min, same group)
 
-**How did the task change?** Easier? Harder? More "compute"?
+Shapes have defining features you can name in one word: four equal sides, three corners, a closed curve with no corners at all. That's *why* filled/empty cells were enough — the output neuron could reconstruct the answer almost by counting.
 
-### Round 3 — the questions we can't write (~15 min)
+Digits don't reduce that cleanly. Look at the set of digits you have with a grid overlaid on them. Notice a 4 and a 9 both have a closed loop. A 7 and a 1 differ by one stroke that can vanish at low resolution. Talk through it as a group:
 
-Back in your groups. No image this time, and nothing to run.
+* What would you need to know, beyond filled/empty, to tell digits apart?
+* Who would compute that — is it still the output neuron, or does someone need to pre-digest the raw cells first?
 
-In Round 2, we told the middle layer what to ask: *horizontal bar across the top? closed loop?* Those questions were easy for us to write because we already know what digits are made of: ten symbols, drawn with a few strokes, and everyone agrees on what they look like.
+That pre-digesting job is what a **hidden layer** does: a layer of neurons that each answer one narrow question about the cells (*horizontal bar across the top? closed loop?*) and pass forward a single number, not the raw cells. We're not going to build one by hand right now — just notice that digits require it and shapes didn't.
 
-Now do the same job for faces. Your grid shows a person. Your task is to **write the questions**, under the same rules as Round 2:
+### Round 2 — the questions we can't write (~15 min, same group)
+
+You just described, in words, what a hidden layer would need to do for digits. The questions were easy to write because we already know what digits are made of: ten symbols, drawn with a few strokes, and everyone agrees on what they look like.
+
+Now do the same job for faces. Your grid shows Elmo. We show them in color and in color bands (red, green, blue). Your task is to **write the questions**, under the same rules as before:
 
 * A first-layer neuron sees only its own cells and reports filled/empty.
 * A middle-layer neuron may poll only a specific list of cells and must return a single number, 0 to 3.
 * No neuron at any layer may name a person.
 
-**Write five questions for your first middle layer. Then write three questions for a second middle layer that only hears the first.** 
+**Write five questions for your first middle layer. Then write three questions for a second middle layer that only hears the first.**
 
 Some things you will probably run into:
 
-* **The question is really the answer.** "Is this Denzel Washington's jawline?" isn't a feature.
+* **The question is really the answer.** "Is this Elmo's hair?" isn't a feature.
 * **The question needs an answer you don't have yet.** "Are the eyes far apart?" is a good question, but it assumes something already found the eyes. Which layer did that, and what did *it* ask?
 * **The question only works once.** A question tuned to one person's specific face tells you nothing about the next one.
 * **The feature isn't in the grid.** Some of what distinguishes two faces is simply gone at this resolution.
 
-The point isn't that these are unanswerable. Real systems answer them, with far more layers and far more resolution than we have. The point is **we can't write them down, and neither can the engineers.** For digits, a person can specify the features. For faces, nobody specifies the. The network finds something during training, and what it finds is not written in any language a person can read.
+The point isn't that these are unanswerable. Real systems answer them, with far more layers and far more resolution than we have. The point is **we can't write them down, and neither can the engineers.** For digits, a person can specify the features. For faces, nobody can. The network finds something during training, and what it finds is not written in any language a person can read.
 
 So: we know these systems work often enough to be deployed. We cannot often say what they are looking at.
 
-**The question that carries into Friday:** when the mail system misreads an envelope, the letter comes back, the customer calls, or the encoding center logs it. And the whole apparatus is *built* around expecting that: a confidence threshold, a fallback path, the lovely people in Salt Lake City catching what falls below the line.
-
-When a face system misidentifies someone, what tells you? Who finds out, and how long does it take? Robert Williams found out when police arrived at his house. Gender Shades exists because, until someone went looking, *nobody had checked*.
+**Two words on where this goes:** Robert Williams and Porcha Woodruff were both arrested in Detroit after facial recognition systems misidentified them — Williams in 2020, Woodruff, seven months pregnant, in 2023. Neither knew a face system had flagged them until police were at the door. We're not diving into the policing side yet — that's coming in a later week alongside sound recognition and Flock camera networks — but hold onto the question underneath it: when a face system gets it wrong, who finds out, and how long does it take?
 
 ## Focus for Week 2
 
