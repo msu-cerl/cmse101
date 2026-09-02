@@ -53,6 +53,23 @@ Prof. Danny Caballero
 
 ---
 
+# Quick Debrief from Monday's class
+
+**From Exit Tickets:**
+
+- It was challenging at first to find common interests
+  - It was nice to meet most of the class on the first day
+- We often had to make larger categories as we moved around
+   - Some categories got discarded, some new ones were adopted
+- We had to dive into the "data" quite a bit to develop categories
+   - It still felt like we were making generalizations.
+
+> This activity was meant to illustrate a **social constructivist** approach to making categories.
+
+
+
+---
+
 # Activity: Our Kind of People - Bayeté Ross Smith
 
 ![Bayeté Ross Smith's art project called Our Kind of People depicts the same person in different clothing w:750](./images/our-kind-of-people.png)
