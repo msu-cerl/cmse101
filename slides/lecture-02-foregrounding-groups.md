@@ -34,7 +34,7 @@ Prof. Danny Caballero
 - **What about the final project?**
    - You will select your final project groups and tell us Oct. 2nd.
 - **Office Hours?**
-   - Complete this [poll](https://crab.fit/cmse-492-office-hours-655856) by next Wednesday - also posted in D2L.
+   - Complete this [office hours poll](https://crab.fit/cmse-492-office-hours-655856) by next Wednesday - also posted in D2L.
 
 
 ---
