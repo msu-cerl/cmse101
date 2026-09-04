@@ -63,23 +63,21 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 ---
 
-<!--- 
 ### Week 3 · Sep 14 – 18
-*Unit I*
 
-**Prep reading (before Mon):** _TBD_
+[Week 3 - Case Study Information](week3)
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
 | M | **Sep 14** | Concept | Transformers & LLMs |
-| W | **Sep 16** | Case (Practice Focus) | Generative AI for writing code |
-| F | **Sep 18** | Studio | Team formation · Project Overview |
+| W | **Sep 16** | Case (Practice Focus) | ChatGPT and Generating Text |
+| F | **Sep 18** | Studio | ChatGPT and Generating Text |
 
 **Due:** Exit ticket ×3 · **Teams formed (Fri Sep 18)** · Reflection 3 (Sun Sep 20) · Responses (Tue Sep 22)
 
 ---
 
-### Week 4 · Sep 21 – 25
+<!---  ### Week 4 · Sep 21 – 25
 *Unit I*
 
 **Prep reading (before Mon):** _TBD_
