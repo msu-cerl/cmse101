@@ -9,21 +9,19 @@ author: "Danny Caballero"
 
 > All of this material is also available on [Google Docs](https://docs.google.com/document/d/1BF6gwBQreKTAfhidf_J_N_Iv1MyDmQPUa-0_3f3W_7k/edit?tab=t.mcr5a041tko3) (*MSU login required*)
 
-## This Week's Case
-
 ![Handwritten numbers recognized by neural network](../../images/handwritten.png)
 
 *Source: https://github.com/JoshEvan/Handwritten-Digits-Recognition-Using-Neural-Network-With-Tensorflow-and-Keras*
 
-**Two systems that look at pixels and decide what they are: the U.S. Postal Service reading handwritten ZIP codes, and police departments running facial recognition.**
+## Image Recognition in Postal Systems and Policing
 
-These are close cousins. Both take an image, break it into a grid of numbers, and pass those numbers through layers of simple units until a label comes out the other end. The math is nearly the same. The neural network that reads your grandparents's handwriting on an envelope is a direct ancestor of the one that scans a security camera still.
+Two systems that look at pixels and decide what they are: the U.S. Postal Service reads handwritten ZIP codes to ensure mail gets where it's going, and police departments use facial recognition to identify suspects.
 
-What differs is what happens when they're wrong.
+These two use cases are close cousins. Both take an image, break it into a grid of numbers, and pass those numbers through neural networks until a label comes out the other end. The mathematics that these two systems use is nearly the same. The neural network that reads your grandparents's handwriting on an envelope is a direct ancestor of the one that scans a security camera still. 
 
-When the mail system fails, an envelope goes to a room in Salt Lake City where a person looks at a photo of it and types the address. The letter might arrive late, but it gets there eventually. When facial recognition fails, [Robert Williams gets arrested on his front lawn in Farmington Hills](https://www.nytimes.com/2020/06/24/technology/facial-recognition-arrest.html) in front of his wife and two daughters for a theft he had nothing to do with.
+What differs is what happens when they identify what is in the image incorrectly. When the US mail system fails, an envelope goes to a room in Salt Lake City where a person looks at a photo of it and types the address. The letter might arrive late, but it gets there eventually. When facial recognition fails, [Robert Williams gets arrested on his front lawn in Farmington Hills](https://www.nytimes.com/2020/06/24/technology/facial-recognition-arrest.html) in front of his wife and two daughters for a theft he had nothing to do with.
 
-This week we focus on **Tools**. The lesson is not that neural networks are good or bad. It's that every tool has a *failure profile*. There is a rate of failure, a pattern of who it fails, and a cost borne by someone. Two systems can share an architecture and have completely different failure profiles.
+This week we focus on **Tools**. This lesson is not that neural networks are good or bad, but that every tool has a *failure profile*. There is a rate of failure, a pattern of who it fails, and a cost borne by someone. Two systems can share an architecture and have completely different failure profiles.
 
 ## Prep reading & resources (Complete by Wed, Sep 9)
 
@@ -58,36 +56,51 @@ This week we focus on **Tools**. The lesson is not that neural networks are good
 
 You are the network. We will not use computers. Stay in your group for the whole session.
 
-### Round 1 — one layer, in your groups (~10 min)
+### Round 1 — one layer, in your groups (~15 min)
 
-Each group gets a set of printed shapes — circle, square, rectangle, or triangle — rendered on a coarse grid. Each person (except one) in the group owns one or more cells and can report exactly one thing about their cell: filled or empty. You are the **input neurons**. One group member, who acts as the **output neuron**, turns away and cannot see the grid.
+Each group will receive a set of printed shapes — circle, square, rectangle, or triangle — that have been rendered on a coarse grid. Each person in your group (except one) selects one or more cells and can report exactly one thing about their cell: is it filled or empty. You are the **input neurons**. One group member, who acts as the **output neuron**, turns away from the others and cannot see the grid. Output neurons will receive a blank grid for notetaking or sketching.
 
-> Input neurons choose the image they want to start with; output neuron can't see the image.
+> Input neurons choose the image they want to start with; output neuron can't see the selected image.
 
-The rule that makes this work: input neurons may not say "it looks like a triangle." You report your cell. That's all you have. After asking enough questions about the cell, the output neuron announces the shape.
+Input neurons may not say "it looks like a triangle." You can only report on your selected cells. That's all the information that you have. Output neurons can ask questions about cells and can make notes or sketches in the blank grid paper they were given. After asking enough questions about the cell, the output neuron announces the shape.
 
-Run it more times with different shapes (and you can change the person acting as the **output neuron**). You all can discuss how your input neurons can change what they describe in either a given cell or assigning a set of cells. **How much better does the output neuron get the second time?** 
+After the first run try a few things:
+- Run it with different shapes. Are some easier to identify than others?
+- Try different forms of basic reporting. Assign rows or columns, or areas of the image. Does this make things more efficient?
+- Report the rough fraction of the filled in grid instead of filled or not. Does this make things easier?
 
-### Discussion — why digits are harder (~10 min, same group)
+We just want you to run it more times with different shapes (and you can change the person acting as the **output neuron**). You all can discuss how your input neurons can change what they describe in either a given cell or assigning a set of cells. **How much better does the output neuron get at determining shapes?** 
 
-Shapes have defining features you can name in one word: four equal sides, three corners, a closed curve with no corners at all. That's *why* filled/empty cells were enough — the output neuron could reconstruct the answer almost by counting.
+### Group Discussion — why is determining handwritten digits are harder (~10 min)
 
-Digits don't reduce that cleanly. Look at the set of digits you have with a grid overlaid on them. Notice a 4 and a 9 both have a closed loop. A 7 and a 1 differ by one stroke that can vanish at low resolution. Talk through it as a group:
+**You might want to take notes on this discussion in your Case Study template!**
+
+Shapes have defining features you can name in one word: four equal sides, three corners, a closed curve with no corners at all. That's likely *why* filled/empty cells were enough — the output neuron could reconstruct the answer almost by counting.
+
+Digits don't reduce that cleanly. Look at the set of digits you have with a grid overlaid on them. Notice a 4 and a 9 both have a closed loop. A 7 and a 1 differ by one stroke. Talk through it as a group:
 
 * What would you need to know, beyond filled/empty, to tell digits apart?
-* Who would compute that — is it still the output neuron, or does someone need to pre-digest the raw cells first?
+* Who would "compute" that — is it still the output neuron, or does someone need to pre-digest the raw cells first?
 
-That pre-digesting job is what a **hidden layer** does: a layer of neurons that each answer one narrow question about the cells (*horizontal bar across the top? closed loop?*) and pass forward a single number, not the raw cells. We're not going to build one by hand right now — just notice that digits require it and shapes didn't.
+That pre-digesting job is what a **hidden layer** does: a layer of neurons that each answer one narrow question about the cells (*horizontal bar across the top? closed loop?*) and pass forward a single number, not the raw cells. 
 
-### Round 2 — the questions we can't write (~15 min, same group)
+**Try to write as many questions as your group could ask as a hidden layer to identify handwritten digits.**
 
-You just described, in words, what a hidden layer would need to do for digits. The questions were easy to write because we already know what digits are made of: ten symbols, drawn with a few strokes, and everyone agrees on what they look like.
+### Round 2 — the questions we can't write (~15 min)
 
-Now do the same job for faces. Your grid shows Elmo. We show them in color and in color bands (red, green, blue). Your task is to **write the questions**, under the same rules as before:
+**You might want to take notes on this discussion in your Case Study template!**
+
+You just described, in words, what a hidden layer would need to do for digits. The questions could be written because we already know what digits are made of: ten symbols, drawn with a few strokes, and we agree on what they look like. That is, as humans who have worked with numbers for years, we know what a 3 looks like.
+
+Now lets try to do the same job for faces. Here's a photo of Elmo as a cosmic being.
+
+![Elmo as a cosmic being](../../images/elmo.png)
+
+Your grid shows Elmo on a grid of coarse pixels. We show them in color and using typical color bands (red, green, blue). Your task is to **write the questions**, under the same rules as before:
 
 * A first-layer neuron sees only its own cells and reports filled/empty.
-* A middle-layer neuron may poll only a specific list of cells and must return a single number, 0 to 3.
-* No neuron at any layer may name a person.
+* A middle-layer neuron may poll only a specific list of cells and must return a single number.
+* No neuron at any layer may name shapes, but shape information could be contained in a second middle layer.
 
 **Write five questions for your first middle layer. Then write three questions for a second middle layer that only hears the first.**
 
@@ -98,7 +111,9 @@ Some things you will probably run into:
 * **The question only works once.** A question tuned to one person's specific face tells you nothing about the next one.
 * **The feature isn't in the grid.** Some of what distinguishes two faces is simply gone at this resolution.
 
-The point isn't that these are unanswerable. Real systems answer them, with far more layers and far more resolution than we have. The point is **we can't write them down, and neither can the engineers.** For digits, a person can specify the features. For faces, nobody can. The network finds something during training, and what it finds is not written in any language a person can read.
+The point isn't that these are unanswerable. Real systems answer them, with far more layers and far more resolution than we have. The point is **we can't write them down, and neither can the engineers.** 
+
+For digits, a person can specify the features. For faces, nobody can. The network finds something during training, and what it finds is not written in any language a person can read.
 
 So: we know these systems work often enough to be deployed. We cannot often say what they are looking at.
 
@@ -110,35 +125,22 @@ This week we add **Tools** to the Case Study. You will still complete the Data s
 
 ### What "meeting the standard" looks like this week
 
+**Find a particular facial recognition tool/technology to research.**
+
 Your Tools section has four prompts. **Analyze facial recognition as the tool.** The postal system is your comparison case and you'll need it for the fourth prompt, and you may use it anywhere else it helps.
 
 The habit from Week 1 carries over unchanged: a specific claim with a source, not a general statement. For Tools, "specific" means naming a mechanism, a number, or a rule, that is, something that could be checked.
 
-**1. Mechanism — what does the tool actually do?**
+* **Mechanism — what does the tool actually do?** Describe the path from input to output in terms a classmate could follow. An image comes in; what is it turned into? What comes out the other end (a name, a ranked list, a score)? Your group should be able to say where the numbers in the middle came from.
+    * Weak: *"The AI scans the face and identifies the person."*
+* **Provenance — who built it, on what, and who decided it was good enough?** Name the builder where you can. More importantly, name what it was trained and *tested* on, and who set the bar for release. This is where Week 1 comes back: the benchmark is itself a dataset someone assembled.
+    * Weak: *"It was trained on biased data."*
+* **Deployment — what is the output allowed to do?** This is the prompt most groups will underweight and it's the one that matters most. A tool doesn't act. A system around it acts. What happens to the output when it leaves the model? Who receives it, what are they permitted to do with it, and what is the procedure when the system isn't confident?
+    * Weak: *"Police use facial recognition to find suspects."*
+* **Failure profile — rate, pattern, cost, and who absorbs it.** How often is it wrong? Is it wrong evenly, or does the error concentrate on particular people? What does a single error cost? And who pays that cost — the operator, the institution, or the person in the image?
+    * Weak: *"Facial recognition has a high error rate for people of color, which is unfair."*
 
-Describe the path from input to output in terms a classmate could follow. An image comes in; what is it turned into? What comes out the other end (a name, a ranked list, a score)? Your group should be able to say where the numbers in the middle came from.
-
-* Weak: *"The AI scans the face and identifies the person."*
-
-**2. Provenance — who built it, on what, and who decided it was good enough?**
-
-Name the builder where you can. More importantly, name what it was trained and *tested* on, and who set the bar for release. This is where Week 1 comes back: the benchmark is itself a dataset someone assembled.
-
-* Weak: *"It was trained on biased data."*
-
-**3. Deployment — what is the output allowed to do?**
-
-This is the prompt most groups will underweight and it's the one that matters most. A tool doesn't act. A system around it acts. What happens to the output when it leaves the model? Who receives it, what are they permitted to do with it, and what is the procedure when the system isn't confident?
-
-* Weak: *"Police use facial recognition to find suspects."*
-
-**4. Failure profile — rate, pattern, cost, and who absorbs it.**
-
-Four things, all four required. How often is it wrong? Is it wrong evenly, or does the error concentrate on particular people? What does a single error cost? And who pays that cost — the operator, the institution, or the person in the image?
-
-Then the comparison: **do the same four for the postal system, in two or three sentences, and explain why two systems built on the same idea produce such different profiles.**
-
-* Weak: *"Facial recognition has a high error rate for people of color, which is unfair."*
+Consider the comparison: **do the same four for the postal system, in two or three sentences, and explain why two systems built on the same idea produce such different profiles.**
 
 ### The trap to avoid
 

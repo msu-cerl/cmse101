@@ -51,8 +51,6 @@ Prof. Danny Caballero
 
 **Did your group complete the timeline before today's class?**
 
-
-
 ---
 
 # Today's Activity: Completing your first Case Study - Data
