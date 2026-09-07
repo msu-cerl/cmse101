@@ -1,6 +1,7 @@
 src/
 output/
 .claude/
+scripts/.venv/
 
 # Hugo build output
 /public/
