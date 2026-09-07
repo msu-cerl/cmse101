@@ -59,7 +59,7 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 | W | **Sep 9** | Concept | [Neural Networks & Image Recognition](week2) |
 | F | **Sep 11** | Case (Tools Focus) | [Mail Systems; Facial Recognition](week2) |
 
-**Due:** Exit ticket ×2 · Forum Post (Tue Sep 8) · Week 2 Case Study & Week 2 Reflection (Sun Sep 13) · Forum Replies (Thu Sep 10)
+**Due:** Exit ticket ×2 · Week 2 Forum Post (Tue Sep 8) · Week 2 Case Study & Week 2 Reflection (Sun Sep 13) · Week 2 Forum Replies (optional, Thu Sep 10)
 
 ---
 
@@ -69,11 +69,11 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Sep 14** | Concept | Transformers & LLMs |
-| W | **Sep 16** | Case (Practice Focus) | ChatGPT and Generating Text |
-| F | **Sep 18** | Studio | ChatGPT and Generating Text |
+| M | **Sep 14** | Concept | [Transformers & LLMs](week3) |
+| W | **Sep 16** | Case (Practice Focus) | [ChatGPT and Generating Text](week3) |
+| F | **Sep 18** | Studio | [ChatGPT and Generating Text](week3) |
 
-**Due:** Exit ticket ×3 · **Teams formed (Fri Sep 18)** · Reflection 3 (Sun Sep 20) · Responses (Tue Sep 22)
+**Due:** Exit ticket ×3 · Week 3 Forum Post (Sun Sep 13) · Week 2 Case Study & Week 2 Reflection (Sun Sep 20) · Week 3 Forum Replies (optional, Thu Sep 19)
 
 ---
 

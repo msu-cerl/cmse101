@@ -96,7 +96,24 @@ Now lets try to do the same job for faces. Here's a photo of Elmo as a cosmic be
 
 ![Elmo as a cosmic being](../../images/elmo.png)
 
-Your grid shows Elmo on a grid of coarse pixels. We show them in color and using typical color bands (red, green, blue). Your task is to **write the questions**, under the same rules as before:
+Your grid shows Elmo on a grid of coarse pixels. We show them in color and using typical color bands (red, green, blue) below. The intensity of each pixel (using grayscale, 0-255) is shown below the color band images. 
+
+**Click any image to see it full size.**
+
+<table>
+  <tr>
+    <td>Red Filter<a href="../../images/elmo-bands/elmo_red_color.png"><img src="../../images/elmo-bands/elmo_red_color.png" alt="Elmo, red channel isolated in color" width="180"></a></td>
+    <td>Green Filter<a href="../../images/elmo-bands/elmo_green_color.png"><img src="../../images/elmo-bands/elmo_green_color.png" alt="Elmo, green channel isolated in color" width="180"></a></td>
+    <td>Blue Filter<a href="../../images/elmo-bands/elmo_blue_color.png"><img src="../../images/elmo-bands/elmo_blue_color.png" alt="Elmo, blue channel isolated in color" width="180"></a></td>
+  </tr>
+  <tr>
+    <td>Red Band (Intensity)<a href="../../images/elmo-bands/elmo_red_bw.png"><img src="../../images/elmo-bands/elmo_red_bw.png" alt="Elmo, red channel in grayscale" width="180"></a></td>
+    <td>Green Band (Intensity)<a href="../../images/elmo-bands/elmo_green_bw.png"><img src="../../images/elmo-bands/elmo_green_bw.png" alt="Elmo, green channel in grayscale" width="180"></a></td>
+    <td>Blue Band (Intensity)<a href="../../images/elmo-bands/elmo_blue_bw.png"><img src="../../images/elmo-bands/elmo_blue_bw.png" alt="Elmo, blue channel in grayscale" width="180"></a></td>
+  </tr>
+</table>
+
+Your task is to **write the questions**, under the same rules as before:
 
 * A first-layer neuron sees only its own cells and reports filled/empty.
 * A middle-layer neuron may poll only a specific list of cells and must return a single number.
