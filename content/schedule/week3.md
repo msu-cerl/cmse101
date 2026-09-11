@@ -65,15 +65,49 @@ Take care, please.
 * 📖 [AI Is Supercharging the War on Libraries, Education, and Human Knowledge](https://www.404media.co/ai-is-supercharging-the-war-on-libraries-education-and-human-knowledge/) (Koebler, *404 Media*, 2025) — a school library catalog product added an AI "sensitive material marker" with traffic-light risk ratings, advertising that districts may cut manual review workload by more than 80 percent when complying with book-ban legislation. Librarians describe being flooded with AI-generated books they must screen while being handed AI tools to screen them. A complete Practices case in one article.
 
 
-## Activity: How do LLMs work anyhow? - Rolling a Sentence
+## Activity: Building a Story Word by Word
+
+In your groups, start with the word "Once" and for 2 minutes rotate adding a word to build a story. Does it make sense? Are there multiple sentences?
+
+Again, in your groups, start with the phrase "We took the dog for a walk and…" For 2 more minutes rotate adding a word to build a story. Does it make sense? Are there multiple sentences?
+
+### Discussion Questions
+
+1. What differences did you notice about the story you built from a single word compared to a phrase?
+2. How does this story-building exercise connect to Generative AI like ChatGPT?
+
+## Activity: How do LLMs work anyhow? - Rolling a Sentence with One Die
 
 *Designed by Vashti Sawtelle and Danny Caballero with the help of [MadLibs](https://en.wikipedia.org/wiki/Mad_Libs) (TM)*
 
 ### Instructions:
 
-You have each been given dice to roll. For the narratives below, you will roll dice individually and compare the resulting narratives that you produced. There are reflection questions after each narrative that we expect you to discuss. We will share out together after groups have had a chance to work through Narrative 1, after Narrative 2, and, finally, after Narrative 3.
+You have each been given dice to roll. For the narratives below, EACH of you will roll dice individually and compare the resulting narratives that you produced (highlight or mark each time you roll). There are reflection questions to answer as a group. We will share out together after groups have had a chance to work through Narrative 1 and Narrative 2, and, then, after Narrative 3.
 
 ### Narrative 1
+
+Once upon a time, there lived a **\[word 1\]** in a **\[word 2\]** town who was known to be exceptionally **\[word 3\]**. One morning they found **\[word 4\]** box on their front doorstep. A note attached to the top of the box contained a **\[word 5\]** message. Knowing what they had to do they prepared for a **\[word 6\]** journey.
+
+#### Equal Probabilities
+
+| **Dice Roll** | **Word 1** | **Word 2** | **Word 3** | **Word 4** | **Word 5** | **Word 6** |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | boy | tiny | generous | heavy | cryptic | perilous |
+| 2 | girl | forgotten | cunning | black | threatening | thrilling |
+| 3 | queen | hidden | brave | dusty | urgent | tedious |
+| 4 | prince | magical | impulsive | polished | exciting | solitary |
+| 5 | witch | prosperous | stubborn | wooden | demanding | long |
+| 6 | wizard | gloomy | unlucky | crystal | unexpected | unexpected |
+
+#### Weighted Probabilities
+
+| **Dice Roll** | **Word 1** | **Word 2** | **Word 3** | **Word 4** | **Word 5** | **Word 6** |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | boy | forgotten | brave | polished | cryptic | perilous |
+| 2, 3 | queen | hidden | generous | dusty | threatening | thrilling |
+| 4, 5, 6 | witch | gloomy | cunning | wooden | unexpected | long |
+
+### Narrative 2
 
 The professor **\[word 1\]** across the room and handed me an envelope. "I've reviewed your project," she said, her voice sounding surprisingly **\[word 2\]**. The letter inside was incredibly **\[word 3\]**. Leaving the classroom, I felt a deep sense of **\[word 4\]** about the **\[word 5\]** work ahead.
 
@@ -96,37 +130,22 @@ The professor **\[word 1\]** across the room and handed me an envelope. "I've re
 | 2, 3, 4 | strode | stern | brief | dread | annoying |
 | 5, 6 | rushed | excited | encouraging | determination | challenging |
 
-### Narrative 2
+### Narrative 1 and 2 Reflection Questions
 
-Once upon a time, there lived a **\[word 1\]** in a **\[word 2\]** town who was known to be exceptionally **\[word 3\]**. One morning they found **\[word 4\]** box on their front doorstep. A note attached to the top of the box contained a **\[word 5\]** message. Knowing what they had to do they prepared for a **\[word 6\]** journey.
+1. Which narratives seemed more coherent or consistent? Was this true across your individual rolls?
+2. Which narratives seemed less understandable or inconsistent? Was this true across your individual rolls?
+3. What is the difference you notice between the context of Narrative 1 and Narrative 2 in terms of their consistency or coherence? Was one narrative more likely to be coherent?
+4. What is the difference you notice between equal and weighted rolls? Was one more likely to be coherent?
 
-#### Equal Probabilities
+## Activity: How do LLMs work anyhow? - Rolling a Sentence with Two Dice
 
-| **Dice Roll** | **Word 1** | **Word 2** | **Word 3** | **Word 4** | **Word 5** | **Word 6** |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 | boy | tiny | generous | heavy | cryptic | perilous |
-| 2 | girl | forgotten | cunning | black | threatening | thrilling |
-| 3 | queen | hidden | brave | dusty | urgent | tedious |
-| 4 | prince | magical | impulsive | polished | exciting | solitary |
-| 5 | witch | prosperous | stubborn | wooden | demanding | long |
-| 6 | wizard | gloomy | unlucky | crystal | unexpected | unexpected |
+### Sum of Two Dice
 
-#### Weighted Probabilities
-
-
-| **Dice Roll** | **Word 1** | **Word 2** | **Word 3** | **Word 4** | **Word 5** | **Word 6** |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 | boy | forgotten | brave | polished | cryptic | perilous |
-| 2, 3 | queen | hidden | generous | dusty | threatening | thrilling |
-| 4, 5, 6 | witch | gloomy | cunning | wooden | unexpected | long |
+Each of you roll two dice and add them together. Unlike Narratives 1 and 2, you won't find an "equal probability" version of this table. Some sums are simply more common than others, no weighting is required. Write the narrative that your rolls produce.
 
 ### Narrative 3
 
 The forecaster stood before the map and declared that today would be **[word 1]**. The chance of rain, she explained, was **[word 2]**. Looking out the window, everything outside appeared **[word 3]**. The crowd's mood shifted to **[word 4]** as they braced for what was shaping up to be a **[word 5]** afternoon.
-
-#### Sum of Two Dice
-
-Roll two dice and add them together. Unlike Narratives 1 and 2, you won't find an "equal probability" version of this table. Some sums are simply more common than others, no weighting is required.
 
 | **Sum** | **Ways to roll it** | **Word 1** | **Word 2** | **Word 3** | **Word 4** | **Word 5** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -142,16 +161,34 @@ Roll two dice and add them together. Unlike Narratives 1 and 2, you won't find a
 | 11 | 2/36 | perfect | remote | dazzling | excitement | magical |
 | 12 | 1/36 | miraculous | impossible | otherworldly | euphoria | legendary |
 
-#### Reflection Questions
+#### Reflection Questions for Narrative 3
 
-1. Before rolling, look at the "ways to roll it" column. Which sums do you predict will show up most in your group's rolls? Which will barely show up at all?
-2. Roll the dice **10 times individually** and record each sum. Circle every time you land on 6, 7, or 8. How often did that happen compared to landing on 2 or 12?
-3. Compare your 10 rolls with a partner's. Are your distributions identical? Should they be?
+1. Roll the dice **20 times individually** and record each sum. Count each roll in the table above.
+2. Compare your 20 rolls with your group mates. Are your distributions identical? Should they be?
+3. Add all your counts together and sketch the distribution of your group's rolls.
 4. How is this different from the "weighted" tables in Narratives 1 and 2? There, *we* decided which word was more likely. Here, who or what decided it?
+5. What might happen to the narrative if the number of dice was increased to 1,000? Or 10,000? In keeping with this model, we'd have to increase the number of selected words to match. Notice which words would fall near the middle of any distribution compared to those near the ends (e.g., for two dice: 6, 7, 8 vs. 2 and 12).
 
 ### One thing this activity gets wrong on purpose
 
 Dice tables are a lookup. A transformer is not. The rolling shows you what the model does *with* the probabilities, which is the last step of a long process. The transformer is how those probabilities get computed in the first place, using everything in the context at once. That is what Chapter 5 and the FT explainer cover, and it is the piece the dice cannot show you.
+
+## Activity: Simulations — Watermarking AI-Produced Text
+
+Our prior activities produced toy models of LLMs to build a conceptual understanding of how this might work. But the details of transformers and LLMs are more complicated than simply rolling dice — the text is random, but *contextually* random. We can start to understand this by looking at how Anthropic is changing its approach to generating text in response to new EU regulations.
+
+The [European Union has passed a regulation](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content) that requires the products of generative AI to be detectable as such.
+
+Anthropic has decided to develop a [watermarking technique](https://www.anthropic.com/news/claude-text-watermark) that biases the selection of the next word using the prior context (i.e., what was written before).
+
+For this activity, go to [declaude.org/watermarking](https://declaude.org/watermarking/) and work through the simulations. The site illustrates how LLMs actually work, compared to the toy models we built in the previous activities.
+
+#### Reflection Questions for Watermarking
+
+1. How does an LLM typically produce the next word in a sentence?
+2. How is Claude changing that with a "secret key"? What is it changing about the selection of the next word?
+3. How does this secret key approach allow generated text to be detected?
+4. What does this biasing of text generation using a secret key say about how these GenAI companies think about the task of writing?
 
 ## Wednesday and Friday: Find a Case
 
