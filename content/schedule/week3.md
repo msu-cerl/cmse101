@@ -190,9 +190,9 @@ For this activity, go to [declaude.org/watermarking](https://declaude.org/waterm
 3. How does this secret key approach allow generated text to be detected?
 4. What does this biasing of text generation using a secret key say about how these GenAI companies think about the task of writing?
 
-## Wednesday and Friday: Find a Case
+## Wednesday and Friday: Find a Case and Start your Analysis
 
-**Wednesday you find a case; Friday you analyze it in your group.**
+**Research a specific use of Generative AI in some industry**
 
 You choose your own. It must be documented and specific enough to name who used the tool and when. "AI in healthcare" is not a case. "A hospital system that deployed an AI scribe to draft clinical notes" is.
 
@@ -205,13 +205,12 @@ Places to start looking:
 | [404 Media](https://www.404media.co/tag/ai-slop/) | Ongoing reporting on AI in workplaces, schools, libraries |
 | [The Data Workers' Inquiry](https://data-workers.org/) | Worker-authored accounts of building these systems; *Content warning: The material here can be quite disturbing.* |
 | [Atlantic LibGen search](https://www.theatlantic.com/technology/archive/2025/03/libgen-meta-openai/682093/) / [Settlement Works List](https://secure.anthropiccopyrightsettlement.com/lookup) | Search for a specific book |
-| Local news: "data center" + any Michigan township | Pavilion Township, and others |
 
-You are not required to pick something harmful. You are required to pick something **documented**, and then to follow the labor and the resources wherever they actually go.
+**You are not required to pick something harmful.** You are required to pick something **documented**, and then to follow the labor and the resources wherever they actually go.
 
 ## Focus for Week 3
 
-This week we add **Practices**. You will still consider Data and Tools as we are building up, not moving on, but your evaluation this week focuses on the Practices parts. Data and Tools should be getting faster; you can be briefer there than you were in Weeks 1 and 2.
+This week we focus on **Practices** and **Quantitative Literacy**. You will still consider Data and Tools as we are building up, not moving on, but your evaluation this week focuses on the Practices parts. Data and Tools should be getting faster; you can be brief because you might want these notes for the future.
 
 ### What "meeting the standard" looks like this week
 
@@ -219,8 +218,8 @@ The habit carries over unchanged: a specific claim with a source, not a general 
 
 * **Use — how does the tool actually get used?** Describe the workflow, not the product. Who sits down and prompts it? Who receives the output? What did that person do before this tool existed, and what are they expected to do instead now? Where in the chain is someone supposed to check the result, and is that step written down anywhere or merely assumed?
     * Weak: *"Schools are using AI to review books."*
-* **Labor and resources — what did it take to build, and what does it take to run?** Both halves are required. For **labor**: who annotated, moderated, cleaned, wrote, or performed the material this system depends on — under what pay, what conditions, and through how many layers of subcontracting? For **resources**: what does it consume, and who lives next to that consumption? Name a specific input wherever you can.
-    * Weak: *"Training AI takes a lot of data and energy."*
+* **Labor and resources — what did it take to build, and what does it take to run?** Both halves are required. For **labor**: who annotated, moderated, cleaned, wrote, or performed the material this system depends on. Under what pay, what conditions, and through how many layers of subcontracting did this work get performed? For **resources**: what does it consume, and who lives next to that consumption? What kind of energy and water went into training, what about the inference? Name a specific input wherever you can.
+    * Weak: *"Training AI takes a lot of data and energy"*
 * **Constraint and critique — what pushed back, and did anything actually change?** Keep these separate. **Critique** is someone saying this is wrong: reporting, a paper, an op-ed, a worker's testimony. **Constraint** is a change in what someone is now permitted to do: a union contract, a court ruling, a settlement, a zoning denial, a written policy. Name at least one of each where both exist, and state plainly whether the critique produced a constraint or didn't.
     * Weak: *"There has been a lot of criticism of AI labor practices."*
 
