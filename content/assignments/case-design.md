@@ -29,7 +29,7 @@ Both pathways require evidence-based arguments and APA-style citations: peer-rev
 | Milestone | Due | Focus | Minimum length |
 |-----------|-----|-------|-----------------|
 | Teams formed | Fri, Sep 18 | Start to pick a pathway and topic; meet with Danny (if needed) | No need to commit before Oct 2nd |
-| **Scaffold 1** | Fri, Oct 2 | Problem, stakeholders, initial DTPA scoping | 750 words |
+| **Scaffold 1** | Fri, Oct 9 | Problem, stakeholders, initial DTPA scoping | 750 words |
 | **Scaffold 2** | Fri, Nov 6 | Evidence base, full DTPA analysis, response to Scaffold 1 feedback | 1500 words & response-to-feedback document (>250 words) |
 | **Final Case Design** | Fri, Dec 4 | Full *draft* solution or restriction, response to Scaffold 2 feedback | 3000 words & response-to-feedback document (>250 words) |
 | **Class Showcase** | Dec 7--11 | Team presentations & Class Feedback | 10 minutes + 2-3 min for questions |
