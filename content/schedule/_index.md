@@ -71,7 +71,7 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 |:---:|:----:|:----:|-------|
 | M | **Sep 14** | Concept | [Transformers & LLMs](week3) |
 | W | **Sep 16** | Case (Practice Focus) | [ChatGPT and Generating Text](week3) |
-| F | **Sep 18** | Studio | [ChatGPT and Generating Text](week3) |
+| F | **Sep 18** | Case (Practice Focus)| [ChatGPT and Generating Text](week3) |
 
 **Due:** Exit ticket ×3 · Week 3 Forum Post (Sun Sep 13) · Week 3 Case Study & Week 3 Reflection (Sun Sep 20) · Week 3 Forum Replies (optional, Thu Sep 19)
 
@@ -83,9 +83,9 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Sep 21** | Concept | _TBD_ |
-| W | **Sep 23** | Case | _TBD_ |
-| F | **Sep 25** | Studio | Plan I workshop |
+| M | **Sep 21** | Concept | [Automated Decision Making](week4) |
+| W | **Sep 23** | Case (Action Focus) | [Taking Action with Generative AI](week4) |
+| F | **Sep 25** | Case (Action Focus) | [Taking Action with Generative AI](week4) |
 
 **Due:** Exit ticket ×3 · Week 4 Forum Post (Sun Sep 20) · Week 4 Case Study & Week 4 Reflection (Sun Sep 27) · Week 4 Forum Replies (optional, Thu Sep 24)
 
@@ -93,93 +93,96 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 ### Week 5 · Sep 28 – Oct 2
 
+* **This week you may select your groups for Full Case I.**
+* **This week you must select your groups for the Case Design.**
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Sep 28** | Case Work | _TBD_ |
-| W | **Sep 30** | Case | _TBD_ |
-| F | **Oct 2** | Studio | Plan I due · peer review |
+| M | **Sep 28** | Introducing Case Design/Full Case I - Intro | Healthcare or Art |
+| W | **Sep 30** | Full Case I | Healthcare or Art |
+| F | **Oct 2** | Full Case I | Healthcare or Art |
 
-**Due:** Exit ticket ×3 · 🎯 **Project Plan I (Fri Oct 2)** · Reflection 5 (Sun Oct 4) · Responses (Tue Oct 6)
+**Due:** Exit ticket ×3 · Week 5 Forum Post (Sun Sep 27) · Week 5 Full Case I Update & Week 5 Reflection (Sun Oct 4) · Week 5 Forum Replies (optional, Thu Sep 29) · 🎯 **Case Design Plan I (Fri Oct 2)** · 
+
 
 ---
 
 ### Week 6 · Oct 5 – 9
-*Unit II — Where are we now?*
 
-**Prep reading (before Mon):** _TBD_
+* **This week you must continue your groups for Full Case I.**
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Oct 5** | Concept | _TBD_ |
-| W | **Oct 7** | Case | _TBD_ |
-| F | **Oct 9** | Studio | _TBD_ |
+| M | **Oct 5** | Full Case I | Healthcare or Art |
+| W | **Oct 7** | Full Case I | Healthcare or Art |
+| F | **Oct 9** | Full Case I | Healthcare or Art |
 
-**Due:** Exit ticket ×3 · Reflection 6 (Sun Oct 11) · Responses (Tue Oct 13)
+**Due:** Exit ticket ×3 · Week 6 Forum Post (Sun Oct 4) · Week 6 Full Case I Complete & Week 6 Reflection (Sun Oct 11) · Week 6 Forum Replies (optional, Thu Oct 8)
 
 ---
 
 ### Week 7 · Oct 12 – 16
-*Unit II*
 
-**Prep reading (before Mon):** _TBD_
+* **This week you may select new groups for Full Case II.**
+* You may stay in the same groups.
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Oct 12** | Concept | _TBD_ |
-| W | **Oct 14** | Case | _TBD_ |
-| F | **Oct 16** | Studio | _TBD_ |
+| M | **Oct 12** | Full Case II - Intro | _TBD_ |
+| W | **Oct 14** | Full Case II | _TBD_ |
+| F | **Oct 16** | Full Case II | _TBD_ |
 
-**Due:** Exit ticket ×3 · Reflection 7 (Sun Oct 18) · Responses (Tue Oct 20)
+
+**Due:** Exit ticket ×3 · Week 7 Forum Post (Sun Oct 11) · Week 7 Full Case II Update & Week 7 Reflection (Sun Oct 18) · Week 7 Forum Replies (optional, Thu Oct 15)
+
 
 ---
 
 ### Week 8 · Oct 19 – 23
-*Unit II*
 
-**Prep reading (before Mon):** _TBD_
+* **This week you must stay in your groups for Full Case II.**
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Oct 19** | Concept | _TBD_ |
-| W | **Oct 21** | Case | _TBD_ |
-| F | **Oct 23** | Studio | _TBD_ |
+| M | **Oct 19** | Full Case II | _TBD_ |
+| W | **Oct 21** | Full Case II| _TBD_ |
+| F | **Oct 23** | Full Case II | _TBD_ |
 
-**Due:** Exit ticket ×3 · Reflection 8 (Sun Oct 25) · Responses (Tue Oct 27)
+**Due:** Exit ticket ×3 · Week 8 Forum Post (Sun Oct 18) · Week 8 Full Case II Complete & Week 8 Reflection (Sun Oct 25) · Week 8 Forum Replies (optional, Thu Oct 22)
 
 ---
 
 ### Week 9 · Oct 26 – 30
-*Unit II*
 
-**Prep reading (before Wed):** _TBD_
+* **This week you may select new groups for Full Case III.**
+* You may stay in the same groups.
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
 | M | ~~Oct 26~~ | — | 🚫 **No class** — Fall Break (Mon Oct 26 – Tue Oct 27) |
-| W | **Oct 28** | Concept + Case | _TBD_ |
-| F | **Oct 30** | Studio | Plan II workshop |
+| W | **Oct 28** | Full Case III - intro | _TBD_ |
+| F | **Oct 30** | Full Case III | _TBD_ |
 
-**Due:** Exit ticket ×2 · Reflection 9 (Sun Nov 1) · Responses (Tue Nov 3)
+**Due:** Exit ticket ×3 · Week 9 Forum Post (Tue Oct 27) · Week 9 Full Case III Update & Week 9 Reflection (Sun Nov 1) · Week 9 Forum Replies (optional, Thu Oct 29)
 
 ---
 
 ### Week 10 · Nov 2 – 6
-*Unit II*
 
-**Prep reading (before Mon):** _TBD_
+* **This week you must stay in your groups for Full Case III.**
+* **This week you must stay in your groups for the Case Design.**
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Nov 2** | Concept | _TBD_ |
-| W | **Nov 4** | Case | _TBD_ |
-| F | **Nov 6** | Studio | Plan II due · peer review |
+| M | **Nov 2** | Full Case III | _TBD_ |
+| W | **Nov 4** | Full Case III| _TBD_ |
+| F | **Nov 6** | Full Case III| _TBD_ |
 
-**Due:** Exit ticket ×3 · 🎯 **Project Plan II (Fri Nov 6)** · Reflection 10 (Sun Nov 8) · Responses (Tue Nov 10)
+**Due:** Exit ticket ×3 · Week 10 Forum Post (Sun Nov 1) · Week 10 Full Case III Complete & Week 10 Reflection (Sun Nov 8) · Week 8 Forum Replies (optional, Thu Nov 5) · 🎯 **Project Plan II (Fri Nov 6)** 
 
 --- 
 
-### Week 11 · Nov 9 – 13
+<!--### Week 11 · Nov 9 – 13
 
 **Prep reading (before Mon):** _TBD_
 
