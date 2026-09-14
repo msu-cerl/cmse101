@@ -20,3 +20,7 @@ decks:
     title: "Day 05: Facial Recognition"
     date: "2026-09-11"
     description: ""
+  - slug: "lecture-06-predicting-the-next-word"
+    title: "Day 06: Predicting the Next Word"
+    date: "2026-09-14"
+    description: ""

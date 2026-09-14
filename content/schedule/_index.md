@@ -98,11 +98,11 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Sep 28** | Introducing Case Design/Full Case I - Intro | Healthcare or Art |
-| W | **Sep 30** | Full Case I | Healthcare or Art |
-| F | **Oct 2** | Full Case I | Healthcare or Art |
+| M | **Sep 28** | Introducing Case Design/Full Case I - Intro | Healthcare, Art, Education, or Athletics & Sports |
+| W | **Sep 30** | Full Case I | Healthcare, Art, Education, or Athletics & Sports |
+| F | **Oct 2** | Full Case I | Healthcare, Art, Education, or Athletics & Sports |
 
-**Due:** Exit ticket ×3 · Week 5 Forum Post (Sun Sep 27) · Week 5 Full Case I Update & Week 5 Reflection (Sun Oct 4) · Week 5 Forum Replies (optional, Thu Sep 29) · 🎯 **Case Design Plan I (Fri Oct 2)** · 
+**Due:** Exit ticket ×3 · Week 5 Forum Post (Sun Sep 27) · Week 5 Full Case I Update & Week 5 Reflection (Sun Oct 4) · Week 5 Forum Replies (optional, Thu Sep 29) 
 
 
 ---
@@ -113,11 +113,13 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Oct 5** | Full Case I | Healthcare or Art |
-| W | **Oct 7** | Full Case I | Healthcare or Art |
-| F | **Oct 9** | Full Case I | Healthcare or Art |
+| M | **Oct 5** | Full Case I | Healthcare, Art, Education, or Athletics & Sports |
+| W | **Oct 7** | Full Case I | Healthcare, Art, Education, or Athletics & Sports |
+| F | **Oct 9** | Full Case I | Healthcare, Art, Education, or Athletics & Sports |
 
-**Due:** Exit ticket ×3 · Week 6 Forum Post (Sun Oct 4) · Week 6 Full Case I Complete & Week 6 Reflection (Sun Oct 11) · Week 6 Forum Replies (optional, Thu Oct 8)
+**Due:** Exit ticket ×3 · Week 6 Forum Post (Sun Oct 4) · Week 6 Full Case I Complete & Week 6 Reflection (Sun Oct 11) · Week 6 Forum Replies (optional, Thu Oct 8) 
+
+🎯 **IMPORTANT DUE DATE: Case Design Plan I (Fri Oct 9)** 
 
 ---
 
@@ -128,9 +130,9 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Oct 12** | Full Case II - Intro | _TBD_ |
-| W | **Oct 14** | Full Case II | _TBD_ |
-| F | **Oct 16** | Full Case II | _TBD_ |
+| M | **Oct 12** | Full Case II - Intro | Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, or Military & Defense |
+| W | **Oct 14** | Full Case II | Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, or Military & Defense |
+| F | **Oct 16** | Full Case II | Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, or Military & Defense |
 
 
 **Due:** Exit ticket ×3 · Week 7 Forum Post (Sun Oct 11) · Week 7 Full Case II Update & Week 7 Reflection (Sun Oct 18) · Week 7 Forum Replies (optional, Thu Oct 15)
@@ -144,9 +146,9 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Oct 19** | Full Case II | _TBD_ |
-| W | **Oct 21** | Full Case II| _TBD_ |
-| F | **Oct 23** | Full Case II | _TBD_ |
+| M | **Oct 19** | Full Case II | Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, or Military & Defense |
+| W | **Oct 21** | Full Case II| Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, or Military & Defense |
+| F | **Oct 23** | Full Case II | Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, or Military & Defense |
 
 **Due:** Exit ticket ×3 · Week 8 Forum Post (Sun Oct 18) · Week 8 Full Case II Complete & Week 8 Reflection (Sun Oct 25) · Week 8 Forum Replies (optional, Thu Oct 22)
 
@@ -160,8 +162,8 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
 | M | ~~Oct 26~~ | — | 🚫 **No class** — Fall Break (Mon Oct 26 – Tue Oct 27) |
-| W | **Oct 28** | Full Case III - intro | _TBD_ |
-| F | **Oct 30** | Full Case III | _TBD_ |
+| W | **Oct 28** | Full Case III - intro | Agriculture, Transportation, Retail & Consumer, Entertainment & Gaming, or Environmental & Climate Science |
+| F | **Oct 30** | Full Case III | Agriculture, Transportation, Retail & Consumer, Entertainment & Gaming, or Environmental & Climate Science |
 
 **Due:** Exit ticket ×3 · Week 9 Forum Post (Tue Oct 27) · Week 9 Full Case III Update & Week 9 Reflection (Sun Nov 1) · Week 9 Forum Replies (optional, Thu Oct 29)
 
@@ -174,9 +176,9 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Nov 2** | Full Case III | _TBD_ |
-| W | **Nov 4** | Full Case III| _TBD_ |
-| F | **Nov 6** | Full Case III| _TBD_ |
+| M | **Nov 2** | Full Case III | Agriculture, Transportation, Retail & Consumer, Entertainment & Gaming, or Environmental & Climate Science |
+| W | **Nov 4** | Full Case III| Agriculture, Transportation, Retail & Consumer, Entertainment & Gaming, or Environmental & Climate Science |
+| F | **Nov 6** | Full Case III| Agriculture, Transportation, Retail & Consumer, Entertainment & Gaming, or Environmental & Climate Science |
 
 **Due:** Exit ticket ×3 · Week 10 Forum Post (Sun Nov 1) · Week 10 Full Case III Complete & Week 10 Reflection (Sun Nov 8) · Week 8 Forum Replies (optional, Thu Nov 5) · 🎯 **Project Plan II (Fri Nov 6)** 
 

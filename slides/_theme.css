@@ -3,58 +3,62 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap');
 
-:root {
-  /* Color palette */
-  --primary: #1a1a1a;
-  --secondary: #ffffff;
-  --accent: #0066cc;
-  --accent-dark: #004499;
-  --accent-light: #3399ff;
-  --text-dark: #1a1a1a;
-  --text-light: #ffffff;
-  --text-muted: #666666;
-  --border: #cccccc;
-  --bg-light: #f5f5f5;
-  --success: #228b22;
-  --warning: #ff8800;
-  --error: #cc0000;
+/* Colors and spacing are hard-coded literals throughout this file, not CSS
+   custom properties. Marp renders every slide as a <section> inside an SVG
+   <foreignObject>, and WebKit/Safari has a long-standing bug where
+   var(--x) fails to resolve across that foreignObject boundary. When that
+   happens `color` silently falls back to inherited black — invisible on the
+   dark title/break slides, and unnoticed everywhere else because black is
+   close enough to our normal text color to look correct. Hard-coding avoids
+   the failure mode entirely instead of relying on a browser fixing it.
 
-  /* Typography */
-  --font-body: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --font-mono: 'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+   Palette reference (for future edits):
+     primary #1a1a1a   secondary #ffffff   accent #0066cc
+     accent-dark #004499   accent-light #3399ff
+     text-dark #1a1a1a   text-light #ffffff   text-muted #666666
+     border #cccccc   bg-light #f5f5f5
+     success #228b22   warning #ff8800   error #cc0000
+     font-body 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif
+     font-mono 'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, monospace
 
-  /* Density controls — a MARP 16:9 slide is a fixed 1280x720 box, so vertical
-     space is a hard budget, not a suggestion. Loosen these and slides start
-     running off the bottom. At these values a slide fits ~13 single-line
-     bullets under a title; at 1.8 line-height it was ~7. */
-  --pad-v: 48px;
-  --pad-h: 60px;
-  --lh-heading: 1.15;
-  --lh-body: 1.45;
-  --gap-block: 12px;   /* between paragraphs, lists, boxes */
-  --gap-item: 3px;     /* between list items */
-}
+   Density controls — a MARP 16:9 slide is a fixed 1280x720 box, so vertical
+   space is a hard budget, not a suggestion. Loosen these and slides start
+   running off the bottom. At these values a slide fits ~13 single-line
+   bullets under a title; at 1.8 line-height it was ~7.
+     pad-v 48px   pad-h 60px   lh-heading 1.15   lh-body 1.45
+     gap-block 12px (between paragraphs, lists, boxes)
+     gap-item 3px (between list items) */
 
 /* Base styles */
 * {
   box-sizing: border-box;
 }
 
+/* Tell the browser this page is authored for light mode and already handles
+   its own dark sections (title/break) manually. Without this, a browser or
+   OS "force dark" setting (Chrome's "Auto Dark Mode for Web Contents", some
+   Safari/accessibility dark-mode overrides) will repaint colors using its own
+   heuristics on top of ours, which is what turns text the same color as its
+   background across the whole deck, not just the title slide. */
+html {
+  color-scheme: light;
+}
+
 body {
-  font-family: var(--font-body);
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 section {
-  background: var(--secondary);
-  color: var(--text-dark);
+  background: #ffffff;
+  color: #1a1a1a;
   /* Must be set here, not just on body: MARP renders each slide as a <section>
      inside an SVG foreignObject, and a font-family on body never reaches it.
      Without this the deck silently falls back to the browser's default serif. */
-  font-family: var(--font-body);
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 26px;
-  padding: var(--pad-v) var(--pad-h);
+  padding: 48px 60px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -63,7 +67,7 @@ section {
      stays put and only surplus content runs off the bottom. */
   justify-content: flex-start;
   font-feature-settings: 'kern' 1;
-  line-height: var(--lh-body);
+  line-height: 1.45;
 }
 
 /* Never let the first or last element push the content away from its edge. */
@@ -72,8 +76,8 @@ section > *:last-child { margin-bottom: 0; }
 
 /* Title slide */
 section.title {
-  background: var(--primary);
-  color: var(--text-light);
+  background: #1a1a1a;
+  color: #ffffff;
   justify-content: center;
 }
 
@@ -81,8 +85,8 @@ section.title h1 {
   font-size: 52px;
   font-weight: 700;
   margin: 0 0 20px 0;
-  line-height: var(--lh-heading);
-  color: var(--text-light);
+  line-height: 1.15;
+  color: #ffffff;
   border: none;
   padding: 0;
 }
@@ -91,12 +95,12 @@ section.title h2 {
   font-size: 30px;
   font-weight: 400;
   margin: 0 0 16px 0;
-  color: var(--accent-light);
+  color: #3399ff;
 }
 
 section.title p {
   font-size: 20px;
-  color: var(--border);
+  color: #cccccc;
   margin: 28px 0 0 0;
 }
 
@@ -105,32 +109,32 @@ h1 {
   font-size: 40px;
   font-weight: 700;
   margin: 0 0 18px 0;
-  color: var(--primary);
-  border-bottom: 3px solid var(--accent);
+  color: #1a1a1a;
+  border-bottom: 3px solid #0066cc;
   padding-bottom: 10px;
-  line-height: var(--lh-heading);
+  line-height: 1.15;
 }
 
 h2 {
   font-size: 30px;
   font-weight: 500;
   margin: 20px 0 10px 0;
-  color: var(--accent-dark);
-  line-height: var(--lh-heading);
+  color: #004499;
+  line-height: 1.15;
 }
 
 h3 {
   font-size: 24px;
   font-weight: 500;
   margin: 14px 0 8px 0;
-  color: var(--text-dark);
-  line-height: var(--lh-heading);
+  color: #1a1a1a;
+  line-height: 1.15;
 }
 
 p {
-  margin: var(--gap-block) 0;
+  margin: 12px 0;
   font-size: 24px;
-  line-height: var(--lh-body);
+  line-height: 1.45;
 }
 
 /* Inherit rather than hard-coding a dark color: on light slides --primary is
@@ -144,31 +148,31 @@ strong {
 
 em {
   font-style: italic;
-  color: var(--text-muted);
+  color: #666666;
 }
 
 /* Lists */
 ul, ol {
-  margin: var(--gap-block) 0;
+  margin: 12px 0;
   padding-left: 32px;
   font-size: 24px;
-  line-height: var(--lh-body);
+  line-height: 1.45;
 }
 
 li {
-  margin: var(--gap-item) 0;
-  color: var(--text-dark);
+  margin: 3px 0;
+  color: #1a1a1a;
 }
 
 /* Nested lists stay tight and step down a size. */
 li > ul,
 li > ol {
-  margin: var(--gap-item) 0;
+  margin: 3px 0;
   font-size: 0.9em;
 }
 
 li strong {
-  color: var(--accent-dark);
+  color: #004499;
 }
 
 /* Images sit centered and can never be taller than the space left for them. */
@@ -180,20 +184,20 @@ img {
 
 /* Code */
 code {
-  background: var(--bg-light);
-  color: var(--primary);
+  background: #f5f5f5;
+  color: #1a1a1a;
   padding: 2px 6px;
   border-radius: 3px;
-  font-family: var(--font-mono);
+  font-family: 'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 20px;
   font-weight: 500;
 }
 
 pre {
-  background: var(--bg-light);
-  border-left: 4px solid var(--accent);
+  background: #f5f5f5;
+  border-left: 4px solid #0066cc;
   padding: 12px 18px;
-  margin: var(--gap-block) 0;
+  margin: 12px 0;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.4;
@@ -204,12 +208,12 @@ pre code {
   background: none;
   padding: 0;
   font-size: 18px;
-  color: var(--primary);
+  color: #1a1a1a;
 }
 
 /* Links */
 a {
-  color: var(--accent);
+  color: #0066cc;
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 4px;
@@ -217,31 +221,31 @@ a {
 
 a:hover,
 a:focus {
-  color: var(--accent-dark);
-  outline: 2px solid var(--accent);
+  color: #004499;
+  outline: 2px solid #0066cc;
   outline-offset: 2px;
 }
 
 /* Blockquote */
 blockquote {
-  border-left: 4px solid var(--accent);
+  border-left: 4px solid #0066cc;
   padding-left: 18px;
-  margin: var(--gap-block) 0;
-  color: var(--text-muted);
+  margin: 12px 0;
+  color: #666666;
   font-size: 22px;
   font-style: italic;
-  line-height: var(--lh-body);
+  line-height: 1.45;
 }
 
 /* Emphasis boxes */
 .emphasize {
-  background: var(--bg-light);
-  border: 2px solid var(--accent);
+  background: #f5f5f5;
+  border: 2px solid #0066cc;
   border-radius: 6px;
   padding: 14px 18px;
-  margin: var(--gap-block) 0;
+  margin: 12px 0;
   font-size: 22px;
-  line-height: var(--lh-body);
+  line-height: 1.45;
 }
 
 /* Keep the box tight around its contents. */
@@ -250,17 +254,17 @@ blockquote {
 
 /* Success, warning, error states */
 .success {
-  color: var(--success);
+  color: #228b22;
   font-weight: 500;
 }
 
 .warning {
-  color: var(--warning);
+  color: #ff8800;
   font-weight: 500;
 }
 
 .error {
-  color: var(--error);
+  color: #cc0000;
   font-weight: 500;
 }
 
@@ -268,52 +272,52 @@ blockquote {
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: var(--gap-block) 0;
+  margin: 12px 0;
   font-size: 20px;
-  line-height: var(--lh-body);
+  line-height: 1.45;
 }
 
 thead {
-  background: var(--bg-light);
+  background: #f5f5f5;
 }
 
 th {
   padding: 8px 12px;
   text-align: left;
   font-weight: 500;
-  color: var(--primary);
-  border-bottom: 2px solid var(--accent);
+  color: #1a1a1a;
+  border-bottom: 2px solid #0066cc;
 }
 
 td {
   padding: 8px 12px;
-  border-bottom: 1px solid var(--border);
-  color: var(--text-dark);
+  border-bottom: 1px solid #cccccc;
+  color: #1a1a1a;
 }
 
 tr:hover {
-  background: var(--bg-light);
+  background: #f5f5f5;
 }
 
 /* Section footer for slide number and title */
 footer {
   position: absolute;
   bottom: 20px;
-  left: var(--pad-h);
-  right: var(--pad-h);
+  left: 60px;
+  right: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 14px;
-  color: var(--text-muted);
-  border-top: 1px solid var(--border);
+  color: #666666;
+  border-top: 1px solid #cccccc;
   padding-top: 10px;
 }
 
 /* Break slides */
 section.break {
-  background: var(--primary);
-  color: var(--text-light);
+  background: #1a1a1a;
+  color: #ffffff;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -323,22 +327,22 @@ section.break h1 {
   font-size: 56px;
   border: none;
   margin: 0;
-  color: var(--text-light);
+  color: #ffffff;
   padding: 0;
 }
 
 /* Dark slides: the muted/dark accents used for inline emphasis on white slides
-   have almost no contrast against --primary, so lift them here. */
+   have almost no contrast against the dark background, so lift them here. */
 section.title em,
 section.break em {
-  color: var(--border);
+  color: #cccccc;
 }
 
 section.title li strong,
 section.break li strong,
 section.title a,
 section.break a {
-  color: var(--accent-light);
+  color: #3399ff;
 }
 
 /* Two column layout */
@@ -371,7 +375,7 @@ section.break a {
 
 /* Focus visible for keyboard navigation */
 :focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 2px solid #0066cc;
   outline-offset: 2px;
 }
 
