@@ -73,14 +73,13 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 | W | **Sep 16** | Case (Practice Focus) | [ChatGPT and Generating Text](week3) |
 | F | **Sep 18** | Studio | [ChatGPT and Generating Text](week3) |
 
-**Due:** Exit ticket ×3 · Week 3 Forum Post (Sun Sep 13) · Week 2 Case Study & Week 2 Reflection (Sun Sep 20) · Week 3 Forum Replies (optional, Thu Sep 19)
+**Due:** Exit ticket ×3 · Week 3 Forum Post (Sun Sep 13) · Week 3 Case Study & Week 3 Reflection (Sun Sep 20) · Week 3 Forum Replies (optional, Thu Sep 19)
 
 ---
 
-<!---  ### Week 4 · Sep 21 – 25
-*Unit I*
+### Week 4 · Sep 21 – 25
 
-**Prep reading (before Mon):** _TBD_
+[Week 4 - Case Study Information](week4)
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
@@ -88,18 +87,16 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 | W | **Sep 23** | Case | _TBD_ |
 | F | **Sep 25** | Studio | Plan I workshop |
 
-**Due:** Exit ticket ×3 · Reflection 4 (Sun Sep 27) · Responses (Tue Sep 29)
+**Due:** Exit ticket ×3 · Week 4 Forum Post (Sun Sep 20) · Week 4 Case Study & Week 4 Reflection (Sun Sep 27) · Week 4 Forum Replies (optional, Thu Sep 24)
 
 ---
 
 ### Week 5 · Sep 28 – Oct 2
-*Unit I*
 
-**Prep reading (before Mon):** _TBD_
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Sep 28** | Concept | _TBD_ |
+| M | **Sep 28** | Case Work | _TBD_ |
 | W | **Sep 30** | Case | _TBD_ |
 | F | **Oct 2** | Studio | Plan I due · peer review |
 
@@ -180,10 +177,9 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 **Due:** Exit ticket ×3 · 🎯 **Project Plan II (Fri Nov 6)** · Reflection 10 (Sun Nov 8) · Responses (Tue Nov 10)
 
----
+--- 
 
 ### Week 11 · Nov 9 – 13
-*Unit III — Where are we going?*
 
 **Prep reading (before Mon):** _TBD_
 
@@ -227,7 +223,7 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 ---
 
-### Week 14 · Nov 30 – Dec 4
+<!-- ### Week 14 · Nov 30 – Dec 4
 *Unit III*
 
 **Prep reading (before Mon):** _TBD_
