@@ -7,7 +7,7 @@ tags: ["AI", "society", "education", "MSU", "schedule"]
 author: "Danny Caballero"
 ---
 
-> All of this material is also available on [Google Docs](#) (*MSU login required*)
+> All of this material is also available on [Google Docs](https://docs.google.com/document/d/16n17djw0xWkJuWYFPE4HWzxqRRD2DIb6jSvhtVjfsLo/edit?usp=sharing) (*MSU login required*)
 
 ![Top 40 DOGE cuts](../../images/top40doge.png)
 
@@ -68,17 +68,20 @@ This week we add **Actions**, completing the DTPA framework. On Monday you will 
 * 📖 [OSU researcher: $700K grant canceled when DOGE misunderstood use of 'climate'](https://www.yahoo.com/news/osu-researcher-700k-grant-canceled-140000260.html) — **Please read this one.** Julie Aldridge lost a $713,155 four-year award titled *The Organizational Climate Challenge: Promoting the retention of students from underrepresented groups in doctoral engineering programs.
 * 📖 [Education research takes another hit](https://hechingerreport.org/proof-points-nsf-ed-research-pummeled/) (Hechinger Report) — no official list was released, so an informal group of NSF employees assembled one themselves, which was then posted to Grant Watch. Note what that means: the public record of what was cut exists because people made it by hand.
 
-## Monday: Making the Cut
+## Monday: Making Decisions from Generated Output
 
-You will be handed a budget you cannot meet and six programs, two of which must go.
+You will be handed a scenario with a budget you cannot meet and six programs—two of which must be cut. 
 
-* **Cut #1 is the GenAI cut.** Write a prompt, ask the tool which program to cut, and take its answer. Paste its rationale into this Google Doc *exactly as written* — don't clean it up, don't improve it. **ADD LINK**
-* **Cut #2 is the discussion cut.** No AI. Argue it out and write your own reasoning.
+1. **Phase 1: Human Discussion Cut (Baseline).** No AI allowed yet. Argue it out with your group using only the provided table, write your 3–5 sentence rationale, and note what missing information would change your mind.
+2. **Phase 2: GenAI Baseline Cut.** Feed your scenario table to at least two GenAI tools (e.g., ChatGPT, Gemini, Claude). Paste their verbatim choices and rationales into your group's tab in the [Class Decision Google Doc](https://docs.google.com/document/d/1IpH2nVsvi340zFvx0x06WIiPIjYcYruoGCVXm_MeIic/edit?usp=sharing) (MSU login required).
+3. **Phase 3: GenAI Context Probe.** Run a follow-up prompt asking the AI to identify critical hidden legal, financial, denominator, or systemic factors the table might be ignoring. Paste the verbatim response into your doc tab.
+
+On Wednesday, we will reveal the hidden real-world constraints behind each scenario to evaluate whether human discussion or AI context probing successfully caught what was missing.
 
 
 ## Focus for Week 4
 
-This week we add **Actions**, which completes the framework. Your Case Study can now include all four sections — Data, Tools, Practices, and Actions — but your evaluation focuses on Actions. 
+This week we add **Actions** and **Critical Lteracy**, which completes the framework. Your Case Study can now include all four sections — Data, Tools, Practices, and Actions — but your evaluation focuses on Actions and Critical Lteracy. 
 
 You may choose your own case, as in Week 3. MiDAS, Robodebt, the NSF terminations, Indiana's welfare automation, and Allegheny County's screening tool are all available, as is anything you find. The requirement is that **the system did something**: issued a determination, seized money, terminated an award, denied a service. A system that only advises is a Practices case. Actions is about how systems (including the humans using AI) act.
 
