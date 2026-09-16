@@ -18,12 +18,32 @@ Prof. Danny Caballero
 
 ---
 
+# Week 2 work is graded
+
+- Check if you met the standard for your assignments (Case Studies, Individual Report, Forum Post). 
+- You will have until **Wednesday, Sept 23rd at 11:59pm** to turn back in this work.
+
+## Week 2 Case Studies Feedback
+
+**Great diversity of cases!**
+
+### Likely reasons you missed the standard
+
+- Narrative didn't dive into the details of the case (*look over the scaffolding questions*)
+  - You might not be able to answer them all, that's ok.
+- References that supported your case were present, but not inline to show where the evidence came from.
+- Missed some elements like the summary and context of the case. 
+
+**If you have questions, just ask and we can help you parse the feedback.**
+
+---
+
 # Picking Up From Monday
 
 We didn't get through everything with the dice on Monday. Before we move on, let's finish it.
 
 1. Discuss Narrative 3 (two dice) — where we left off
-2. Simulate the two-dice roll thousands of times in code
+2. Simulate the two-dice roll with code
 3. Use that to make sense of Anthropic's watermarking technique
 4. Then start your own Practices case for this week's Case Study
 
@@ -55,7 +75,7 @@ The forecaster stood before the map and declared that today would be **[word 1]*
 
 # Discussion: Narrative 3
 
-Finish the reflection questions from Monday with your group (2 minutes), then we'll share out:
+Let's discuss the reflection questions from Monday:
 
 1. Compare your 20 rolls with your group mates. Are your distributions identical? Should they be?
 2. Add all your counts together and sketch the distribution of your group's rolls.
@@ -86,7 +106,7 @@ python3 scripts/two-dice-simulation.py --checkpoints 20 200 2000 20000
 
 Watch what happens to the gap between the **observed** bars and the **expected** line as the count grows.
 
-*(No display to project to? Add `--no-show --outdir out/` to save a PNG per checkpoint instead.)*
+<https://github.com/msu-cerl/cmse101/blob/main/scripts/two-dice-simulation.py>
 
 ---
 
@@ -108,6 +128,7 @@ python3 scripts/two-dice-simulation.py --checkpoints 20000 \
 
 --bias-strength - sets the amount of bias (oversampling) that we are doing
 ```
+<https://github.com/msu-cerl/cmse101/blob/main/scripts/two-dice-simulation.py>
 
 ---
 
@@ -135,7 +156,7 @@ Anthropic has developed a [watermarking technique](https://www.anthropic.com/new
 
 # Starting Your Practices Case
 
-This week you add **Practices** to your DTPA analysis. From the Week 3 materials:
+This week you add **Practices** and **Quantitative Literacy** to your DTPA analysis. From the Week 3 materials:
 
 - **Use** — how does the tool actually get used? Who prompts it, who receives the output, what did that person do before, and where (if anywhere) does someone check the result?
 - **Labor and resources** — who annotated, moderated, or wrote the material the system depends on, under what conditions? What does it consume to train and to run, and who lives next to that?

@@ -175,6 +175,32 @@ Dice tables are a lookup. A transformer is not. The rolling shows you what the m
 
 ## Activity: Simulations — Watermarking AI-Produced Text
 
+### Dice Rolling Sim
+
+Here's a Dice Rolling Simulation that can illustrate the distribution of a large number of runs. It can also be biased.
+
+[`two-dice-simulation.py`](https://github.com/msu-cerl/cmse101/blob/main/scripts/two-dice-simulation.py) rolls two fair dice over and over and reports the observed distribution at checkpoints, next to the theoretical one (1/36, 2/36, 3/36, ...) — as text in the terminal, and as a bar chart that redraws live.
+
+Run 200 simulations:
+
+```bash
+python3 scripts/two-dice-simulation.py --checkpoints 200
+```
+
+Or run several together:
+
+```bash
+python3 scripts/two-dice-simulation.py --checkpoints 20 200 2000 20000
+```
+
+We can run it with a bias as well:
+
+```bash
+python3 scripts/two-dice-simulation.py --checkpoints 20000 --bias-sum 7 --bias-strength 2.5
+```
+
+### EU Regulations and Watermarking
+
 Our prior activities produced toy models of LLMs to build a conceptual understanding of how this might work. But the details of transformers and LLMs are more complicated than simply rolling dice — the text is random, but *contextually* random. We can start to understand this by looking at how Anthropic is changing its approach to generating text in response to new EU regulations.
 
 The [European Union has passed a regulation](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content) that requires the products of generative AI to be detectable as such.
