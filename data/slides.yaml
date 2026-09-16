@@ -24,3 +24,7 @@ decks:
     title: "Day 06: Predicting the Next Word"
     date: "2026-09-14"
     description: ""
+  - slug: "lecture-07-detecting-gen-ai"
+    title: "Day 07: Detecting Generative AI"
+    date: "2026-09-16"
+    description: ""
