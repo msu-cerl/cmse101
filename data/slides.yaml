@@ -28,3 +28,7 @@ decks:
     title: "Day 07: Detecting Generative AI"
     date: "2026-09-16"
     description: ""
+  - slug: "lecture-08-using-gen-ai"
+    title: "Day 08: Using Generative AI"
+    date: "2026-09-18"
+    description: ""
