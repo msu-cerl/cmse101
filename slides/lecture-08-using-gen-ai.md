@@ -142,4 +142,7 @@ There are two major areas of energy and water use in GenAI: **Training** and **I
 - Spend time before Sunday (~90 minutes) going over Week 4's preparatory materials
    - Forum Post due 11:59pm **Sunday**
 
-Your instructors have given detailed feedback on Week 2's assignments.
+Your instructors will give detailed feedback on Week 3's assignments by Wednesday.
+
+## 🏈 MSU vs \#3 Notre Dame (19:30 Saturday on NBC) 
+## \#1 Texas vs UTSA (20:00 Saturday on SECN+) 🏈
