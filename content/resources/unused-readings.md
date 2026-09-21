@@ -1,0 +1,11 @@
+* 🖱️ [The Data Workers' Inquiry](https://data-workers.org/) (DAIR Institute, Weizenbaum Institute, TU Berlin) — nineteen data workers from Kenya, Venezuela, Syria, Brazil, France, Germany and elsewhere researched their own workplaces as co-researchers rather than as interview subjects, and each chose the form their report would take. The result is documentaries, zines, comics, podcasts, animations and essays. Pick one:
+  * 📺 **Oskarina's and Ruba's animated videos** — platform-mediated data work in Latin America. The gentlest entry point here.
+  * 📺 **A day annotating in Syria** — Yasser Yousef Alrayes, who annotates images to pay for his education, on badly specified tasks and impossible client demands (8 min).
+  * 📺 **Data Workers Organizing: The African Content Moderators Union** — Richard Mathenge, a former team leader, on the conditions at Sama in Nairobi that led workers to form a union in 2023. *Content warning: describes workplace violence, including sexual violence against women and children.*
+
+  * 📖 [How to stop a data center](https://disconnect.blog/how-to-stop-a-data-center/) (Marx interviewing Sebastián Lehuedé, *Disconnect*) — read this for the complication rather than the argument. Many activists organizing against these facilities have Gmail accounts and hold their meetings on Google Meet. Opposing a company you depend on is genuinely hard, and pretending otherwise is not analysis.
+
+  ### Why it makes things up
+
+* 📖 [Why language models hallucinate](https://openai.com/index/why-language-models-hallucinate/) (OpenAI, 2025) — read the blog post, not the paper. The argument: models guess because training and evaluation reward guessing. If a wrong answer and "I don't know" score identically, a system optimized to score well will always guess — the same reason you bubble in a letter rather than leaving a question blank. **Read this after Monday's class** and it will feel obvious rather than technical.
+* 🖱️ [AI Hallucination Cases Database](https://www.damiencharlotin.com/hallucinations/) (Damien Charlotin, HEC Paris) — live, searchable, updated daily. Over 2,000 court decisions worldwide where someone filed AI-fabricated citations. Filter by country, court, tool, outcome. **You can filter it to Michigan.**

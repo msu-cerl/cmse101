@@ -18,6 +18,7 @@ There are three two-week rounds. Each round offers a handful of large domains to
 * **Art & Creative Industries** — generative image and video tools; AI in film/animation production pipelines; music generation and voice cloning; authorship and copyright disputes; museum and curatorial applications.
 * **Education** — proctoring and academic-integrity software; admissions and enrollment screening; adaptive tutoring and personalized-learning platforms; automated grading and feedback tools; AI-detection tools used against students.
 * **Athletics & Sports** — performance and biometric tracking; officiating and instant-replay systems; scouting and recruiting analytics; fan engagement and broadcast AI; injury-prediction systems.
+* **Politics & Government** — elections, campaign content, and political deepfakes; public-input and civic-engagement tools; generative AI used inside agencies; benefits eligibility and fraud-detection systems; infrastructure and public-service planning.
 
 ## Weeks 7–8 (Full Case II)
 
@@ -26,6 +27,7 @@ There are three two-week rounds. Each round offers a handful of large domains to
 * **Journalism & Media** — AI-generated news and summarization; content moderation; deepfake detection; recommendation feeds that shape what gets read; automated fact-checking.
 * **Hiring & Employment** — resume screening and applicant-tracking systems; video-interview analysis; gig-work scheduling and dispatch algorithms; workplace productivity monitoring; performance-review or termination systems.
 * **Military & Defense** — autonomous weapons and targeting systems; surveillance and intelligence analysis; logistics and supply-chain optimization; decision-support tools for command; military cybersecurity.
+* **Scientific Research** — protein-structure and materials prediction; AI-assisted data analysis and discovery; automated and "self-driving" laboratories; AI-written papers, fabricated citations, and peer review; research-integrity and paper-mill detection tools.
 
 ## Weeks 9–10 (Full Case III)
 
@@ -34,6 +36,7 @@ There are three two-week rounds. Each round offers a handful of large domains to
 * **Retail & Consumer** — recommendation engines; dynamic and surge pricing; inventory and supply-chain forecasting; self-checkout and loss-prevention surveillance; customer-service chatbots.
 * **Entertainment & Gaming** — content-recommendation feeds; generative game content and NPC behavior; matchmaking algorithms; synthetic/deepfake performers; streaming-platform moderation.
 * **Environmental & Climate Science** — climate modeling and forecasting; disaster prediction and early-warning systems; resource allocation for water and energy grids; conservation and wildlife monitoring; environmental-compliance and emissions monitoring.
+* **An undiscussed area of your choosing** — any domain not covered in Full Cases I or II. Your case must meet the same standard: a named tool, a named organization, and a documented deployment. Name your domain and case in the Week 9 Update so the instructional team can confirm it.
 
 ## Turning In
 
