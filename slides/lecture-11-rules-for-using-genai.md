@@ -9,7 +9,7 @@ paginate: true
 
 <!-- _class: title -->
 # AI in the Real World
-## Data, Power, & Society - Day 10
+## Data, Power, & Society - Day 11
 
 ### Making Decisions with GenAI
 
