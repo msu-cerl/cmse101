@@ -49,9 +49,12 @@ python3 --version  # 3.8+
 ### Setup (5 minutes)
 
 ```bash
-# Clone repository
-git clone git@github.com:msu-cerl/cmse101.git
+# Clone repository (--recursive pulls in the Hugo theme submodule)
+git clone --recursive git@github.com:msu-cerl/cmse101.git
 cd cmse101
+
+# Already cloned without --recursive? Fetch the theme submodule now:
+git submodule update --init --recursive
 
 # Create Python environment
 python3 -m venv venv
@@ -279,6 +282,15 @@ pandoc --version
 
 ```bash
 rm -rf resources/
+hugo server
+```
+
+### `partial "head.html" not found`
+
+The `themes/terminal` submodule wasn't cloned. Fetch it, then restart Hugo:
+
+```bash
+git submodule update --init --recursive
 hugo server
 ```
 
