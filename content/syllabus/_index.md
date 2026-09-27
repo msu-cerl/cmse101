@@ -93,9 +93,11 @@ Replying to posts in the forum warrant additional credit for your deeper engagem
 
 ## Lesson Planning/Leading Class (Deeper Engagement)
 
-After the first few weeks of class, we will invite groups of students (*at least 3, but no more than 4*) to plan and lead a lesson. We anticipate this will take four students roughly 10 hours each to plan and lead a class lesson. To do so, you must reach out to [Danny](mailto:caball14@msu.edu) at least one week prior to your planned lesson. You will be expected to have learning goals, engagement strategies, and appropriate Exit Ticketing for your lesson. 
+Starting in Week 11, groups (*at least 3, but no more than 4*) may sign up to lead **half of a Monday or Wednesday class** by presenting one of your group's three Full Case studies through the DTPA framework, followed by discussion. The other half of that class, and all of Friday, remains Case Design work time; if no group has signed up for a half-class, the whole period is Case Design work time. To sign up, reach out to [Danny](mailto:caball14@msu.edu) at least three days prior to your slot. You will be expected to lead a DTPA-based walkthrough of your case, pose a discussion question, and write that day's Exit Ticket.
 
-> Note: _A student may only participate once in this lesson planning, and the schedule might require your lesson to be scheduled later._
+See the [Lesson Planning & Leading Class assignment](/assignments/lesson-planning/) for the sign-up sheet and template.
+
+> Note: _A student may only participate once in this lesson planning, and slots are first-come, first-served, one group per half-class._
 
 ## Evaluation
 

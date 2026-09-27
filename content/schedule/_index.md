@@ -184,66 +184,60 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 --- 
 
-<!--### Week 11 · Nov 9 – 13
+### Week 11 · Nov 9 – 13
 
-**Prep reading (before Mon):** _TBD_
+Groups may sign up to lead half of Monday or Wednesday class with a Full Case presentation; see [available slots and sign-up](/assignments/lesson-planning/). The rest of Monday/Wednesday, and all of Friday, is Case Design work time.
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Nov 9** | Concept | _TBD_ |
-| W | **Nov 11** | Case | _TBD_ |
-| F | **Nov 13** | Studio | _TBD_ |
+| M | **Nov 9** | Lead / Studio | [Group-led Full Case presentation](/assignments/lesson-planning/) (if signed up, first half) + Case Design work |
+| W | **Nov 11** | Lead / Studio | [Group-led Full Case presentation](/assignments/lesson-planning/) (if signed up, first half) + Case Design work |
+| F | **Nov 13** | Studio | Full-period Case Design work |
 
-**Due:** Exit ticket ×3 · Reflection 11 (Sun Nov 15) · Responses (Tue Nov 17)
+**Due:** Exit ticket ×3 · Week 11 Forum Post (Sun Nov 8) · Week 11 Forum Replies (optional, Thu Nov 12)
 
 ---
 
 ### Week 12 · Nov 16 – 20
 *Unit III*
 
-**Prep reading (before Mon):** _TBD_
-
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Nov 16** | Concept | _TBD_ |
-| W | **Nov 18** | Case | _TBD_ |
-| F | **Nov 20** | Studio | _TBD_ |
+| M | **Nov 16** | Lead / Studio | [Group-led Full Case presentation](/assignments/lesson-planning/) (if signed up, first half) + Case Design work |
+| W | **Nov 18** | Lead / Studio | [Group-led Full Case presentation](/assignments/lesson-planning/) (if signed up, first half) + Case Design work |
+| F | **Nov 20** | Studio | Full-period Case Design work |
 
-**Due:** Exit ticket ×3 · Reflection 12 (Sun Nov 22) · Responses (Tue Nov 24)
+**Due:** Exit ticket ×3 · Week 12 Forum Post (Sun Nov 15) · Week 12 Forum Replies (optional, Thu Nov 19)
 
 ---
 
 ### Week 13 · Nov 23 – 27
 *Unit III — short week*
 
-**Prep reading (before Mon):** _TBD_ — keep light
-
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Nov 23** | Concept | _TBD_ |
-| W | **Nov 25** | Studio | Low-stakes work session — day before Thanksgiving, expect thin attendance |
+| M | **Nov 23** | Lead / Studio | [Group-led Full Case presentation](/assignments/lesson-planning/) (if signed up, first half) + Case Design work |
+| W | **Nov 25** | Studio | Low-stakes work session — day before Thanksgiving, expect thin attendance; no lead slot this day |
 | F | ~~Nov 27~~ | — | 🚫 **No class** — University closed |
 
-**Due:** Exit ticket ×2 · *No reflection this week (holiday)*
+**Due:** Exit ticket ×2 · *No forum post this week (holiday)*
 
 ---
 
-<!-- ### Week 14 · Nov 30 – Dec 4
+### Week 14 · Nov 30 – Dec 4
 *Unit III*
-
-**Prep reading (before Mon):** _TBD_
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Nov 30** | Concept | _TBD_ |
-| W | **Dec 2** | Case | _TBD_ |
-| F | **Dec 4** | Studio | Plan III due · final critique round |
+| M | **Nov 30** | Lead / Studio | [Group-led Full Case presentation](/assignments/lesson-planning/) (if signed up, first half) + Case Design work |
+| W | **Dec 2** | Lead / Studio | [Group-led Full Case presentation](/assignments/lesson-planning/) (if signed up, first half) + Case Design work |
+| F | **Dec 4** | Studio | 🎯 Final Case Design due · last work session before Showcase |
 
-**Due:** Exit ticket ×3 · 🎯 **Project Plan III (Fri Dec 4)** · Reflection 13 (Sun Dec 6) · Responses (Tue Dec 8)
+**Due:** Exit ticket ×3 · Week 14 Forum Post (Sun Nov 29) · Week 14 Forum Replies (optional, Thu Dec 3) · 🎯 **Final Case Design (Fri Dec 4)**
 
 ---
 
-### Week 15 · Dec 7 – 11
+<!--### Week 15 · Dec 7 – 11
 *Unit III — Showcase*
 
 **Prep reading:** none — prepare your presentation
