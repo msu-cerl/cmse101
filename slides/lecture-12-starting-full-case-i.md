@@ -16,6 +16,11 @@ paginate: true
 **CMSE 492 (aka CMSE 101) • Fall 2026**
 Prof. Danny Caballero
 
+![QR Code bg right:45% w:450](./images/qrcode.png)
+<br/><br/>
+## Today's Six Digits: 443710
+
+
 ---
 
 # From Frameworks to Your Own Case
