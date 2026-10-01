@@ -93,6 +93,8 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 ### Week 5 · Sep 28 – Oct 2
 
+[Weeks 5 and 6 - Full Case II Information](week5and6)
+
 * **This week you may select your groups for Full Case I.**
 * **This week you must select your groups for the Case Design.**
 
@@ -108,6 +110,8 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 ---
 
 ### Week 6 · Oct 5 – 9
+
+[Weeks 5 and 6 - Full Case II Information](week5and6)
 
 * **This week you must continue your groups for Full Case I.**
 
@@ -125,14 +129,16 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 ### Week 7 · Oct 12 – 16
 
+[Weeks 7 and 8 - Full Case II Information](week7and8)
+
 * **This week you may select new groups for Full Case II.**
 * You may stay in the same groups.
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Oct 12** | Full Case II - Intro | Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, Military & Defense, or Scientific Research |
-| W | **Oct 14** | Full Case II | Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, Military & Defense, or Scientific Research |
-| F | **Oct 16** | Full Case II | Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, Military & Defense, or Scientific Research |
+| M | **Oct 12** | Full Case II - Intro | [Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, Military & Defense, or Scientific Research](week7and8) |
+| W | **Oct 14** | Full Case II | [Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, Military & Defense, or Scientific Research](week7and8) |
+| F | **Oct 16** | Full Case II | [Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, Military & Defense, or Scientific Research](week7and8) |
 
 
 **Due:** Exit ticket ×3 · Week 7 Forum Post (Sun Oct 11) · Week 7 Full Case II Update & Week 7 Reflection (Sun Oct 18) · Week 7 Forum Replies (optional, Thu Oct 15)
@@ -142,13 +148,15 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 ### Week 8 · Oct 19 – 23
 
+[Weeks 7 and 8 - Full Case II Information](week7and8)
+
 * **This week you must stay in your groups for Full Case II.**
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Oct 19** | Full Case II | Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, Military & Defense, or Scientific Research |
-| W | **Oct 21** | Full Case II| Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, Military & Defense, or Scientific Research |
-| F | **Oct 23** | Full Case II | Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, Military & Defense, or Scientific Research |
+| M | **Oct 19** | Full Case II | [Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, Military & Defense, or Scientific Research](week7and8) |
+| W | **Oct 21** | Full Case II| [Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, Military & Defense, or Scientific Research](week7and8) |
+| F | **Oct 23** | Full Case II | [Law & Criminal Justice, Finance & Banking, Journalism & Media, Hiring & Employment, Military & Defense, or Scientific Research](week7and8) |
 
 **Due:** Exit ticket ×3 · Week 8 Forum Post (Sun Oct 18) · Week 8 Full Case II Complete & Week 8 Reflection (Sun Oct 25) · Week 8 Forum Replies (optional, Thu Oct 22)
 
@@ -156,14 +164,16 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 ### Week 9 · Oct 26 – 30
 
+[Weeks 9 and 10 - Full Case III Information](week9and10)
+
 * **This week you may select new groups for Full Case III.**
 * You may stay in the same groups.
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
 | M | ~~Oct 26~~ | — | 🚫 **No class** — Fall Break (Mon Oct 26 – Tue Oct 27) |
-| W | **Oct 28** | Full Case III - intro | Agriculture, Transportation, Retail & Consumer, Entertainment & Gaming, Environmental & Climate Science, or _Un-discussed Area of Your Choosing_ |
-| F |, or _Un-discussed Area of Your Choosing_ **Oct 30** | Full Case III | Agriculture, Transportation, Retail & Consumer, Entertainment & Gaming, Environmental & Climate Science, or _Un-discussed Area of Your Choosing_ |
+| W | **Oct 28** | Full Case III - intro | [Agriculture, Transportation, Retail & Consumer, Entertainment & Gaming, Environmental & Climate Science, or Un-discussed Area of Your Choosing](week9and10) |
+| F | **Oct 30** | Full Case III | [Agriculture, Transportation, Retail & Consumer, Entertainment & Gaming, Environmental & Climate Science, or Un-discussed Area of Your Choosing](week9and10) |
 
 **Due:** Exit ticket ×3 · Week 9 Forum Post (Tue Oct 27) · Week 9 Full Case III Update & Week 9 Reflection (Sun Nov 1) · Week 9 Forum Replies (optional, Thu Oct 29)
 
@@ -171,16 +181,18 @@ Following the chronological inquiry in the [learning goals](/learning-goals/):
 
 ### Week 10 · Nov 2 – 6
 
+[Weeks 9 and 10 - Full Case III Information](week9and10)
+
 * **This week you must stay in your groups for Full Case III.**
 * **This week you must stay in your groups for the Case Design.**
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Nov 2** | Full Case III | Agriculture, Transportation, Retail & Consumer, Entertainment & Gaming, Environmental & Climate Science, or _Un-discussed Area of Your Choosing_ |
-| W | **Nov 4** | Full Case III| Agriculture, Transportation, Retail & Consumer, Entertainment & Gaming, Environmental & Climate Science, or _Un-discussed Area of Your Choosing_ |
-| F | **Nov 6** | Full Case III| Agriculture, Transportation, Retail & Consumer, Entertainment & Gaming, Environmental & Climate Science, or _Un-discussed Area of Your Choosing_ |
+| M | **Nov 2** | Full Case III | [Agriculture, Transportation, Retail & Consumer, Entertainment & Gaming, Environmental & Climate Science, or Un-discussed Area of Your Choosing](week9and10) |
+| W | **Nov 4** | Full Case III| [Agriculture, Transportation, Retail & Consumer, Entertainment & Gaming, Environmental & Climate Science, or Un-discussed Area of Your Choosing](week9and10) |
+| F | **Nov 6** | Full Case III| [Agriculture, Transportation, Retail & Consumer, Entertainment & Gaming, Environmental & Climate Science, or Un-discussed Area of Your Choosing](week9and10) |
 
-**Due:** Exit ticket ×3 · Week 10 Forum Post (Sun Nov 1) · Week 10 Full Case III Complete & Week 10 Reflection (Sun Nov 8) · Week 8 Forum Replies (optional, Thu Nov 5) · 🎯 **Project Plan II (Fri Nov 6)** 
+**Due:** Exit ticket ×3 · Week 10 Forum Post (Sun Nov 1) · Week 10 Full Case III Complete & Week 10 Reflection (Sun Nov 8) · Week 10 Forum Replies (optional, Thu Nov 5) · 🎯 **Case Design Scaffold 2 (Fri Nov 6)** 
 
 --- 
 
