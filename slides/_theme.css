@@ -98,6 +98,15 @@ section.title h2 {
   color: #3399ff;
 }
 
+/* The global h3 is text-dark, which matches this background and made the
+   day's title (### line) invisible on every title slide. */
+section.title h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 12px 0 0 0;
+  color: #ffffff;
+}
+
 section.title p {
   font-size: 20px;
   color: #cccccc;
