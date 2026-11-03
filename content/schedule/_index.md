@@ -202,8 +202,8 @@ Groups may sign up to lead half of Monday or Wednesday class with a Full Case pr
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Nov 9** | Lead / Studio | [Group-led Full Case presentation](/assignments/lesson-planning/) (if signed up, first half) + Case Design work |
-| W | **Nov 11** | Lead / Studio | [Group-led Full Case presentation](/assignments/lesson-planning/) (if signed up, first half) + Case Design work |
+| M | **Nov 9** | Lead / Studio | Case Design work |
+| W | **Nov 11** | Lead / Studio | Group 07 (Education) + Case Design work |
 | F | **Nov 13** | Studio | Full-period Case Design work |
 
 **Due:** Exit ticket ×3 · Week 11 Forum Post (Sun Nov 8) · Week 11 Forum Replies (optional, Thu Nov 12)
@@ -215,8 +215,8 @@ Groups may sign up to lead half of Monday or Wednesday class with a Full Case pr
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Nov 16** | Lead / Studio | [Group-led Full Case presentation](/assignments/lesson-planning/) (if signed up, first half) + Case Design work |
-| W | **Nov 18** | Lead / Studio | [Group-led Full Case presentation](/assignments/lesson-planning/) (if signed up, first half) + Case Design work |
+| M | **Nov 16** | Lead / Studio | Group 03 (Education) + Case Design work |
+| W | **Nov 18** | Lead / Studio | Case Design work |
 | F | **Nov 20** | Studio | Full-period Case Design work |
 
 **Due:** Exit ticket ×3 · Week 12 Forum Post (Sun Nov 15) · Week 12 Forum Replies (optional, Thu Nov 19)
@@ -228,7 +228,7 @@ Groups may sign up to lead half of Monday or Wednesday class with a Full Case pr
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Nov 23** | Lead / Studio | [Group-led Full Case presentation](/assignments/lesson-planning/) (if signed up, first half) + Case Design work |
+| M | **Nov 23** | Lead / Studio | Group 01 (Athletics & Sports) + Case Design work |
 | W | **Nov 25** | Studio | Low-stakes work session — day before Thanksgiving, expect thin attendance; no lead slot this day |
 | F | ~~Nov 27~~ | — | 🚫 **No class** — University closed |
 
@@ -241,8 +241,8 @@ Groups may sign up to lead half of Monday or Wednesday class with a Full Case pr
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Nov 30** | Lead / Studio | [Group-led Full Case presentation](/assignments/lesson-planning/) (if signed up, first half) + Case Design work |
-| W | **Dec 2** | Lead / Studio | [Group-led Full Case presentation](/assignments/lesson-planning/) (if signed up, first half) + Case Design work |
+| M | **Nov 30** | Lead / Studio | Case Design work |
+| W | **Dec 2** | Lead / Studio | Group 06 (Healthcare) + Case Design work |
 | F | **Dec 4** | Studio | 🎯 Final Case Design due · last work session before Showcase |
 
 **Due:** Exit ticket ×3 · Week 14 Forum Post (Sun Nov 29) · Week 14 Forum Replies (optional, Thu Dec 3) · 🎯 **Final Case Design (Fri Dec 4)**
