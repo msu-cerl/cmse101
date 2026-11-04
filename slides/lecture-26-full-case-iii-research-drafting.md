@@ -29,6 +29,8 @@ Prof. Danny Caballero
     - DC will get you feedback by Wednesday's class on the update.
 3. **Check Full Case II feedback** on D2L. If you need to revise, **your one-week clock started when it was posted.**
 
+**Case Design Scaffold II is due Friday, Nov 6.**
+
 **The Full Case III is due Sun, Nov 8.**
 
 *We'll be circulating. Ask us anything.*
