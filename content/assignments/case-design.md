@@ -57,11 +57,13 @@ A useful test: could someone who disagrees with you argue against your proposal 
 | Teams formed | Week 5 (by Fri, Oct 2) | Pick a pathway and topic; meet with Danny (if needed) | — |
 | **Scaffold 1** | Fri, Oct 9 | Problem, stakeholders, initial DTPA scoping | 750 words - [Google Doc Template](https://docs.google.com/document/d/1SYQ4dbPWlU8J2yQq3-Pgw-q28ODSqG9u2oDb8h-3pjI/edit?tab=t.zhren5lcocyh) (MSU Login required)|
 | **Scaffold 2** | Fri, Nov 6 | Evidence base, full DTPA analysis, design direction, response to Scaffold 1 feedback | 1500 words & response-to-feedback document (>250 words) - [Google Doc Template](https://docs.google.com/document/d/1U8DhPCFB4Ji7uVfMtpzF0F-kyvGgnDHGswzVjE2Hjm0/edit?tab=t.zhren5lcocyh#heading=h.wj7uoxrbgnw1) (MSU Login required) |
-| **Final Case Design** | Fri, Dec 4 | Full *draft* solution or restriction, response to Scaffold 2 feedback | 3000 words & response-to-feedback document (>250 words) |
-| **Class Showcase** | Dec 7–11 | Team presentations & class feedback | 10 minutes + 2–3 min for questions |
-| **Final deliverable** | Tue, Dec 15 | Final Case Design edited based on class feedback | 3000 words (due 11:59pm on the day of the final exam) |
+| **Final Case Design draft** | Fri, Dec 4 | Full *draft* essay arguing for your solution or restriction, response to Scaffold 2 feedback | 3000 words & response-to-feedback document (>250 words) |
+| **Class Showcase** | Dec 7, 9, 11 | Team presentations & class feedback | 12 minutes + 3 min for questions |
+| **Final deliverable** | Tue, Dec 15 | Final essay revised based on class feedback; individual cover letters | 3000 words + "Changes after the Showcase" (team); ~500-word cover letter (individual) (due 11:59pm on the day of the final exam) |
 
 Note: Word minimums exclude the separate response-to-feedback document, the reference list, and tables.
+
+**Full instructions for the Final Case Design draft, the Class Showcase, and the final deliverable are on the [Final Case Design Project](/assignments/final-project/) page.**
 
 > There is no in-class final exam for CMSE 101; the class showcase and feedback (during the last week of classes) is intended to guide any final edits before Dec 15. **You may not turn in your final case design until after your group presents to the class.**
 
@@ -73,7 +75,7 @@ All work is submitted using D2L. See the [syllabus](/syllabus/#case-design) for 
 
 # How to Use the Template
 
-Copy the whole template below into one shared document for your team. Complete **Part 1** for Scaffold 1. When Scaffold 2 is due, don't delete Part 1; expand it into **Part 2**, and address your instructor's feedback in a separate response document. Do the same again for **Part 3** at the final deadline. By the end, your one document tells the whole story of your case, start to finish.
+Copy the whole template below into one shared document for your team. Complete **Part 1** for Scaffold 1. When Scaffold 2 is due, don't delete Part 1; expand it into **Part 2**, and address your instructor's feedback in a separate response document. For the final deadline, you will turn Parts 1 and 2 into an argumentative essay (**Part 3**). By the end, your one document tells the whole story of your case, start to finish.
 
 ## Writing a narrative report
 
@@ -221,59 +223,17 @@ Full APA citations with a two-sentence annotation per source: the first sentence
 
 ---
 
-### Part 3: Full Case Design (Final, expands Part 2) — Due Fri, Dec 4
+### Part 3: Final Case Design Essay (expands Part 2) — Draft due Fri, Dec 4; final due Tue, Dec 15
 
-**Goal:** Present a complete, evidence-based proposal: what should be built or restricted, how it would work, and what could go wrong.
+**Goal:** Argue for a complete, evidence-based proposal: what should be built or restricted, why, how it would work, and what could go wrong.
 
-**Minimum:** 3000 words across the whole report (revised), not counting references, plus a separate response-to-feedback document (>250 words).
+**Minimum:** 3000 words, not counting references, plus a separate response-to-feedback document (>250 words) with the draft.
 
-Your final Case Design should read as one continuous report, from executive summary to conclusion. Earlier sections should be revised so they lead naturally into your proposal. The recommended structure below reorganizes Parts 1 and 2 into a final report.
+Part 3 is an **argumentative essay**, not a set of template sections. Revise and reorganize Parts 1 and 2 around your thesis, foreground the DTPA components and AI literacies most salient to your design, and take the strongest objection to your proposal seriously.
 
-#### 3.1 Executive summary (about 150 words)
+See the **[Final Case Design Project](/assignments/final-project/)** page for full instructions, a suggested shape, and a checklist.
 
-A reader who stops here should know the problem, your proposed solution or restriction, and its expected impact. Write this section last.
-
-#### 3.2 Introduction and significance (about 350 words)
-
-Your revised Part 1 sections 1.1–1.3: the problem or system, why it matters, and who has a stake.
-
-#### 3.3 DTPA analysis (about 1,200 words)
-
-Your revised Part 2 sections 2.1–2.4, deepened with concrete evidence and direct citations. Each section should now point forward: what does this part of the analysis mean for your design?
-
-#### 3.4 The proposal (about 500 words)
-
-Describe your solution or restriction in full.
-
-* *Pathway I:* What does the system do, for whom, and how? Walk through how it works in DTPA terms: what data it uses, what kind of model, who operates it, and what it decides or recommends. Explain what it deliberately does *not* do.
-* *Pathway II:* What exactly is restricted, required, or prohibited? Who does it apply to? Write the core of the restriction as precisely as a policy would state it, then explain it in plain language.
-
-#### 3.5 Implementation or policy plan (about 400 words)
-
-* *Pathway I:* Rollout steps, stakeholder engagement, and monitoring metrics. How would you know in a year whether it is working, and what would make you shut it down?
-* *Pathway II:* Enforcement mechanism, compliance checks, and mitigation strategies. Who enforces the restriction, how would violations be detected, and what happens then?
-
-#### 3.6 Risk and ethical assessment (about 300 words)
-
-What could go wrong with your own proposal? Address remaining uncertainties, unintended consequences, and how you would mitigate them. Use the Four Pillars of AI Literacy (Data, Quantitative, Ethical, and Critical) as lenses. The strongest designs take their own weaknesses seriously; Amsterdam's welfare algorithm is a reminder that following every best practice does not guarantee a fair outcome.
-
-#### 3.7 Conclusion (about 100 words)
-
-Explain why your design reflects a critically pragmatic view of AI: neither assuming technology will solve the problem nor assuming it can only cause harm.
-
-#### 3.8 References
-
-Full APA list for every source cited in the report.
-
-*(Attach separately: response to Scaffold 2 feedback.)*
-
-#### Before you submit Part 3
-
-- [ ] Does the executive summary stand on its own?
-- [ ] Does the report read as one argument, from problem to proposal, rather than as stacked sections?
-- [ ] Is the proposal specific enough to implement or enforce?
-- [ ] Does the risk assessment take your own proposal's weaknesses seriously?
-- [ ] Is every factual claim traceable to the reference list?
+*(Attach separately with the draft: response to Scaffold 2 feedback.)*
 
 ---
 
@@ -295,44 +255,10 @@ A table works well:
 
 ---
 
-### Class Showcase — Dec 7–11
+### Class Showcase — Dec 7, 9, 11
 
-To ensure each member of our class has the opportunity to see your work and provide feedback, the last week of classes will consist of in-class presentations of your Case Design. Your team will lead the class through your complete case in **about 10 minutes**, followed by **2–3 minutes of questions**. Slides are highly recommended.
+During the last week of classes, each team presents its Case Design to the class: **12 minutes** presenting, followed by **3 minutes** of questions. Every team member speaks. The Showcase is not graded on its own, but you may not turn in your final essay until your team has presented and considered the class's feedback.
 
-While the Showcase itself is not graded, you will not be able to turn in your Final Case Design without presenting your case and considering the class's feedback and questions.
-
-#### What the presentation is (and isn't)
-
-The presentation is **not** a reading of your report. Your report is written for a reader who has time; your presentation is for a room that has ten minutes. Pick the most important evidence and the clearest version of your proposal, and trust the report to hold the rest.
-
-#### Suggested structure
-
-| Section | Time | What to cover |
-|---|---|---|
-| The problem or system | ~1.5 min | One concrete example that makes the audience care. A person, a number, or an incident works better than a definition. |
-| Why it matters | ~1 min | Your strongest one or two pieces of evidence. |
-| DTPA analysis | ~3 min | The single most important finding from each component, about 45 seconds each. |
-| The proposal | ~2.5 min | What you propose, who implements it, and how it works. This is the heart of the talk. |
-| Risks and trade-offs | ~1 min | What could go wrong with your own proposal, and what you would do about it. |
-| Closing | ~1 min | The one thing you want the audience to remember. |
-
-Eight to ten slides is usually enough. Put a source on every slide that shows a number or a claim.
-
-#### Presentation guidelines
-
-* **Every team member should speak.** Divide the talk by section, and practice the handoffs.
-* **Rehearse with a timer at least once.** Ten minutes goes quickly; we will keep time so every team gets its full slot.
-* **Prepare for questions.** Before the Showcase, write down the three questions you most expect, and agree on who will answer each.
-* **Design for the back of the room.** Large text, few words per slide, and charts with labeled axes.
-
-#### Giving and using class feedback
-
-After each presentation, audience members will respond to three questions:
-
-1. What was the most convincing part of this proposal?
-2. What is the biggest weakness or unanswered question?
-3. If you were implementing (or affected by) this proposal, what would you want to know?
-
-Your team will receive this feedback after the Showcase. Use it to make final edits before the Dec 15 deadline. We recommend adding a short paragraph (about 150 words) at the end of your report, titled **"Changes after the Showcase,"** describing what you revised in response to the class and why.
+See the **[Final Case Design Project](/assignments/final-project/#part-b-class-showcase-presentation)** page for what to include, a suggested structure, and how class feedback works.
 
 ---

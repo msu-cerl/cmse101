@@ -243,25 +243,31 @@ Groups may sign up to lead half of Monday or Wednesday class with a Full Case pr
 |:---:|:----:|:----:|-------|
 | M | **Nov 30** | Lead / Studio | Case Design work |
 | W | **Dec 2** | Lead / Studio | Group 06 (Healthcare) + Case Design work |
-| F | **Dec 4** | Studio | 🎯 Final Case Design due · last work session before Showcase |
+| F | **Dec 4** | Studio | 🎯 Final Case Design draft due · last work session before Showcase |
 
-**Due:** Exit ticket ×3 · Week 14 Forum Post (Sun Nov 29) · Week 14 Forum Replies (optional, Thu Dec 3) · 🎯 **Final Case Design (Fri Dec 4)**
+**Due:** Exit ticket ×3 · Week 14 Forum Post (Sun Nov 29) · Week 14 Forum Replies (optional, Thu Dec 3) · 🎯 **[Final Case Design draft](/assignments/final-project/) + response to Scaffold 2 feedback (Fri Dec 4)**
 
 ---
 
-<!--### Week 15 · Dec 7 – 11
+### Week 15 · Dec 7 – 11
 *Unit III — Showcase*
 
 **Prep reading:** none — prepare your presentation
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Dec 7** | Showcase | Team presentations, round 1 |
-| W | **Dec 9** | Showcase | Team presentations, round 2 |
-| F | **Dec 11** | Synthesis | Course synthesis · metacognitive wrap-up |
+| M | **Dec 7** | Showcase | Team presentations, day 1 (3 groups) |
+| W | **Dec 9** | Showcase | Team presentations, day 2 (3 groups) |
+| F | **Dec 11** | Showcase | Team presentations, day 3 (2 groups) |
 
-**Due:** Exit ticket ×3 · 🎯 **Final deliverable (Fri Dec 11)**
+**Due:** Exit ticket ×3 · Presentation slides (before class on your day)
 
 ---
 
---->
+### Finals Week
+
+| Date | What |
+|:----:|------|
+| **Tue, Dec 15** | 🎯 **[Final deliverable](/assignments/final-project/)**, due 11:59pm: revised essay with "Changes after the Showcase" (team) and cover letter (individual). No in-class final exam. |
+
+---

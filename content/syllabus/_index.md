@@ -180,7 +180,7 @@ Consistent with our labor and standards-based approach, we will assign the follo
 
 # Case Design
 
-The principal assessment for this course is a semester-long, scaffolded case design project. Please [review the template and detailed instructions](nowhere.com) before getting started. **(TODO)** 
+The principal assessment for this course is a semester-long, scaffolded case design project. Please [review the template and detailed instructions](/assignments/case-design/) before getting started. Instructions for the final essay, class presentation, and individual cover letter are on the [Final Case Design Project](/assignments/final-project/) page.
 
 You will complete this project in groups of 3 to 4 students. Your chosen topic must be substantial enough in scope to warrant a group effort.
 

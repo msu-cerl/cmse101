@@ -26,6 +26,7 @@ This is the landing page for all assignments in the course. Each assignment type
 
 - [Lesson Planning & Leading Class](/assignments/lesson-planning/) — opt-in, once per student
 - [Case Design](/assignments/case-design/) — scaffolded team project, three milestones
+- [Final Case Design Project](/assignments/final-project/) — team essay, class presentation, and individual cover letter
 - [Honor's Option](/assignments/honors-projects) - for those students in the Honor's College, an H-Option is available.
 
 ---
