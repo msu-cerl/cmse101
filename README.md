@@ -236,10 +236,13 @@ git push origin main
 
 1. **`build` job** — installs Hugo + Node, runs `./build-slides.sh` (rebuilds
    every deck from `slides/*.md`; `static/slides/` is never committed), then
-   builds the Hugo site into `public/`, and uploads it as a build artifact.
-2. **`deploy` job** — only on push to `main` (or manual dispatch); downloads
-   that artifact and publishes it to GitHub Pages. It does **not** rebuild
-   anything, so the site is only built once per push.
+   builds the Hugo site into `public/` and uploads it as a Pages artifact.
+2. **`deploy` job** — only on push to `main` (or manual dispatch); deploys
+   that artifact to GitHub Pages. It does **not** rebuild anything, so the
+   site is only built once per push.
+
+The repository's **Pages → Build and deployment → Source** setting must be
+**GitHub Actions**.
 
 Site is available at `https://msucerl.org/cmse101/` (see `baseURL` in
 `config.yaml`).
