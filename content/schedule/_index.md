@@ -216,7 +216,7 @@ Groups may sign up to lead half of Monday or Wednesday class with a Full Case pr
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
 | M | **Nov 16** | Lead / Studio | Group 03 (Education) + Case Design work |
-| W | **Nov 18** | Lead / Studio | Case Design work |
+| W | **Nov 18** | Lead / Studio | Group 05 (Retail & Consumer) + Case Design work |
 | F | **Nov 20** | Studio | Full-period Case Design work |
 
 **Due:** Exit ticket ×3 · Week 12 Forum Post (Sun Nov 15) · Week 12 Forum Replies (optional, Thu Nov 19)
@@ -241,7 +241,7 @@ Groups may sign up to lead half of Monday or Wednesday class with a Full Case pr
 
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
-| M | **Nov 30** | Lead / Studio | Case Design work |
+| M | **Nov 30** | Lead / Studio | Group 08 (Athletics & Sport) + Case Design work |
 | W | **Dec 2** | Lead / Studio | Group 06 (Healthcare) + Case Design work |
 | F | **Dec 4** | Studio | 🎯 Final Case Design draft due · last work session before Showcase |
 
