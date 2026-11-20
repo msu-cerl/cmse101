@@ -222,4 +222,16 @@ Consistent with our labor and standards-based approach, we will assign the follo
 - Completing Classroom Showcase *and*
 - Completing Final Case Design (providing direct evidence of decision making, changes, and problems resolved after Classroom Showcase)
 
+### What "Completing Classroom Showcase" means
+
+Showing up and clicking through slides does **not** complete the Showcase. To count as complete, your team's presentation must meet the standard below. A presentation that does not meet it is graded **not meeting expectations**, and your Case Design cannot earn above a 2.0.
+
+- **Full length.** You present for **10 to 12 minutes**, then take questions. A talk that runs under 10 minutes does not meet the standard.
+- **Delivered, not read.** You speak *to the audience*, not to the screen. Reading your slides aloud, or reading a script word for word, does not meet the standard. Short notes or cue cards are fine.
+- **Everyone speaks substantively.** Every team member presents a real part of the argument, not just an introduction or a closing line.
+- **Clearly rehearsed.** Smooth handoffs, finishing on time, and ready answers to likely questions show us you practiced together.
+- **Complete.** You cover your case, your proposal, the DTPA component(s) your design turns on, and the strongest objection. Slides are on D2L before class.
+
+Full details, including ideas for presenting in a role (a startup pitch, a legislative hearing, and more), are on the [Final Case Design Project](/assignments/final-project/#part-b-class-showcase-presentation) page.
+
 ---
