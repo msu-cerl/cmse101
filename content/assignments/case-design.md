@@ -257,7 +257,7 @@ A table works well:
 
 ### Class Showcase — Dec 7, 9, 11
 
-During the last week of classes, each team presents its Case Design to the class: **12 minutes** presenting, followed by **3 minutes** of questions. Every team member speaks. The Showcase is not graded on its own, but you may not turn in your final essay until your team has presented and considered the class's feedback.
+During the last week of classes, each team presents its Case Design to the class: **12 minutes** presenting, followed by **3 minutes** of questions. Every team member speaks. To complete the Showcase, your presentation must meet the [Showcase standard](/syllabus/#what-completing-classroom-showcase-means): 10 to 12 minutes, delivered to the audience rather than read from slides, and clearly rehearsed. A presentation that misses the standard is graded **not meeting expectations**. You may not turn in your final essay until your team has presented and considered the class's feedback.
 
 See the **[Final Case Design Project](/assignments/final-project/#part-b-class-showcase-presentation)** page for what to include, a suggested structure, and how class feedback works.
 

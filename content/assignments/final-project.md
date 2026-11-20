@@ -161,6 +161,47 @@ A sharp presentation makes **one argument, clearly**. Pick your most compelling 
 * **Submit your slides on D2L before class** on your presentation day.
 * Three groups present on Dec 7 and Dec 9, and two on Dec 11. Your day will be posted on D2L.
 
+## The Showcase standard
+
+The Showcase is held to a higher bar than the group-led sessions earlier in the semester. A presentation that does not meet **every** item below is graded **not meeting expectations**, and your team's Case Design cannot earn above a 2.0 (see the [syllabus](/syllabus/#what-completing-classroom-showcase-means)).
+
+| Meets the standard | Does not meet the standard |
+|---|---|
+| Runs **10 to 12 minutes** before questions | Runs under 10 minutes |
+| Speakers talk **to the audience**, glancing at short notes | Speakers read slides aloud, or read a script word for word |
+| **Every** team member presents a substantial part of the argument | One or two people carry the talk; others only introduce or close |
+| Clearly **rehearsed**: smooth handoffs, on time, ready for questions | Speakers figure out who's next while presenting; they run long or stop short |
+| Covers the case, the proposal, the crux, and the strongest objection | Missing the proposal or the objection, or describes the topic without arguing for anything |
+| Slides submitted on D2L before class | Slides missing or late |
+
+**A simple test:** if your slides were lost five minutes before class, could your team still give the talk? If not, you are reading, not presenting.
+
+## Make it a performance: present in a role
+
+Your audience has sat through a lot of slide decks this semester. You will hold their attention, and make your argument stick, if you **present in a role** that fits your pathway. This isn't required, but it is the most reliable way we know to stop a team from reading slides: a role gives you a reason to speak *to* someone and a reason to persuade them.
+
+Pick a role, decide who the audience is playing, and stay in it until questions end.
+
+**Pathway I (Proactive AI Solution)**
+
+* **Startup pitch.** You are the founders. The class is a panel of investors, or a city council deciding whether to fund a pilot. Pitch the product, the evidence that it's needed, and why it won't repeat the failures of the systems before it.
+* **Product launch.** You are announcing the tool to the people who will use it: teachers, nurses, caseworkers. What does it do for them, and what does it deliberately *not* do?
+* **Procurement hearing.** You are the agency that wants to buy the system, making the case to a skeptical oversight board.
+
+**Pathway II (Targeted AI Restriction)**
+
+* **Legislative testimony.** You are legislators or expert witnesses arguing for your bill before a committee (the class). Name the bill, state what it requires, and call your evidence as testimony.
+* **Regulator's announcement.** You are the agency announcing a new rule: what it restricts, who it applies to, how it will be enforced, and why now.
+* **Closing argument.** You are attorneys for the people harmed, making your case to a jury.
+* **Advocacy campaign.** You are a coalition launching a campaign to win the restriction: who's affected, what you're demanding, and who has the power to say yes.
+
+**Either pathway: bring in the opposition**
+
+* **The lobbyist.** One teammate plays a lobbyist (or vendor, or skeptical official) who delivers the **strongest objection** to your proposal, in character, and the rest of the team answers. This is the "Objections and risks" section, staged.
+* **The person affected.** One teammate tells the story of a specific, real person your case affects, drawn from your sources, as a hook or a closing.
+
+A role does not replace the content. Your hearing, pitch, or closing argument still has to state your proposal precisely, foreground the DTPA component(s) at the crux, cite evidence, and take the strongest objection seriously. Questions at the end can stay in character (the committee questions the witnesses) or step out of it.
+
 ## What the presentation must include
 
 * **Your case and your proposal**, stated clearly enough that the audience could repeat them.
@@ -183,7 +224,8 @@ Eight to twelve slides is usually enough. Put a source on every slide that shows
 
 ## Presentation guidelines
 
-* **Rehearse with a timer at least once.** Twelve minutes goes quickly.
+* **Rehearse out loud, together, with a timer, at least twice.** Once to find out how long it really runs, and once more after you fix it. Rehearsing alone in your head doesn't count.
+* **Put fewer words on your slides.** If the full sentence is on the slide, you will read it. Use slides for images, numbers, and short phrases; say the sentences yourself.
 * **Prepare for questions.** Write down the three questions you most expect, and agree on who will answer each.
 * **Design for the back of the room.** Large text, few words per slide, charts with labeled axes.
 * **Engage, don't recite.** A question to the audience, a short demonstration, or a "what would you decide?" moment can do more than another slide of text.
@@ -198,7 +240,7 @@ After each presentation, audience members will respond to three questions:
 
 Your team will receive this feedback after the Showcase. Use it to revise your essay and write your "Changes after the Showcase" section before Dec 15.
 
-The Showcase is not graded on its own, but completing it is required for a Case Design grade of 3.0 or higher (see the [syllabus](/syllabus/#case-design)), and you may not submit your final essay until your group has presented.
+Completing the Showcase **to the standard above** is required for a Case Design grade of 3.0 or higher (see the [syllabus](/syllabus/#what-completing-classroom-showcase-means)), and you may not submit your final essay until your group has presented.
 
 ---
 

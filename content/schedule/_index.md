@@ -229,10 +229,10 @@ Groups may sign up to lead half of Monday or Wednesday class with a Full Case pr
 | Day | Date | Role | Focus |
 |:---:|:----:|:----:|-------|
 | M | **Nov 23** | Lead / Studio | Group 01 (Athletics & Sports) + Case Design work |
-| W | **Nov 25** | Studio | Low-stakes work session — day before Thanksgiving, expect thin attendance; no lead slot this day |
+| W | ~~Nov 25~~ | — | 🚫 **No class** — Thanksgiving break |
 | F | ~~Nov 27~~ | — | 🚫 **No class** — University closed |
 
-**Due:** Exit ticket ×2 · *No forum post this week (holiday)*
+**Due:** Exit ticket ×1 (Mon) · *No forum post this week (holiday)*
 
 ---
 
